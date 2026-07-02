@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html.light {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-ink text-paper font-body antialiased;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+html.light body {
+  @apply bg-paper text-ink;
+}
+
+::selection {
+  background: rgba(227, 167, 46, 0.35);
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 999px;
+}
+
+.focus-ring {
+  @apply outline-none ring-2 ring-flame-gold ring-offset-2 ring-offset-ink;
+}
+html.light .focus-ring {
+  @apply ring-offset-paper;
+}
+
+/* Card surface: dark by default, flips for light mode */
+.surface {
+  @apply bg-ink-soft border border-ink-border rounded-xl2 shadow-card;
+}
+html.light .surface {
+  @apply bg-paper-soft border-paper-border shadow-card-light;
+}
+
+.surface-2 {
+  @apply bg-ink-softer border border-ink-border rounded-xl2;
+}
+html.light .surface-2 {
+  @apply bg-white border-paper-border;
+}
+
+.eyebrow {
+  @apply font-mono text-[11px] uppercase tracking-[0.18em] text-flame-gold;
+}
+
+.chip {
+  @apply inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-mono;
+  border-color: rgba(148, 163, 184, 0.25);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
