@@ -1,0 +1,691 @@
+[
+  {
+    "id": 1,
+    "class_level": "Class 11",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "order": 1,
+    "key_concepts": [
+      "Matter, its classification, and properties (physical/chemical)",
+      "Laws of chemical combination: conservation of mass, definite proportions, multiple proportions",
+      "Mole concept: 1 mole = 6.022 x 10^23 particles (Avogadro's number)",
+      "Molarity, molality, mole fraction, and percentage composition",
+      "Empirical vs molecular formula; limiting reagent in reactions",
+      "Significant figures and dimensional analysis for reporting measured/calculated quantities correctly",
+      "Percentage yield = (actual yield / theoretical yield) x 100",
+      "Molarity changes with temperature (volume expands) but molality does not, since mass is temperature-independent"
+    ],
+    "key_formulae": [
+      "Moles (n) = Given mass / Molar mass",
+      "Molarity (M) = moles of solute / volume of solution (L)",
+      "Molality (m) = moles of solute / mass of solvent (kg)"
+    ],
+    "short_tricks": [
+      "Remember 'MMM' order: Molarity depends on volume, Molality on mass - Molality is temperature independent",
+      "Empirical formula = simplest whole-number ratio; molecular = (Empirical)n",
+      "To find limiting reagent fast: divide moles of each reactant by its stoichiometric coefficient - the smallest quotient wins (is limiting)",
+      "'Mass never lies, ratio never changes' - conservation of mass vs definite proportions in one line"
+    ],
+    "detailed_notes": "This chapter lays the numerical foundation of chemistry. Matter is classified into pure substances (elements, compounds) and mixtures (homogeneous, heterogeneous). The three laws of chemical combination - conservation of mass (Lavoisier), definite proportions (Proust), and multiple proportions (Dalton) - explain why compounds always form in fixed, whole-number mass ratios. The mole is the SI bridge between the atomic/molecular world and the lab-scale gram world: one mole always contains 6.022 x 10^23 entities (Avogadro's number), whether atoms, molecules or ions. Concentration terms (molarity, molality, mole fraction, ppm, mass %) let you convert between mass, volume and moles, while stoichiometry uses the mole ratio from a balanced equation to predict how much product forms and which reactant runs out first (limiting reagent)."
+  },
+  {
+    "id": 2,
+    "class_level": "Class 11",
+    "chapter": "Structure of Atom",
+    "order": 2,
+    "key_concepts": [
+      "Discovery of electron, proton, neutron; Rutherford & Bohr models",
+      "Quantum numbers (n, l, m, s) and their significance",
+      "Aufbau principle, Pauli exclusion principle, Hund's rule",
+      "de Broglie equation and Heisenberg uncertainty principle",
+      "Electronic configuration of elements",
+      "Photoelectric effect (Einstein): light behaves as photons of energy E = hv, only above a threshold frequency electrons are ejected",
+      "Shapes of orbitals: s is spherical, p is dumbbell-shaped (px, py, pz), d has four/five lobed shapes",
+      "Exceptions to Aufbau: Cr (3d5 4s1) and Cu (3d10 4s1) are extra stable due to half-filled/fully-filled d-subshells"
+    ],
+    "key_formulae": [
+      "E = hν = hc/λ",
+      "de Broglie: λ = h/mv",
+      "Heisenberg: Δx.Δp ≥ h/4π"
+    ],
+    "short_tricks": [
+      "'n-l rule (Aufbau)': lower (n+l) fills first; if equal, lower n fills first",
+      "Remember order: 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s",
+      "n+l rule for filling order: lower (n+l) fills first; if tie, lower n fills first (so 4s before 3d)",
+      "Remember quantum numbers as an 'address': n = floor/shell, l = room/subshell shape, m = window/orientation, s = spin direction"
+    ],
+    "detailed_notes": "This chapter traces the model of the atom from Thomson's plum-pudding model through Rutherford's nuclear model (gold-foil scattering revealed a tiny, dense, positive nucleus) to Bohr's model, which fixed electrons into quantized circular orbits and explained the hydrogen line spectrum via 1/lambda = RH(1/n1^2 - 1/n2^2). Bohr's model failed for multi-electron atoms, which is resolved by quantum mechanics: de Broglie's wave-particle duality, Heisenberg's uncertainty principle (you cannot know position and momentum simultaneously with arbitrary precision), and the Schrodinger wave equation, whose solutions (orbitals) are described by four quantum numbers (n, l, m, s). The Aufbau principle, Pauli exclusion principle and Hund's rule govern how electrons fill orbitals to give an atom's electronic configuration."
+  },
+  {
+    "id": 3,
+    "class_level": "Class 11",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "order": 3,
+    "key_concepts": [
+      "Modern periodic law and long form of periodic table",
+      "s, p, d, f block classification",
+      "Periodic trends: atomic radius, ionization enthalpy, electron gain enthalpy, electronegativity",
+      "Anomalous properties of the first element in each group",
+      "Diagonal relationship: elements of period 2 resemble elements diagonally below-right in period 3 (e.g. Li~Mg, Be~Al, B~Si) due to similar charge/size ratio",
+      "Anomalous electron gain enthalpy: noble gases have positive (unfavourable) values; halogens have the most negative values",
+      "Effective nuclear charge (Zeff) is shielded by inner electrons - Slater's rules estimate this quantitatively"
+    ],
+    "key_formulae": [
+      "Atomic radius decreases across a period, increases down a group"
+    ],
+    "short_tricks": [
+      "'Zig-zag rule' for ionization enthalpy exceptions at Be/B and N/O",
+      "FONClBrISCH mnemonic for electronegativity order (high to low)",
+      "Trend direction shortcut: size increases down and left; ionisation energy, electronegativity and electron gain enthalpy (magnitude) increase up and right - opposite to size",
+      "'FONCl' - F, O, N, Cl are the most electronegative elements after F itself, useful for quickly ranking electronegativity"
+    ],
+    "detailed_notes": "Mendeleev arranged elements by increasing atomic mass, but the modern periodic table (Moseley) is arranged by increasing atomic number, organised into 18 groups and 7 periods. Elements in the same group share the same number of valence electrons and therefore similar chemical behaviour, while elements in the same period have the same number of shells. Periodic trends - atomic/ionic radius, ionisation enthalpy, electron gain enthalpy, and electronegativity - arise from the interplay of nuclear charge and shielding: across a period effective nuclear charge increases so atoms shrink and hold electrons more tightly (ionisation enthalpy rises), while down a group an extra shell is added each time so atoms grow bigger and hold their outer electrons more loosely."
+  },
+  {
+    "id": 4,
+    "class_level": "Class 11",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "order": 4,
+    "key_concepts": [
+      "Ionic, covalent, and coordinate bonding; Lewis structures",
+      "VSEPR theory for molecular geometry",
+      "Valence bond theory and hybridization (sp, sp2, sp3, sp3d, sp3d2)",
+      "Molecular orbital theory (MOT) for diatomic molecules",
+      "Hydrogen bonding and its types (intramolecular/intermolecular)",
+      "Bond order (MOT) = 1/2(bonding electrons - antibonding electrons); higher bond order means shorter, stronger bond",
+      "Hydrogen bonding: intermolecular (raises boiling point, e.g. in water, HF, NH3) vs intramolecular (e.g. o-nitrophenol)",
+      "Resonance: a molecule/ion with more than one valid Lewis structure is a hybrid, more stable than any single structure (e.g. O3, CO3^2-)"
+    ],
+    "key_formulae": [
+      "Bond order = (Nb - Na) / 2 (MOT)"
+    ],
+    "short_tricks": [
+      "'AXN method' to quickly assign VSEPR geometry from Lewis structure",
+      "Remember: more s-character = more bond angle (sp > sp2 > sp3)",
+      "VSEPR shape shortcut: count (bond pairs + lone pairs) = steric number; 2->linear, 3->trigonal planar, 4->tetrahedral, 5->trigonal bipyramidal, 6->octahedral, then remove lone-pair positions to name actual shape",
+      "MOT paramagnetism check: if bond order calculation leaves unpaired electrons in pi* or sigma* orbitals, the species is paramagnetic (classic case: O2)"
+    ],
+    "detailed_notes": "Chemical bonding explains why and how atoms combine. Ionic bonds form by complete transfer of electrons between a metal and non-metal, giving electrostatic attraction between ions (lattice energy stabilises the crystal). Covalent bonds form by sharing electron pairs; Lewis structures, formal charge, and the octet rule (with exceptions for electron-deficient, expanded-octet, and odd-electron species) describe them. VSEPR theory predicts molecular shape from the number of bond pairs and lone pairs around the central atom (lone pairs repel more than bond pairs, distorting ideal angles). Valence Bond Theory introduces hybridisation (sp, sp2, sp3, sp3d, sp3d2) to explain geometry, while Molecular Orbital Theory builds bonding/antibonding MOs from atomic orbitals and explains bond order, magnetic behaviour (e.g. O2 is paramagnetic) and relative stability."
+  },
+  {
+    "id": 5,
+    "class_level": "Class 11",
+    "chapter": "Thermodynamics (Chemical)",
+    "order": 5,
+    "key_concepts": [
+      "System, surroundings; types of systems (open/closed/isolated)",
+      "First law of thermodynamics: ΔU = q + w",
+      "Enthalpy, Hess's Law, enthalpies of formation/combustion/reaction",
+      "Second law, entropy, Gibbs free energy: ΔG = ΔH - TΔS",
+      "Spontaneity criteria using ΔG",
+      "Delta G-standard is related to the equilibrium constant by Delta G-standard = -RT ln K",
+      "First law of thermodynamics sign convention (IUPAC): work done ON the system and heat absorbed BY the system are both positive",
+      "Hess's Law example: Delta H(reaction) = sum Delta Hf(products) - sum Delta Hf(reactants)"
+    ],
+    "key_formulae": [
+      "ΔG = ΔH - TΔS",
+      "ΔG < 0: spontaneous; ΔG = 0: equilibrium; ΔG > 0: non-spontaneous"
+    ],
+    "short_tricks": [
+      "Hess's Law shortcut: total enthalpy change is path-independent - just add/subtract given reactions",
+      "Spontaneity table trick: Delta H(-) Delta S(+) always spontaneous; Delta H(+) Delta S(-) never spontaneous; the other two combinations depend on temperature via Delta G = Delta H - T Delta S",
+      "Remember state functions with 'GEHS' - Gibbs energy, Entropy, enthalpy(H), internal energy(U/S) are state functions; heat and work are NOT"
+    ],
+    "detailed_notes": "Chemical thermodynamics studies energy changes in reactions using state functions - quantities that depend only on initial and final states, not the path (e.g. internal energy U, enthalpy H, entropy S, Gibbs free energy G). The first law (Delta U = q + w) is energy conservation. Enthalpy of reaction is measured at constant pressure; Hess's law lets you add up enthalpies of steps (or use bond enthalpies, or formation enthalpies) to find an overall reaction enthalpy without measuring it directly. The second law introduces entropy - a measure of disorder - which must increase for a spontaneous process in an isolated system. Gibbs free energy change, Delta G = Delta H - T Delta S, combines both laws and predicts spontaneity directly: Delta G < 0 is spontaneous, Delta G > 0 is non-spontaneous, Delta G = 0 is equilibrium."
+  },
+  {
+    "id": 6,
+    "class_level": "Class 11",
+    "chapter": "Equilibrium",
+    "order": 6,
+    "key_concepts": [
+      "Physical vs chemical equilibrium; dynamic nature of equilibrium",
+      "Law of mass action, equilibrium constant Kc and Kp",
+      "Le Chatelier's principle and factors affecting equilibrium",
+      "Acids, bases (Arrhenius, Bronsted-Lowry, Lewis), pH scale",
+      "Buffer solutions, common ion effect, solubility product (Ksp)",
+      "Relation between Kp and Kc: Kp = Kc(RT)^Delta n, where Delta n = moles of gaseous products - moles of gaseous reactants",
+      "Buffer solutions: acidic buffer = weak acid + its salt with a strong base; pH given by Henderson-Hasselbalch: pH = pKa + log([salt]/[acid])",
+      "Common ion effect: adding a common ion suppresses the ionisation/solubility of a weak electrolyte or sparingly soluble salt"
+    ],
+    "key_formulae": [
+      "Kp = Kc(RT)^Δn",
+      "pH = -log[H+]",
+      "pKa + pKb = 14 (at 25°C)"
+    ],
+    "short_tricks": [
+      "'Stress relief' mnemonic for Le Chatelier: system shifts to relieve applied stress (conc/temp/pressure)",
+      "Le Chatelier one-liner: system always shifts to 'undo' the change you made - add heat like a reactant in endothermic reactions",
+      "Q vs K rule: if Q < K reaction moves forward (right); if Q > K it moves backward (left); if Q = K, already at equilibrium"
+    ],
+    "detailed_notes": "Chemical equilibrium is a dynamic state where the forward and reverse reaction rates are equal, so concentrations of reactants and products stop changing (but the reactions never stop). The equilibrium constant Kc (in terms of concentration) or Kp (in terms of partial pressure) is fixed at a given temperature and tells you how far a reaction proceeds. Le Chatelier's principle predicts how the equilibrium shifts when you disturb it - adding reactant/product, changing pressure/volume, or changing temperature (temperature is the only factor that actually changes the value of K; the others just shift position). Ionic equilibrium extends these ideas to acids and bases (Arrhenius, Bronsted-Lowry, Lewis definitions), pH and pOH, buffer solutions (resist pH change), and the solubility product Ksp for sparingly soluble salts, including the common ion effect."
+  },
+  {
+    "id": 7,
+    "class_level": "Class 11",
+    "chapter": "Redox Reactions",
+    "order": 7,
+    "key_concepts": [
+      "Oxidation and reduction in terms of electron transfer",
+      "Oxidation number rules and balancing redox equations",
+      "Oxidizing and reducing agents",
+      "Ion-electron (half-reaction) method and oxidation number method",
+      "Disproportionation reaction: the same element is simultaneously oxidised and reduced (e.g. 2Cu+ -> Cu2+ + Cu)",
+      "Standard rules: oxidation number of an element in its free state = 0; of oxygen is usually -2 (except peroxides -1, OF2 +2); of hydrogen is usually +1 (except metal hydrides -1)",
+      "In balancing by ion-electron method: balance atoms other than O and H first, then O using H2O, then H using H+ (acidic) or add OH- both sides to neutralise H+ (basic), then balance charge with electrons"
+    ],
+    "key_formulae": [
+      "Oxidation number sum in a neutral compound = 0; in an ion = charge on ion"
+    ],
+    "short_tricks": [
+      "'OIL RIG': Oxidation Is Loss, Reduction Is Gain (of electrons)",
+      "OIL RIG: Oxidation Is Loss (of electrons), Reduction Is Gain (of electrons)",
+      "Fast oxidation number check: assign the more electronegative atom in a bond the negative oxidation state, then balance the rest to match the known overall charge"
+    ],
+    "detailed_notes": "Redox (reduction-oxidation) reactions involve the transfer of electrons: oxidation is loss of electrons (increase in oxidation number), reduction is gain of electrons (decrease in oxidation number), and they always happen together. Oxidation number rules let you track electron bookkeeping even in covalent species. Balancing redox equations uses either the oxidation number method (equalise total increase and decrease in oxidation number) or the ion-electron (half-reaction) method, which is especially useful in acidic or basic medium, balancing O with water/H+ or OH-. A species that gets oxidised is the reducing agent (it reduces something else by donating electrons); a species that gets reduced is the oxidising agent. Electrochemical cells convert this chemistry into measurable voltage, linking this chapter directly to Electrochemistry in Class 12."
+  },
+  {
+    "id": 8,
+    "class_level": "Class 11",
+    "chapter": "Hydrogen",
+    "order": 8,
+    "key_concepts": [
+      "Position of hydrogen in the periodic table; isotopes (protium, deuterium, tritium)",
+      "Preparation, properties and uses of hydrogen",
+      "Hydrides: ionic, covalent, and interstitial",
+      "Water: structure, hydrogen bonding, hardness of water",
+      "Hydrogen peroxide: structure, preparation, and uses",
+      "Hard water contains dissolved Ca2+/Mg2+ salts; temporary hardness (bicarbonates) is removed by boiling, permanent hardness (chlorides/sulphates) needs washing soda or ion-exchange",
+      "Hydrogen economy: H2 as a clean fuel (burns to give only water) - a major green-energy research focus",
+      "H2O2 structure is a non-planar, open book/butterfly shape due to O-O single bond with lone pair repulsions"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Hydrogen behaves like both alkali metals (group 1) and halogens (group 17) - remember 'dual behaviour'",
+      "Classify hydrides fast: metal (group 1,2) -> ionic; non-metal -> covalent; d/f-block -> metallic/interstitial (often non-stoichiometric)",
+      "'H is a rebel' - it can act as +1 (like alkali metals) or -1 (like halogens), so never assume it belongs strictly to Group 1 or 17"
+    ],
+    "detailed_notes": "Hydrogen is the lightest and most abundant element in the universe, but occupies a unique position in the periodic table since it can lose one electron (like alkali metals, forming H+) or gain one electron (like halogens, forming H-), so it isn't placed cleanly in any single group. Its three isotopes - protium, deuterium, and tritium - differ in neutron number, with tritium being radioactive. Hydrogen is prepared industrially by the steam reformation of hydrocarbons or electrolysis of water, and reacts to form ionic hydrides (with reactive metals), covalent hydrides (with non-metals), and metallic/interstitial hydrides (with transition metals). Water, hydrogen's most important compound, shows unusual properties (high boiling point, maximum density at 4C, excellent solvent) due to extensive hydrogen bonding; hydrogen peroxide is a common oxidising and (with stronger oxidisers) reducing agent, disproportionating readily."
+  },
+  {
+    "id": 9,
+    "class_level": "Class 11",
+    "chapter": "The s-Block Elements",
+    "order": 9,
+    "key_concepts": [
+      "Group 1 (alkali metals) and Group 2 (alkaline earth metals) general trends",
+      "Anomalous behaviour of lithium and beryllium (diagonal relationship)",
+      "Important compounds: NaOH, Na2CO3, CaO, CaCO3, Plaster of Paris",
+      "Biological importance of Na, K, Mg, Ca",
+      "Flame colours (used for identification): Li-crimson red, Na-golden yellow, K-lilac, Ca-brick red, Sr-crimson, Ba-apple green",
+      "Solvay process makes Na2CO3 from NaCl, NH3 and CO2; it cannot be used to make K2CO3 because KHCO3 is too soluble to precipitate",
+      "Down the group, thermal stability of carbonates/nitrates increases due to decreasing polarising power of the larger cation"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Diagonal relationship: Li~Mg, Be~Al - similar properties due to similar charge/size ratio",
+      "Flame test mnemonic: 'Lick Nacho Kalua Rum, Cats Really Bark' for Li(red)-Na(yellow)-K(lilac)-Rb-Ca(brick red)-Ba(green) - build your own phrase using the first letters to recall order and colour",
+      "Anomalous behaviour rule: the smallest member of a group (Li in Group 1, Be in Group 2) always misbehaves due to unusually high charge density"
+    ],
+    "detailed_notes": "The s-block comprises Group 1 (alkali metals: Li, Na, K, Rb, Cs, Fr) and Group 2 (alkaline earth metals: Be, Mg, Ca, Sr, Ba, Ra), whose outermost electron(s) occupy an s-orbital. These are highly reactive, low-ionisation-energy metals that readily lose their valence electron(s) to form +1 (Group 1) or +2 (Group 2) ions. Reactivity and basic character of oxides/hydroxides increase down each group, while melting/boiling points generally decrease. Lithium and beryllium (the first members) show anomalous behaviour compared to the rest of their groups due to their small size and high polarising power, instead resembling their diagonal neighbours Mg and Al respectively. Common industrially important compounds include NaOH, Na2CO3 (Solvay process), NaHCO3, CaO, CaCO3, and Plaster of Paris (CaSO4.1/2H2O)."
+  },
+  {
+    "id": 10,
+    "class_level": "Class 11",
+    "chapter": "The p-Block Elements (Groups 13 and 14)",
+    "order": 10,
+    "key_concepts": [
+      "General trends in group 13 (boron family) and group 14 (carbon family)",
+      "Boron: structure, borax, boric acid, diborane",
+      "Carbon: allotropes (diamond, graphite, fullerenes), catenation",
+      "Silicon: silicates, zeolites, silicones",
+      "Inert pair effect: heavier p-block elements (Tl in Group 13, Pb in Group 14) prefer the lower oxidation state (+1, +2) because the ns2 electron pair resists participating in bonding",
+      "Diborane (B2H6) has two bridging hydrogens forming 3-centre-2-electron bonds, an electron-deficient bonding pattern unique to boron hydrides",
+      "Anomalous behaviour of carbon vs Si: carbon forms strong pi bonds (C=C, C=O) due to small size and effective p-orbital overlap, while heavier Group 14 elements rarely do"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Inert pair effect: heavier p-block elements favor lower oxidation state (e.g., Pb2+ more stable than Pb4+)",
+      "Inert pair effect shortcut: 'heavier means lazier' - the heaviest members of Groups 13-15 prefer to keep their s2 pair inert and show an oxidation state two less than the group's usual maximum",
+      "Diamond vs graphite one-liner: diamond is a 3D sp3 network (hard, insulator); graphite is 2D sp2 sheets with free pi electrons (soft, slippery, conducts electricity)"
+    ],
+    "detailed_notes": "Group 13 (B, Al, Ga, In, Tl) and Group 14 (C, Si, Ge, Sn, Pb) show a gradual transition from non-metallic to metallic character as you go down each group. Boron is a hard, electron-deficient non-metal that forms covalent compounds (BF3, B2H6) and typically completes its octet by accepting an electron pair (acting as a Lewis acid), while aluminium is a reactive, amphoteric metal. Carbon's unique ability to catenate (form long chains/rings with itself) via strong C-C bonds underlies all of organic chemistry; its allotropes - diamond (sp3, hardest natural substance), graphite (sp2, layered, conducts electricity), fullerenes, and graphene - have dramatically different properties from the same element. Silicon, similarly tetravalent, forms the backbone of silicates and silicone polymers, and its purified crystal form is the basis of semiconductor technology."
+  },
+  {
+    "id": 11,
+    "class_level": "Class 11",
+    "chapter": "Organic Chemistry - Some Basic Principles and Techniques",
+    "order": 11,
+    "key_concepts": [
+      "IUPAC nomenclature of organic compounds",
+      "Structural isomerism (chain, position, functional, metamerism)",
+      "Electronic effects: inductive, resonance, hyperconjugation, electromeric",
+      "Reaction intermediates: carbocation, carbanion, free radical",
+      "Purification techniques: distillation, chromatography, crystallization",
+      "Homolytic vs heterolytic bond cleavage: homolysis gives two free radicals (each atom keeps one electron), heterolysis gives a cation and an anion (both electrons go to one atom)",
+      "Hyperconjugation: sigma C-H bond electrons adjacent to a positive centre (or pi system) delocalise into it, stabilising carbocations/alkenes - more alkyl H's adjacent means more stability",
+      "Purification techniques: distillation (liquids with different boiling points), fractional distillation (close boiling points), crystallisation (solid purification), chromatography (separation based on differential adsorption)"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "'I Have Really Enough' mnemonic for effects: Inductive, Hyperconjugation, Resonance, Electromeric - all increase stability",
+      "Carbocation stability order: 3-degree > 2-degree > 1-degree > methyl, remember as 'more alkyl groups = more hyperconjugation/inductive donation = more stable'",
+      "Functional group priority for naming (high to low, common ones): carboxylic acid > ester > amide > nitrile > aldehyde > ketone > alcohol > amine - the highest-priority group becomes the suffix"
+    ],
+    "detailed_notes": "This chapter builds the toolkit for the rest of organic chemistry. Carbon compounds are classified by their carbon skeleton (acyclic/open-chain vs cyclic, and further into aromatic/aliphatic) and by functional groups (specific atoms/bonds that determine a compound's characteristic chemical behaviour, e.g. -OH for alcohols, -COOH for carboxylic acids). IUPAC nomenclature gives every compound a systematic name built from the longest carbon chain, substituent positions, and functional group priority. Isomerism (same molecular formula, different structure/arrangement) is divided into structural isomerism (chain, position, functional, metamerism) and stereoisomerism (geometrical, optical). Reaction mechanisms rely on understanding how electrons move: inductive and resonance effects, electrophiles (electron-seeking) and nucleophiles (electron pair donating), and reactive intermediates (carbocations, carbanions, free radicals)."
+  },
+  {
+    "id": 12,
+    "class_level": "Class 11",
+    "chapter": "Hydrocarbons",
+    "order": 12,
+    "key_concepts": [
+      "Alkanes: preparation, conformations, free radical substitution",
+      "Alkenes: preparation, Markovnikov's & anti-Markovnikov's (peroxide) rule",
+      "Alkynes: acidic character, addition reactions",
+      "Aromatic hydrocarbons: benzene structure, aromaticity (Huckel's rule 4n+2), electrophilic substitution",
+      "Ozonolysis of alkenes cleaves the C=C bond to give two carbonyl compounds, used to deduce the position of the double bond in an unknown alkene",
+      "Directing effects in electrophilic aromatic substitution: activating groups (-OH, -NH2, -R) are ortho/para directing; deactivating groups (-NO2, -COOH, halogens) are largely meta directing (halogens are deactivating but o,p-directing, an exception worth memorising)",
+      "Huckel's rule for aromaticity: planar, fully conjugated cyclic system with (4n+2) pi electrons is aromatic (benzene: n=1, 6 pi electrons)"
+    ],
+    "key_formulae": [
+      "Huckel's rule: aromatic if planar, cyclic, conjugated, with (4n+2) π electrons"
+    ],
+    "short_tricks": [
+      "Markovnikov: 'rich gets richer' - H adds to carbon with more H already attached",
+      "Markovnikov shortcut: 'rich get richer' - H adds to the carbon that already has more H atoms, giving the more substituted (more stable) carbocation",
+      "EAS directing rule shortcut: all activating groups are o,p-directors; almost all deactivating groups are m-directors, EXCEPT halogens which deactivate but still direct o,p (due to strong -I but lone pair resonance donation)"
+    ],
+    "detailed_notes": "Hydrocarbons - compounds of only carbon and hydrogen - are classified as alkanes (saturated, CnH2n+2, undergo free-radical substitution), alkenes (one C=C, CnH2n, undergo electrophilic addition), alkynes (one triple bond, CnH2n-2, also electrophilic addition), and aromatic hydrocarbons (benzene and derivatives, undergo electrophilic substitution to preserve aromatic stability). Markovnikov's rule predicts the major product of HX addition to an unsymmetrical alkene (H adds to the carbon with more hydrogens already, forming the more stable carbocation intermediate), while anti-Markovnikov addition occurs specifically with HBr in the presence of peroxides (free-radical mechanism). Benzene's aromaticity - a planar ring of 6 sp2 carbons with 6 delocalised pi electrons obeying Huckel's rule (4n+2 pi electrons) - makes it unusually stable and resistant to addition reactions, favouring substitution instead."
+  },
+  {
+    "id": 13,
+    "class_level": "Class 11",
+    "chapter": "Environmental Chemistry",
+    "order": 13,
+    "key_concepts": [
+      "Atmospheric pollution: tropospheric and stratospheric",
+      "Greenhouse effect and global warming",
+      "Ozone layer depletion and its causes (CFCs)",
+      "Water and soil pollution; green chemistry principles",
+      "Green chemistry: designing chemical processes to reduce/eliminate hazardous substances, guided by the 12 principles of green chemistry (atom economy, safer solvents, energy efficiency, etc.)",
+      "PAN (peroxyacetyl nitrate) is a key component of photochemical smog, a powerful eye and lung irritant formed from NOx and hydrocarbons under sunlight",
+      "Ozone hole mechanism: Cl radical from CFC photolysis reacts with O3 to form ClO and O2; ClO then reacts with atomic O to regenerate Cl, making the process catalytic (one Cl atom destroys thousands of O3 molecules)"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Remember CFC = ChloroFluoroCarbon = major ozone depleter",
+      "Smog type shortcut: classical/London smog = SO2 + soot + fog (reducing conditions, cold humid); photochemical smog = NOx + hydrocarbons + sunlight (oxidising conditions, hot dry, contains ozone/PAN)",
+      "High BOD = high pollution - remember BOD measures oxygen microbes consume to break down organic waste, so dirtier water needs more oxygen and has a higher BOD"
+    ],
+    "detailed_notes": "Environmental chemistry studies pollution in the atmosphere, water, and soil, and the chemistry behind global environmental problems. Tropospheric pollution includes smog (classical/London smog from SO2+soot in cool humid conditions, and photochemical smog from NOx+hydrocarbons reacting under sunlight to form ozone and PAN), acid rain (SO2/NOx dissolving to form H2SO4/HNO3, lowering rainwater pH below the natural ~5.6), and the greenhouse effect (CO2, CH4, N2O, water vapour trap outgoing infrared radiation, warming the planet). Stratospheric ozone depletion is driven mainly by chlorofluorocarbons (CFCs), which release chlorine radicals under UV light that catalytically destroy ozone. Water pollution involves BOD (biochemical oxygen demand, a measure of organic pollution), eutrophication (nutrient over-enrichment causing algal blooms and oxygen depletion), and heavy metal/pesticide contamination."
+  },
+  {
+    "id": 14,
+    "class_level": "Class 12",
+    "chapter": "Solid State",
+    "order": 1,
+    "key_concepts": [
+      "Classification of solids: crystalline vs amorphous",
+      "Unit cells: primitive, body-centred, face-centred",
+      "Packing efficiency and calculations for SC, BCC, FCC",
+      "Point defects: Schottky and Frenkel defects",
+      "Electrical and magnetic properties of solids",
+      "Number of atoms per unit cell: simple cubic = 1, body-centred cubic = 2, face-centred cubic = 4",
+      "Schottky defect (equal numbers of cation and anion vacancies) lowers density; Frenkel defect (smaller ion displaced to interstitial site) does not change density",
+      "n-type semiconductor: doping with a Group 15 element (extra electron); p-type: doping with a Group 13 element (electron hole)"
+    ],
+    "key_formulae": [
+      "Packing efficiency: SC=52.4%, BCC=68%, FCC/HCP=74%"
+    ],
+    "short_tricks": [
+      "Schottky = missing ion pairs (density decreases); Frenkel = ion displaced (density unchanged)",
+      "Packing efficiency ladder: simple cubic (52.4%) < body-centred cubic (68%) < close-packed hcp/ccp (74%) - efficiency rises as coordination number rises (6 -> 8 -> 12)",
+      "Defect memory trick: Schottky = 'pairs go missing' (density drops); Frenkel = 'small ion just moves house' (density unchanged)"
+    ],
+    "detailed_notes": "Solids are classified as crystalline (long-range order, sharp melting point, anisotropic) or amorphous (no long-range order, softens over a range, isotropic). Crystalline solids are further divided by the nature of the particles at lattice points and the forces holding them: molecular (weak van der Waals/H-bonds), ionic (strong electrostatic, hard and brittle), metallic (delocalised electron sea, malleable and conducting), and covalent/network (strong covalent bonds throughout, very hard, e.g. diamond). The unit cell is the smallest repeating unit of a crystal lattice; the seven crystal systems and their Bravais lattices describe all possible 3D arrangements. Packing efficiency differs between simple cubic (52.4%), body-centred cubic (68%), and hexagonal/cubic close packing (74%, the most efficient). Point defects (Schottky, Frenkel, interstitial, and impurity defects) explain non-ideal behaviour and give rise to important properties like electrical conductivity in doped semiconductors and non-stoichiometric compounds."
+  },
+  {
+    "id": 15,
+    "class_level": "Class 12",
+    "chapter": "Solutions",
+    "order": 2,
+    "key_concepts": [
+      "Types of solutions and concentration terms",
+      "Raoult's Law and ideal/non-ideal solutions",
+      "Colligative properties: relative lowering of vapor pressure, elevation in boiling point, depression in freezing point, osmotic pressure",
+      "Van't Hoff factor for electrolyte dissociation/association",
+      "Henry's law: partial pressure of a gas over a solution is proportional to its mole fraction in solution (p = KH x), used to explain solubility of gases and effects like divers' bends",
+      "Osmotic pressure: pi = iCRT, particularly useful for large/biological molecules since it produces a measurable effect even at low concentration",
+      "Van't Hoff factor for NaCl is theoretically 2 (full dissociation), for glucose is 1 (no dissociation), and for a solute like acetic acid dimerising in benzene is less than 1"
+    ],
+    "key_formulae": [
+      "ΔTb = i.Kb.m",
+      "ΔTf = i.Kf.m",
+      "π = iCRT"
+    ],
+    "short_tricks": [
+      "Van't Hoff factor i > 1 for dissociation, i < 1 for association",
+      "Colligative properties memory: 'BOFP' - Boiling point elevation, Osmotic pressure, Freezing point depression, (relative lowering of) vapour Pressure - all scale with number of particles, all use the van't Hoff factor i",
+      "Deviation quick check: positive deviation from Raoult's law -> A-B interactions weaker than A-A/B-B -> higher vapour pressure than ideal, min boiling azeotrope; negative deviation -> stronger A-B interactions -> lower vapour pressure, max boiling azeotrope"
+    ],
+    "detailed_notes": "A solution is a homogeneous mixture of two or more components; concentration can be expressed as mass %, mole fraction, molarity, or molality. Raoult's law states that the partial vapour pressure of each volatile component in an ideal solution is proportional to its mole fraction, and ideal solutions obey this law across the full composition range with zero enthalpy/volume of mixing; positive and negative deviations occur when solute-solvent interactions are weaker or stronger than solute-solute/solvent-solvent interactions respectively, sometimes producing an azeotrope (constant-boiling mixture that cannot be separated by simple distillation). Colligative properties - relative lowering of vapour pressure, elevation of boiling point, depression of freezing point, and osmotic pressure - depend only on the number of solute particles, not their identity, which is why they're used to determine molar mass; the van't Hoff factor (i) corrects these formulas for solutes that dissociate (i>1) or associate (i<1) in solution."
+  },
+  {
+    "id": 16,
+    "class_level": "Class 12",
+    "chapter": "Electrochemistry",
+    "order": 3,
+    "key_concepts": [
+      "Electrolytic and galvanic cells; electrode potential",
+      "Nernst equation and its applications",
+      "Conductance, molar conductivity, Kohlrausch's law",
+      "Batteries (primary/secondary) and fuel cells",
+      "Corrosion as an electrochemical process",
+      "Kohlrausch's law: molar conductivity at infinite dilution = sum of ionic contributions, allowing calculation of the molar conductivity of weak electrolytes (which can't be measured directly by extrapolation)",
+      "Faraday's first law: mass deposited is proportional to charge passed, m = ZIt (Z = electrochemical equivalent); Faraday's second law: for the same charge, mass deposited is proportional to equivalent weight",
+      "Common batteries: dry cell/Leclanche cell (primary, non-rechargeable), lead storage battery (secondary, used in cars), and H2-O2 fuel cells (continuous supply of reactants, used in spacecraft)"
+    ],
+    "key_formulae": [
+      "Nernst equation: E = E° - (0.0591/n) log Q (at 298K)"
+    ],
+    "short_tricks": [
+      "Anode = Oxidation (both start with vowels); Cathode = Reduction (both start with consonants)",
+      "Cell EMF sign rule: 'RED CAT AN OX' - REDuction occurs at CAThode, ANode is where OXidation occurs; always Ecell = E(cathode, reduction) - E(anode, reduction)",
+      "Nernst equation shortcut at 298K: E = E-standard - (0.0591/n) log Q - memorise the constant 0.0591 for quick numericals"
+    ],
+    "detailed_notes": "Electrochemistry links chemical reactions to electricity. A galvanic (voltaic) cell converts spontaneous redox reaction energy into electrical energy, using two half-cells connected by a salt bridge; the standard electrode potential (measured against the standard hydrogen electrode, set at 0V) tells you the tendency of a species to be reduced, and cell EMF = E-cathode - E-anode must be positive for a spontaneous cell reaction. The Nernst equation extends this to non-standard concentrations: E = E-standard - (RT/nF) ln Q, letting you calculate cell potential at any concentration and relate it to Gibbs free energy (Delta G = -nFE) and the equilibrium constant. Electrolytic cells use external electricity to force a non-spontaneous reaction (electrolysis); Faraday's laws quantify how much substance is deposited/liberated based on the charge passed. Conductivity, molar conductivity, and Kohlrausch's law of independent migration of ions describe how well electrolyte solutions conduct current, and underpin batteries and fuel cells."
+  },
+  {
+    "id": 17,
+    "class_level": "Class 12",
+    "chapter": "Chemical Kinetics",
+    "order": 4,
+    "key_concepts": [
+      "Rate of reaction and factors affecting it",
+      "Order and molecularity of reactions",
+      "Integrated rate laws for zero and first order reactions",
+      "Arrhenius equation and activation energy",
+      "Collision theory basics",
+      "Collision theory: only collisions with sufficient energy (>= Ea) AND correct orientation lead to a successful reaction; the fraction of such collisions is given by e^(-Ea/RT)",
+      "Half-life of a first-order reaction, t1/2 = 0.693/k, is independent of initial concentration - a hallmark test to identify first-order kinetics",
+      "Pseudo first-order reactions: a reaction that is inherently higher order but behaves as first-order because one reactant is present in large excess (e.g. acidic hydrolysis of ester, where water is in vast excess)"
+    ],
+    "key_formulae": [
+      "k = A.e^(-Ea/RT)",
+      "t½ (first order) = 0.693/k"
+    ],
+    "short_tricks": [
+      "Order is experimental (from rate law); molecularity is theoretical (from mechanism, always whole number)",
+      "Order vs molecularity: order comes from EXPERIMENT (rate law), molecularity comes from the MECHANISM (elementary step) - never confuse the two, and molecularity is never zero or fractional while order can be",
+      "First-order half-life shortcut: after n half-lives, fraction remaining = (1/2)^n - useful for quick radioactive-decay-style numericals"
+    ],
+    "detailed_notes": "Chemical kinetics studies how fast reactions occur and what factors control that speed. Rate of reaction is the change in concentration of a reactant/product per unit time; the rate law (rate = k[A]^m[B]^n) is determined experimentally, not from the balanced equation, and the exponents give the order of reaction with respect to each species (their sum is the overall order), while the coefficients in the balanced equation give molecularity, a purely theoretical concept about elementary steps. Integrated rate laws let you find concentration as a function of time for zero-order (linear in [A] vs t), first-order (linear in ln[A] vs t, with a concentration-independent half-life), and other orders. The Arrhenius equation, k = A e^(-Ea/RT), explains why rate increases sharply with temperature: more molecules gain enough energy to cross the activation energy barrier Ea. Catalysts speed up reactions by providing an alternate pathway with lower activation energy without being consumed."
+  },
+  {
+    "id": 18,
+    "class_level": "Class 12",
+    "chapter": "Surface Chemistry",
+    "order": 5,
+    "key_concepts": [
+      "Adsorption: physisorption vs chemisorption",
+      "Catalysis: homogeneous, heterogeneous, and enzyme catalysis",
+      "Colloids: types, properties (Tyndall effect, Brownian motion)",
+      "Emulsions and their types",
+      "Freundlich adsorption isotherm: x/m = k P^(1/n) (n>1), an empirical relationship describing the extent of gas adsorption on a solid at constant temperature",
+      "Emulsions: colloidal dispersion of one liquid in another (oil-in-water or water-in-oil), stabilised by an emulsifying agent (e.g. soap)",
+      "Protective colloids and gold number: a smaller gold number indicates a more effective protective colloid (less of it is needed to prevent coagulation of gold sol by NaCl)"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Physisorption: weak van der Waals, reversible, multilayer; Chemisorption: strong chemical bond, irreversible, monolayer",
+      "Physisorption vs chemisorption quick table: Physisorption = weak, reversible, multilayer, low heat of adsorption (20-40 kJ/mol), decreases with T. Chemisorption = strong, irreversible, monolayer, high heat of adsorption (80-240 kJ/mol), rises then falls with T",
+      "Hardy-Schulze rule shortcut: 'more charge, more power' - for coagulating a negatively charged sol, Al3+ > Ba2+ > Na+ in coagulating power"
+    ],
+    "detailed_notes": "Surface chemistry deals with phenomena occurring at the interface between two phases. Adsorption is the accumulation of a substance (adsorbate) at the surface of another (adsorbent), distinct from absorption where the substance is uniformly distributed throughout the bulk; physisorption (weak van der Waals forces, reversible, multilayer, decreases with temperature) contrasts with chemisorption (strong chemical bonds, irreversible, monolayer, first increases then decreases with temperature). Catalysis exploits adsorption in heterogeneous catalysis (catalyst in a different phase, e.g. Haber process using solid Fe catalyst for gaseous N2/H2) via adsorption theory, while homogeneous catalysis occurs in the same phase. Colloids are intermediate between true solutions and suspensions (particle size 1-1000 nm); they show the Tyndall effect (scattering light), Brownian motion (random zig-zag movement stabilising the colloid against settling), and can be coagulated by adding electrolytes (following the Hardy-Schulze rule: higher charge on the coagulating ion, greater coagulating power)."
+  },
+  {
+    "id": 19,
+    "class_level": "Class 12",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "order": 6,
+    "key_concepts": [
+      "Occurrence of metals: minerals and ores",
+      "Concentration of ore, extraction methods (pyro/hydro/electrometallurgy)",
+      "Thermodynamic principles (Ellingham diagram)",
+      "Refining methods: electrolytic refining, zone refining, vapor phase refining",
+      "Froth flotation: exploits the difference in wettability of ore particles and gangue using a collector (like pine oil) and froth stabiliser, particularly effective for sulphide ores",
+      "Self-reduction (auto-reduction): occurs in extraction of Cu and Pb, where partial roasting produces the metal oxide/sulphide which then reduce each other without an external reducing agent (e.g. Cu2S + 2Cu2O -> 6Cu + SO2)",
+      "Zone refining: exploits the difference in solubility of impurities in molten vs solid metal, used for ultra-pure semiconductor-grade silicon/germanium"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Ellingham diagram: more negative ΔG line reduces the oxide of the less negative one",
+      "Ellingham diagram rule: 'lower line wins' - whichever oxide-formation line lies below at a given temperature, that element can act as the reducing agent for the oxide whose line lies above it",
+      "Refining method matcher: very high purity needed (semiconductors) -> zone refining; low melting metals (Sn) -> liquation; volatile metals (Zn, Hg) -> distillation; most metals needing high purity -> electrolytic refining"
+    ],
+    "detailed_notes": "Metallurgy is the science of extracting metals from their ores. The general process involves concentration of ore (removing gangue/impurities via methods like froth flotation for sulphide ores, or magnetic separation), followed by conversion to a pure compound via roasting (heating in air, for sulphide ores) or calcination (heating in absence of air, for carbonate/hydroxide ores), then reduction to the free metal. The method of reduction depends on the metal's reactivity: thermodynamically, Ellingham diagrams (plots of Delta G-standard of oxide formation vs temperature) predict which reducing agent (carbon, another metal, or electrolysis) can reduce a given metal oxide at a given temperature - a reaction is favourable if the reducing agent's oxide-formation line lies below the metal oxide's line. Highly reactive metals (Na, Ca, Al) are extracted by electrolytic reduction, moderately reactive metals (Fe, Zn, Cu) by carbon/other chemical reduction, and finally the metal is refined (electrolytic refining, zone refining, vapour phase refining, or distillation) to remove remaining impurities."
+  },
+  {
+    "id": 20,
+    "class_level": "Class 12",
+    "chapter": "The p-Block Elements (Groups 15-18)",
+    "order": 7,
+    "key_concepts": [
+      "Group 15: nitrogen family - NH3, HNO3 preparation and properties",
+      "Group 16: oxygen family - O3, H2SO4 (contact process)",
+      "Group 17: halogens - properties, interhalogen compounds",
+      "Group 18: noble gases - occurrence, compounds of xenon",
+      "Nitric acid manufacture (Ostwald process): NH3 catalytically oxidised to NO, then NO2, then dissolved to give HNO3",
+      "Interhalogen compounds (e.g. ClF3, BrF5, IF7) form between two different halogens, with the larger halogen as the central atom, and are generally more reactive than either constituent halogen",
+      "Bond angle trend in hydrides of Group 15 (NH3 107, PH3 93, AsH3 92): decreases down the group as electronegativity of the central atom falls, reducing bond-pair repulsion, so lone pair occupies more s-character"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Contact process for H2SO4 uses V2O5 catalyst; Ostwald process for HNO3 uses Pt-Rh catalyst",
+      "Oxoacid strength shortcut: 'more oxygens, more acidic' - for the same halogen, HClO4 (4 O) is strongest, HClO (1 O) is weakest among Cl oxoacids, since more O atoms withdraw electron density and stabilise the conjugate base",
+      "Noble gas reactivity shortcut: only Kr, Xe (and Rn) form compounds, and only with the most electronegative elements F and O; He, Ne, Ar are essentially completely inert"
+    ],
+    "detailed_notes": "This chapter covers Groups 15-18 of the p-block. Group 15 (N, P, As, Sb, Bi) shows nitrogen's unique ability to form strong pi bonds (N2 is highly inert due to its triple bond) while phosphorus exists in allotropes (white - reactive and poisonous, red - more stable, black - most stable); ammonia and nitric acid (via the Ostwald process) are major industrial products. Group 16 (O, S, Se, Te, Po) includes oxygen's allotropes (O2, O3) and sulphur's importance in the Contact process for sulphuric acid manufacture. Group 17 (halogens) are highly reactive, electronegative non-metals that exist as diatomic molecules and readily form -1 ions or oxoacids of varying strength (HOCl < HOClO < HOClO2 < HOClO4, acidity increasing with more oxygen atoms pulling electron density from the O-H bond). Group 18 (noble gases) are largely inert due to complete octets, though heavier members like Xe form compounds with highly electronegative F and O (e.g. XeF2, XeF4, XeF6, XeOF4) under special conditions."
+  },
+  {
+    "id": 21,
+    "class_level": "Class 12",
+    "chapter": "The d and f Block Elements",
+    "order": 8,
+    "key_concepts": [
+      "General properties of transition elements: variable oxidation states, colored ions, catalytic property",
+      "Interstitial compounds and alloy formation",
+      "Lanthanoid contraction and its consequences",
+      "Actinoids: general characteristics",
+      "Colour in transition metal ions arises from d-d transitions: an electron absorbs visible light to jump between split d-orbitals (crystal field splitting) in the presence of ligands; ions with d0 or d10 configuration are usually colourless (no d-d transition possible)",
+      "Interstitial compounds: transition metals can trap small atoms (H, C, N) in the interstitial spaces of their lattice, giving hard, high-melting, chemically inert compounds like tungsten carbide",
+      "Lanthanoid contraction: the steady decrease in atomic/ionic size across the lanthanoid series due to poor shielding by 4f electrons, causing the unusually close similarity in size (and chemistry) between second and third row transition metals of the same group"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Lanthanoid contraction causes 4d and 5d elements of same group to have near-identical atomic radii (e.g. Zr~Hf)",
+      "Colour test shortcut: if a transition metal ion has 0 or 10 d electrons (like Sc3+, Zn2+, Cu+), it is typically colourless because there's no partially filled d-subshell for a d-d transition",
+      "Magnetic moment formula shortcut: mu = sqrt(n(n+2)) BM, where n = number of unpaired electrons - memorise this single formula to answer most magnetism numericals"
+    ],
+    "detailed_notes": "The d-block (transition elements) has partially filled d-orbitals in the ground state or in a common oxidation state, giving them characteristic properties: variable oxidation states (due to close energies of (n-1)d and ns electrons), formation of coloured compounds (d-d electronic transitions absorb specific wavelengths of visible light), paramagnetism (due to unpaired d electrons), catalytic activity (variable oxidation states and ability to form intermediate complexes), and a strong tendency to form complex/coordination compounds and alloys. Across a transition series, atomic/ionic radii decrease only slightly (compared to the sharp p-block decrease) due to the poor shielding of d-electrons - this is called the lanthanoid/d-block contraction, and it causes the second and third transition series elements in the same group to have very similar sizes (e.g. Zr and Hf). The f-block (lanthanoids and actinoids) shows the lanthanoid contraction prominently, a steady decrease in size across the 4f series that has far-reaching effects on the chemistry of subsequent d-block elements."
+  },
+  {
+    "id": 22,
+    "class_level": "Class 12",
+    "chapter": "Coordination Compounds",
+    "order": 9,
+    "key_concepts": [
+      "Werner's theory; ligands, coordination number, IUPAC nomenclature",
+      "Isomerism in coordination compounds (structural & stereo)",
+      "Valence bond theory and crystal field theory (CFT)",
+      "Crystal field splitting in octahedral and tetrahedral complexes",
+      "Applications: biological systems, extraction of metals, qualitative analysis",
+      "Spectrochemical series (weak to strong field): I- < Br- < Cl- < F- < H2O < NH3 < en < CN- < CO - determines whether a complex is high-spin or low-spin",
+      "Isomerism in coordination compounds: structural (ionisation, hydrate, linkage, coordination) and stereoisomerism (geometrical cis-trans, optical - especially important for octahedral complexes with chelating ligands)",
+      "Crystal field splitting energy (Delta-o for octahedral) determines whether electrons pair up in lower t2g orbitals (low spin, Delta-o large) or spread into eg orbitals first (high spin, Delta-o small) following Hund's rule when the ligand field is weak"
+    ],
+    "key_formulae": [
+      "CFSE (octahedral): high spin/low spin depends on Δo vs pairing energy"
+    ],
+    "short_tricks": [
+      "'EAN rule' (Effective Atomic Number) often equals the atomic number of the next noble gas for stable complexes",
+      "CFT quick rule: octahedral splits d-orbitals into lower t2g (3 orbitals) and higher eg (2 orbitals); tetrahedral is the reverse (e lower, t2 higher) and splitting is always smaller (roughly 4/9 of octahedral splitting)",
+      "Naming order shortcut: 'ligands before metal, alphabetically; anionic complex ends in -ate' - e.g. potassium hexacyanoferrate(III) for K3[Fe(CN)6]"
+    ],
+    "detailed_notes": "Coordination compounds contain a central metal atom/ion bonded to surrounding ligands (ions or neutral molecules with at least one lone pair) via coordinate (dative) bonds, forming a complex ion or molecule. Werner's theory first proposed that metals have both a primary valency (ionisable, satisfied by anions) and a secondary valency (fixed coordination number, satisfied by ligands in a definite spatial arrangement). IUPAC nomenclature names ligands alphabetically before the metal, uses Latin names with -ate suffix for anionic complexes, and specifies oxidation state in Roman numerals. Valence Bond Theory explains geometry/magnetism via hybridisation of metal orbitals (e.g. d2sp3 for octahedral), but Crystal Field Theory (CFT) gives a more complete picture: ligands create an electric field that splits the five degenerate d-orbitals into two sets (eg and t2g in octahedral fields); strong field ligands (like CN-) cause large splitting favouring low-spin (paired) configurations, while weak field ligands (like halides) cause small splitting favouring high-spin configurations - explaining colour, magnetism, and stability of complexes."
+  },
+  {
+    "id": 23,
+    "class_level": "Class 12",
+    "chapter": "Haloalkanes and Haloarenes",
+    "order": 10,
+    "key_concepts": [
+      "Nomenclature and preparation of alkyl/aryl halides",
+      "Nucleophilic substitution: SN1 vs SN2 mechanisms",
+      "Elimination reactions and Zaitsev's rule",
+      "Uses and environmental effects (DDT, freons)",
+      "SN1 vs SN2 quick comparison: SN1 - 2 steps, rate = k[substrate] only, tertiary > secondary > primary, racemisation; SN2 - 1 step, rate = k[substrate][nucleophile], primary > secondary > tertiary, inversion",
+      "Grignard reagents (R-MgX) are prepared from haloalkanes + Mg in dry ether, and are extremely useful nucleophilic carbon sources for building larger organic molecules, but react violently with any trace of water/moisture",
+      "Freons (CFCs like CCl2F2) were widely used as refrigerants but are now regulated due to their role in ozone layer depletion"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "SN1: 3° > 2° > 1° (carbocation stability); SN2: 1° > 2° > 3° (steric hindrance)",
+      "SN1 vs SN2 stability rule: 'more stable carbocation = more likely SN1' - tertiary halides favour SN1 (stable 3-degree carbocation), primary halides are forced into SN2 (no stable carbocation, so backside attack instead)",
+      "Haloarene low reactivity mnemonic: 'resonance locks the door' - lone pair on halogen delocalises into the ring giving partial double bond character to C-X, making the bond harder to break via substitution"
+    ],
+    "detailed_notes": "Haloalkanes (R-X, sp3 C-X) and haloarenes (Ar-X, sp2 C-X) both contain a halogen bonded to carbon, but their reactivity differs sharply: haloalkanes readily undergo nucleophilic substitution via either SN1 (two-step, via a carbocation intermediate, favoured by tertiary substrates, polar protic solvents, and gives racemisation) or SN2 (one-step, concerted, backside attack causing inversion of configuration - Walden inversion - favoured by primary substrates and strong nucleophiles) mechanisms, and can also undergo elimination (E1/E2) to form alkenes, competing with substitution based on the nature of the base/nucleophile and substrate. Haloarenes, in contrast, are far less reactive toward nucleophilic substitution because the C-X bond has partial double bond character (through resonance donation of a halogen lone pair into the ring) and the sp2 carbon holds electrons more tightly; the ring's electron density also repels incoming nucleophiles, though this reactivity increases dramatically if strong electron-withdrawing groups (like -NO2) are present at ortho/para positions."
+  },
+  {
+    "id": 24,
+    "class_level": "Class 12",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "order": 11,
+    "key_concepts": [
+      "Nomenclature, preparation, and physical properties",
+      "Distinguishing reactions: Lucas test, ferric chloride test for phenols",
+      "Acidity of phenols vs alcohols; electrophilic substitution in phenols",
+      "Williamson ether synthesis",
+      "Acidity order: phenol >> water > alcohol - explained by resonance stabilisation of phenoxide (delocalised into ring) versus alkoxide (localised negative charge, destabilised further by the electron-donating alkyl group)",
+      "Lucas test distinguishes 1-degree, 2-degree, 3-degree alcohols by the rate of turbidity with conc. HCl/ZnCl2 (tertiary reacts instantly, secondary in a few minutes, primary very slowly - based on carbocation stability)",
+      "Williamson ether synthesis: R-X + R'-ONa -> R-O-R' + NaX, an SN2 reaction, works best with primary haloalkanes to avoid competing elimination"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Phenol is more acidic than alcohol due to resonance stabilization of the phenoxide ion",
+      "Acidity ranking shortcut: 'phenol beats water beats alcohol' - the more the negative charge can be delocalised (resonance) after losing H+, the stronger the acid",
+      "Lucas test speed = carbocation stability = 3-degree(instant) > 2-degree(5-10 min) > 1-degree(no reaction at room temp)"
+    ],
+    "detailed_notes": "Alcohols (R-OH), phenols (Ar-OH), and ethers (R-O-R') all contain oxygen singly bonded to carbon, but their properties diverge significantly. Alcohols are prepared from haloalkanes, carbonyl reduction, or Grignard reagents, and react at both the O-H bond (acting as weak acids/forming esters) and the C-O bond (dehydration to alkenes, substitution to haloalkanes). Phenols are significantly more acidic than alcohols because the phenoxide ion formed after losing H+ is resonance-stabilised by delocalisation into the aromatic ring; phenols also undergo characteristic electrophilic aromatic substitution reactions (the -OH group is strongly activating and o,p-directing) like the Kolbe reaction and Reimer-Tiemann reaction, both giving ortho-substituted salicylaldehyde/salicylic acid-type products. Ethers are relatively unreactive except toward strong acids (HI/HBr cleave the C-O bond) and are widely used as inert solvents (e.g. dry ether for Grignard reactions), distinguished from alcohols by lacking an O-H bond and therefore showing weaker intermolecular hydrogen bonding."
+  },
+  {
+    "id": 25,
+    "class_level": "Class 12",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "order": 12,
+    "key_concepts": [
+      "Nomenclature and structure of carbonyl compounds",
+      "Nucleophilic addition reactions; aldol condensation, Cannizzaro reaction",
+      "Distinguishing tests: Tollens', Fehling's, iodoform test",
+      "Acidity of carboxylic acids and effect of substituents",
+      "Acidity of carboxylic acids increases with electron-withdrawing substituents (e.g. Cl-CH2-COOH > CH3-COOH) via the -I effect stabilising the carboxylate, and decreases with electron-donating alkyl groups",
+      "HVZ (Hell-Volhard-Zelinsky) reaction: alpha-halogenation of carboxylic acids using X2/red P, useful for further functionalisation at the alpha carbon",
+      "Iodoform test: detects CH3-CO- group (methyl ketones) or CH3-CH(OH)- (secondary alcohols oxidisable to methyl ketones), giving a yellow precipitate of CHI3"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Tollens' test (silver mirror) = aldehydes only; Iodoform test = CH3CO- group or CH3CH(OH)- group",
+      "Reactivity order for nucleophilic addition: HCHO > other aldehydes > ketones - fewer/smaller alkyl groups means less steric hindrance and less electron donation (+I) to the electrophilic carbonyl carbon",
+      "Cannizzaro needs 'no alpha-H' - only aldehydes without an alpha hydrogen (like HCHO, C6H5CHO) undergo Cannizzaro; if alpha-H is present, aldol condensation happens instead"
+    ],
+    "detailed_notes": "Aldehydes (R-CHO) and ketones (R-CO-R') share the carbonyl group (C=O) and undergo nucleophilic addition reactions (the polarised, electrophilic carbonyl carbon is attacked by nucleophiles like CN-, NH2-derivatives, Grignard reagents), while carboxylic acids (R-COOH) show the combined influence of the carbonyl and hydroxyl groups, making the O-H strongly acidic (the carboxylate anion is resonance-stabilised, delocalised equally over both oxygens). Aldehydes are generally more reactive than ketones toward nucleophilic addition (less steric hindrance, less +I effect from only one alkyl group) and are distinguished from ketones by simple tests - Tollens' reagent (silver mirror), Fehling's solution (brick-red Cu2O precipitate) - since aldehydes are easily oxidised while ketones resist mild oxidation. The aldol condensation (self-addition of enolisable carbonyl compounds under base, followed by dehydration) and Cannizzaro reaction (disproportionation of non-enolisable aldehydes under strong base into one alcohol and one carboxylate) are classic named reactions in this chapter, alongside acidity trends of carboxylic acids controlled by substituent electronic effects."
+  },
+  {
+    "id": 26,
+    "class_level": "Class 12",
+    "chapter": "Amines",
+    "order": 13,
+    "key_concepts": [
+      "Classification, nomenclature, and preparation of amines",
+      "Basicity of amines and comparison (aliphatic vs aromatic)",
+      "Distinguishing 1°, 2°, 3° amines (Hinsberg's test)",
+      "Diazonium salts and their synthetic importance",
+      "Basicity order in aqueous solution (for methyl-substituted amines): secondary > primary > tertiary > ammonia - a balance between +I effect (favours tertiary) and steric hindrance/solvation of the cation (disfavours tertiary), giving this non-intuitive order",
+      "Aniline is a weaker base than both ammonia and aliphatic amines because the lone pair on N is delocalised into the aromatic ring, reducing its availability to accept H+",
+      "Diazonium coupling reaction: Ar-N2+ reacts with phenols/aromatic amines to form brightly coloured azo compounds (Ar-N=N-Ar'), the basis of many synthetic dyes"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Aliphatic amine basicity in gas phase: 3° > 2° > 1°; in aqueous solution often 2° > 1° > 3° due to solvation/steric effects",
+      "Basicity shortcut for aqueous amines: 2-degree > 1-degree > 3-degree > NH3 - remember 'too many alkyl groups back-fires' due to steric hindrance in solvation of the tertiary ammonium cation",
+      "Diazonium salts are 'unstable ice-cube chemistry' - they must be prepared and used below 5C, since they decompose readily above this temperature"
+    ],
+    "detailed_notes": "Amines (R-NH2, R2NH, R3N) are derivatives of ammonia where one or more hydrogens are replaced by alkyl/aryl groups, classified as primary, secondary, or tertiary based on the number of carbon substituents on nitrogen (a different classification basis than alcohols/haloalkanes, which classify by the carbon attached to the functional group). Amines are basic due to the lone pair on nitrogen, but basicity is a subtle balance of +I effect (alkyl groups increase electron density, increasing basicity), steric hindrance (bulky alkyl groups hinder protonation/solvation), and solvation of the resulting cation (important in aqueous solution) - aliphatic amines are generally more basic than ammonia, while aromatic amines (aniline) are far less basic because the nitrogen lone pair delocalises into the benzene ring via resonance, making it less available to accept a proton. Diazonium salts (Ar-N2+X-), formed from primary aromatic amines with HNO2/HCl at low temperature, are versatile synthetic intermediates for introducing many different functional groups onto an aromatic ring (via the Sandmeyer reaction and other substitution/coupling reactions)."
+  },
+  {
+    "id": 27,
+    "class_level": "Class 12",
+    "chapter": "Biomolecules",
+    "order": 14,
+    "key_concepts": [
+      "Carbohydrates: classification, structure of glucose/fructose, mutarotation",
+      "Proteins: amino acids, peptide bond, structure levels (primary to quaternary)",
+      "Enzymes and vitamins classification",
+      "Nucleic acids: DNA and RNA structure, base pairing",
+      "Mutarotation: the spontaneous change in optical rotation of freshly dissolved glucose as alpha and beta anomers interconvert through the open-chain form until an equilibrium mixture is reached",
+      "Zwitterion: amino acids exist as dipolar ions (NH3+ and COO- on the same molecule) at physiological/neutral pH, giving them water solubility and high melting points typical of ionic solids",
+      "DNA vs RNA key differences: DNA has deoxyribose sugar and thymine base, double-stranded; RNA has ribose sugar and uracil (instead of thymine), typically single-stranded"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "DNA base pairing: A-T (2 H-bonds), G-C (3 H-bonds) - 'G-C bonds are Great & Cozy (stronger)'",
+      "Base pairing rule: 'A-T, G-C' (or A-U in RNA) - Adenine pairs with Thymine (2 H-bonds), Guanine pairs with Cytosine (3 H-bonds) - remember 'GC bond is stronger, 3 letters, 3 H-bonds'",
+      "Protein structure ladder: Primary (sequence) -> Secondary (local H-bond patterns: helix/sheet) -> Tertiary (full 3D fold) -> Quaternary (multiple chains assembled) - each level builds on the previous"
+    ],
+    "detailed_notes": "Biomolecules are the organic compounds that make up living systems. Carbohydrates (polyhydroxy aldehydes/ketones or compounds that hydrolyse to them) are classified as monosaccharides (single sugar unit, e.g. glucose, fructose), oligosaccharides (2-10 units, e.g. sucrose - a disaccharide of glucose+fructose), and polysaccharides (many units, e.g. starch, cellulose, glycogen - structural or storage roles). Proteins are polymers of amino acids linked by peptide bonds; their function depends on structure at four levels - primary (amino acid sequence), secondary (alpha-helix/beta-pleated sheet from H-bonding), tertiary (3D folding), and quaternary (assembly of multiple polypeptide subunits) - and denaturation (loss of secondary/tertiary/quaternary structure by heat, pH, etc.) destroys biological activity without breaking the primary sequence. Nucleic acids (DNA, RNA) are polymers of nucleotides (sugar + phosphate + nitrogenous base) that store and transmit genetic information; DNA's double helix is held together by specific hydrogen bonding (A-T, G-C base pairing). Vitamins and hormones are covered as essential regulatory biomolecules needed in small quantities."
+  },
+  {
+    "id": 28,
+    "class_level": "Class 12",
+    "chapter": "Polymers",
+    "order": 15,
+    "key_concepts": [
+      "Classification: natural vs synthetic, addition vs condensation polymers",
+      "Important polymers: polythene, nylon-6,6, terylene, buna-N/S rubber",
+      "Biodegradable polymers (PHBV, nylon-2-nylon-6)",
+      "Rubber vulcanization",
+      "Addition (chain-growth) polymerisation proceeds via free radical, cationic, or anionic mechanisms depending on the initiator, always through initiation-propagation-termination steps",
+      "Copolymers (like Buna-S from butadiene+styrene, and Buna-N from butadiene+acrylonitrile) are made from two different monomers, combining properties of both",
+      "Vulcanisation: natural rubber (cis-polyisoprene) is heated with sulphur, forming disulphide cross-links between chains, converting the soft, tacky rubber into a strong, elastic material with much better temperature resistance"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Addition polymers form from monomers with multiple bonds (e.g. alkenes); condensation polymers release small molecules like H2O",
+      "Addition vs condensation shortcut: addition polymers form from monomers with C=C/C-triple-bond-C and lose NO atoms (e.g. polythene); condensation polymers form from monomers with two functional groups (like -OH, -COOH, -NH2) and DO lose a small molecule like H2O (e.g. nylon, terylene, bakelite)",
+      "Nylon-6,6 name trick: the '6,6' refers to 6 carbon atoms each in the diamine (hexamethylenediamine) and the diacid (adipic acid) monomers used to make it"
+    ],
+    "detailed_notes": "Polymers are large molecules (macromolecules) built from repeating structural units called monomers, joined by covalent bonds. Classification by synthesis method distinguishes addition polymers (monomers with a double/triple bond simply add together, no small molecule lost, e.g. polyethylene from ethene) from condensation polymers (monomers with two reactive functional groups join with elimination of a small molecule like water, e.g. nylon-6,6 from a diamine and diacid, or PET/terylene from a diol and diacid). Classification by structure gives linear, branched, or cross-linked (network) polymers, and by origin gives natural (cellulose, natural rubber), semi-synthetic (cellulose acetate), or fully synthetic (nylon, PVC) polymers. Biodegradable polymers (like PHBV, nylon-2-nylon-6) are designed to break down naturally, addressing environmental persistence of conventional plastics. Rubber vulcanisation - heating natural rubber with sulphur - introduces cross-links between polymer chains, dramatically improving strength, elasticity, and resistance to temperature changes."
+  },
+  {
+    "id": 29,
+    "class_level": "Class 12",
+    "chapter": "Chemistry in Everyday Life",
+    "order": 16,
+    "key_concepts": [
+      "Drugs and their classification (analgesics, antibiotics, antiseptics)",
+      "Mechanism of drug action, enzyme inhibition",
+      "Chemicals in food: preservatives, artificial sweeteners",
+      "Cleansing agents: soaps and synthetic detergents",
+      "Soaps vs detergents: soap forms an insoluble scum (calcium/magnesium salts of fatty acids) with hard water, reducing cleaning efficiency; synthetic detergents (sulphonates, e.g. sodium lauryl sulphate) remain soluble even with Ca2+/Mg2+, working well in hard water",
+      "Artificial sweeteners like aspartame, saccharin, and sucralose provide sweetness without (or with minimal) caloric contribution, important in food chemistry for diabetics/weight management",
+      "Preservatives like sodium benzoate inhibit microbial growth in food, extending shelf life; antioxidants (like BHT, BHA) prevent oxidative rancidity of fats/oils"
+    ],
+    "key_formulae": [],
+    "short_tricks": [
+      "Antibiotics: bactericidal (kill bacteria, e.g. penicillin) vs bacteriostatic (inhibit growth, e.g. erythromycin)",
+      "Agonist vs antagonist shortcut: agonist = 'activates, acts like the messenger'; antagonist = 'blocks, occupies the seat without turning anything on' - both bind the receptor but only agonists trigger the biological response",
+      "Soap vs detergent hard water test: soap forms a visible scum/precipitate with hard water; detergent does not, since its sulphonate group's calcium/magnesium salts remain soluble"
+    ],
+    "detailed_notes": "This chapter connects chemistry to everyday applications, particularly medicine and food. Drugs are classified by their pharmacological effect (e.g. analgesics, antipyretics, antibiotics, antiseptics/disinfectants) or by their molecular mechanism of action, most commonly by how they interact with biological target molecules called receptors: agonists mimic the natural messenger and activate the receptor, while antagonists bind the receptor without activating it, blocking the natural messenger's action - a key concept used to design many modern drugs. Antibiotics (like penicillin) either kill bacteria (bactericidal) or stop their growth (bacteriostatic) by targeting processes/structures unique to bacterial cells, minimising harm to the host; the discovery of broad-spectrum vs narrow-spectrum antibiotics revolutionised medicine. Antacids neutralise excess stomach acid, antihistamines block histamine receptors (relieving allergic reactions), and everyday chemicals like soaps (sodium/potassium salts of long-chain fatty acids) and synthetic detergents (work even in hard water, unlike soap) use micelle formation to clean by trapping grease inside a hydrophobic core with a hydrophilic exterior facing water."
+  }
+]

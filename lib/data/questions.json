@@ -1,0 +1,1800 @@
+[
+  {
+    "note_id": 1,
+    "class_level": "Class 11",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "questions": {
+      "easy": {
+        "question": "What is the mass of 1 mole of water (H2O)?",
+        "options": [
+          "9 g",
+          "18 g",
+          "22.4 g",
+          "6.022 x 10^23 g"
+        ],
+        "answer": 1,
+        "explanation": "Molar mass of H2O = 2(1) + 16 = 18 g/mol, so 1 mole weighs 18 g."
+      },
+      "medium": {
+        "question": "How many moles of oxygen atoms are present in 0.5 mole of CO2?",
+        "options": [
+          "0.5 mol",
+          "1.0 mol",
+          "2.0 mol",
+          "0.25 mol"
+        ],
+        "answer": 1,
+        "explanation": "Each CO2 has 2 O atoms, so 0.5 mol CO2 gives 0.5 x 2 = 1.0 mol O atoms."
+      },
+      "hard": {
+        "question": "3.0 g of H2 reacts with 29 g of O2 to form water. Which reactant is limiting and how many moles of H2O form?",
+        "options": [
+          "H2 is limiting, 1.5 mol H2O",
+          "O2 is limiting, 1.8125 mol H2O",
+          "H2 is limiting, 3.0 mol H2O",
+          "O2 is limiting, 0.906 mol H2O"
+        ],
+        "answer": 0,
+        "explanation": "Moles H2 = 3/2 = 1.5 mol; moles O2 = 29/32 = 0.906 mol. Reaction 2H2 + O2 -> 2H2O needs 0.75 mol O2 to fully react with 1.5 mol H2, and 0.906 mol O2 is available (more than enough), so H2 is limiting and moles of H2O formed = moles of H2 = 1.5 mol."
+      },
+      "jee_main": {
+        "question": "The number of significant figures in 0.00450 is:",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "Leading zeros are not significant; 4, 5, and the trailing zero after the decimal are significant, giving 3 significant figures."
+      },
+      "jee_advanced": {
+        "question": "A mixture of 4 g H2 and 96 g O2 is ignited to form water. What is the mass of water formed and the reagent left in excess?",
+        "options": [
+          "36 g water, O2 left in excess",
+          "36 g water, H2 left in excess",
+          "72 g water, O2 left in excess",
+          "18 g water, H2 left in excess"
+        ],
+        "answer": 0,
+        "explanation": "Moles H2 = 4/2 = 2; moles O2 = 96/32 = 3. Required O2 for 2 mol H2 = 1 mol, so O2 (3 mol) is in excess and H2 is limiting. Water formed = 2 mol = 36 g."
+      }
+    }
+  },
+  {
+    "note_id": 2,
+    "class_level": "Class 11",
+    "chapter": "Structure of Atom",
+    "questions": {
+      "easy": {
+        "question": "Who proposed the nuclear model of the atom based on the alpha-particle scattering experiment?",
+        "options": [
+          "J.J. Thomson",
+          "Ernest Rutherford",
+          "Niels Bohr",
+          "John Dalton"
+        ],
+        "answer": 1,
+        "explanation": "Rutherford's gold-foil experiment showed a small, dense, positively charged nucleus, leading to the nuclear model."
+      },
+      "medium": {
+        "question": "What is the maximum number of electrons that can be accommodated in the n=3 shell?",
+        "options": [
+          "8",
+          "18",
+          "32",
+          "9"
+        ],
+        "answer": 1,
+        "explanation": "Maximum electrons in a shell = 2n^2 = 2(3)^2 = 18."
+      },
+      "hard": {
+        "question": "Which set of quantum numbers is not possible for an electron?",
+        "options": [
+          "n=3, l=2, m=-2, s=+1/2",
+          "n=2, l=1, m=0, s=-1/2",
+          "n=2, l=2, m=1, s=+1/2",
+          "n=4, l=0, m=0, s=-1/2"
+        ],
+        "answer": 2,
+        "explanation": "For n=2, l can only be 0 or 1 (l ranges 0 to n-1); l=2 is not allowed when n=2."
+      },
+      "jee_main": {
+        "question": "The energy of an electron in the ground state of a hydrogen atom is -13.6 eV. What is its energy in the second excited state (n=3)?",
+        "options": [
+          "-4.53 eV",
+          "-1.51 eV",
+          "-3.40 eV",
+          "-6.04 eV"
+        ],
+        "answer": 1,
+        "explanation": "En = -13.6/n^2 eV. For n=3, E = -13.6/9 = -1.51 eV."
+      },
+      "jee_advanced": {
+        "question": "Calculate the de Broglie wavelength of an electron moving with a velocity of 2.19 x 10^6 m/s (mass of electron = 9.11 x 10^-31 kg, h = 6.626 x 10^-34 Js).",
+        "options": [
+          "3.32 x 10^-10 m",
+          "1.66 x 10^-10 m",
+          "6.63 x 10^-10 m",
+          "9.95 x 10^-11 m"
+        ],
+        "answer": 0,
+        "explanation": "lambda = h/(mv) = 6.626e-34 / (9.11e-31 x 2.19e6) = 6.626e-34 / 1.995e-24 = 3.32 x 10^-10 m."
+      }
+    }
+  },
+  {
+    "note_id": 3,
+    "class_level": "Class 11",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "questions": {
+      "easy": {
+        "question": "In the modern periodic table, elements are arranged in order of increasing:",
+        "options": [
+          "Atomic mass",
+          "Atomic number",
+          "Number of neutrons",
+          "Density"
+        ],
+        "answer": 1,
+        "explanation": "Moseley's modern periodic law states properties are a periodic function of atomic number."
+      },
+      "medium": {
+        "question": "Which of the following has the largest atomic radius?",
+        "options": [
+          "Na",
+          "Mg",
+          "Al",
+          "Si"
+        ],
+        "answer": 0,
+        "explanation": "Across period 3, atomic radius decreases from Na to Si due to increasing effective nuclear charge; Na is leftmost, so largest."
+      },
+      "hard": {
+        "question": "Which pair correctly shows a diagonal relationship?",
+        "options": [
+          "Li and Na",
+          "Be and Al",
+          "B and C",
+          "Mg and Ca"
+        ],
+        "answer": 1,
+        "explanation": "Be (period 2, group 2) shows a diagonal relationship with Al (period 3, group 13) due to similar charge density and polarising power."
+      },
+      "jee_main": {
+        "question": "The first ionisation enthalpy order for Na, Mg, Al, Si generally follows Na < Al < Mg < Si. Why is Mg's IE1 higher than Al's despite Al having greater nuclear charge?",
+        "options": [
+          "Al has a fully filled 3s subshell which is extra stable",
+          "Mg has a fully filled 3s subshell which is extra stable, while Al's single 3p electron is easier to remove",
+          "Al is smaller than Mg",
+          "Mg has higher electronegativity"
+        ],
+        "answer": 1,
+        "explanation": "Mg (3s2) has a stable fully-filled subshell; Al (3s2 3p1) loses the lone 3p electron more easily, giving Al a lower IE1 than Mg despite higher Z."
+      },
+      "jee_advanced": {
+        "question": "Arrange O, O-, O2- in order of increasing size.",
+        "options": [
+          "O2- < O- < O",
+          "O < O- < O2-",
+          "O- < O < O2-",
+          "O2- < O < O-"
+        ],
+        "answer": 1,
+        "explanation": "For isoelectronic-type series of the same element, adding electrons increases electron-electron repulsion and reduces effective nuclear charge per electron, so size increases as more electrons are added: O < O- < O2-."
+      }
+    }
+  },
+  {
+    "note_id": 4,
+    "class_level": "Class 11",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "questions": {
+      "easy": {
+        "question": "What type of bond is formed by complete transfer of electrons from one atom to another?",
+        "options": [
+          "Covalent bond",
+          "Ionic bond",
+          "Metallic bond",
+          "Hydrogen bond"
+        ],
+        "answer": 1,
+        "explanation": "Ionic bonds form via electron transfer between a metal and a non-metal, producing oppositely charged ions."
+      },
+      "medium": {
+        "question": "What is the shape of the NH3 molecule according to VSEPR theory?",
+        "options": [
+          "Tetrahedral",
+          "Trigonal planar",
+          "Pyramidal",
+          "Linear"
+        ],
+        "answer": 2,
+        "explanation": "NH3 has 3 bond pairs and 1 lone pair (steric number 4); the lone pair distorts the tetrahedral arrangement into a pyramidal shape."
+      },
+      "hard": {
+        "question": "Using Molecular Orbital Theory, what is the bond order of the O2 molecule and is it paramagnetic or diamagnetic?",
+        "options": [
+          "Bond order 2, diamagnetic",
+          "Bond order 2, paramagnetic",
+          "Bond order 3, paramagnetic",
+          "Bond order 1, diamagnetic"
+        ],
+        "answer": 1,
+        "explanation": "O2 has bond order 2 with two unpaired electrons in the pi*2p orbitals, making it paramagnetic - a classic MOT success over VBT."
+      },
+      "jee_main": {
+        "question": "Which of the following molecules has zero dipole moment despite having polar bonds?",
+        "options": [
+          "H2O",
+          "NH3",
+          "CO2",
+          "CHCl3"
+        ],
+        "answer": 2,
+        "explanation": "CO2 is linear and symmetric, so the two C=O bond dipoles cancel, giving a net dipole moment of zero."
+      },
+      "jee_advanced": {
+        "question": "Which species has the highest bond order among N2, N2+, O2, O2+?",
+        "options": [
+          "N2",
+          "N2+",
+          "O2",
+          "O2+"
+        ],
+        "answer": 0,
+        "explanation": "N2 has bond order 3 (highest among these), since removing an electron from N2's bonding HOMO (N2+) reduces bond order to 2.5, while O2 has bond order 2 and O2+ has bond order 2.5."
+      }
+    }
+  },
+  {
+    "note_id": 5,
+    "class_level": "Class 11",
+    "chapter": "Thermodynamics (Chemical)",
+    "questions": {
+      "easy": {
+        "question": "Which of the following is a state function?",
+        "options": [
+          "Heat",
+          "Work",
+          "Enthalpy",
+          "None of these"
+        ],
+        "answer": 2,
+        "explanation": "Enthalpy depends only on the initial and final states of the system, unlike heat and work, which are path functions."
+      },
+      "medium": {
+        "question": "For a reaction to be spontaneous at all temperatures, which condition must hold?",
+        "options": [
+          "Delta H > 0, Delta S < 0",
+          "Delta H < 0, Delta S > 0",
+          "Delta H < 0, Delta S < 0",
+          "Delta H > 0, Delta S > 0"
+        ],
+        "answer": 1,
+        "explanation": "If Delta H is negative and Delta S is positive, Delta G = Delta H - T Delta S is always negative regardless of temperature."
+      },
+      "hard": {
+        "question": "For a reaction, Delta H = -40 kJ/mol and Delta S = -100 J/K/mol. Above what temperature does the reaction become non-spontaneous?",
+        "options": [
+          "400 K",
+          "40 K",
+          "4000 K",
+          "100 K"
+        ],
+        "answer": 0,
+        "explanation": "At equilibrium Delta G=0: T = Delta H/Delta S = (-40000 J)/(-100 J/K) = 400 K. Above 400 K, -T Delta S becomes larger than Delta H is negative, making Delta G positive."
+      },
+      "jee_main": {
+        "question": "Calculate the standard enthalpy of reaction for C(s) + O2(g) -> CO2(g), given Delta Hf(CO2) = -393.5 kJ/mol.",
+        "options": [
+          "+393.5 kJ/mol",
+          "-393.5 kJ/mol",
+          "0 kJ/mol",
+          "-787 kJ/mol"
+        ],
+        "answer": 1,
+        "explanation": "Since C(s) and O2(g) are elements in their standard states (Delta Hf = 0), Delta H(reaction) = Delta Hf(CO2) - 0 = -393.5 kJ/mol."
+      },
+      "jee_advanced": {
+        "question": "For a reaction at 300 K, Delta H = -29.8 kJ/mol and the equilibrium constant K = 10. Estimate Delta S (R = 8.314 J/K/mol, ln10 = 2.303).",
+        "options": [
+          "-80.2 J/K/mol",
+          "+80.2 J/K/mol",
+          "-19.1 J/K/mol",
+          "+19.1 J/K/mol"
+        ],
+        "answer": 0,
+        "explanation": "Delta G = -RT ln K = -8.314 x 300 x 2.303 = -5744 J/mol. Delta S = (Delta H - Delta G)/T = (-29800 - (-5744))/300 = -24056/300 = -80.2 J/K/mol."
+      }
+    }
+  },
+  {
+    "note_id": 6,
+    "class_level": "Class 11",
+    "chapter": "Equilibrium",
+    "questions": {
+      "easy": {
+        "question": "At equilibrium, which of the following is true?",
+        "options": [
+          "Forward reaction stops",
+          "Reverse reaction stops",
+          "Rate of forward = rate of reverse reaction",
+          "All reactants convert to products"
+        ],
+        "answer": 2,
+        "explanation": "Chemical equilibrium is dynamic: both reactions continue but at equal rates, so net concentrations stay constant."
+      },
+      "medium": {
+        "question": "For the reaction N2(g) + 3H2(g) <-> 2NH3(g), what happens to the equilibrium if pressure is increased?",
+        "options": [
+          "Shifts towards reactants",
+          "Shifts towards products",
+          "No effect",
+          "Kc changes"
+        ],
+        "answer": 1,
+        "explanation": "Increasing pressure shifts equilibrium towards the side with fewer moles of gas; products (2 mol) are fewer than reactants (4 mol), so it shifts right."
+      },
+      "hard": {
+        "question": "The Ksp of AgCl is 1.8 x 10^-10. What is the molar solubility of AgCl in pure water?",
+        "options": [
+          "1.8 x 10^-10 M",
+          "1.34 x 10^-5 M",
+          "9.0 x 10^-11 M",
+          "1.8 x 10^-5 M"
+        ],
+        "answer": 1,
+        "explanation": "Ksp = s^2 for AgCl (1:1 salt), so s = sqrt(1.8x10^-10) = 1.34 x 10^-5 M."
+      },
+      "jee_main": {
+        "question": "What is the pH of a 0.01 M HCl solution (assume complete ionisation)?",
+        "options": [
+          "1",
+          "2",
+          "12",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "[H+] = 0.01 = 10^-2 M, so pH = -log(10^-2) = 2."
+      },
+      "jee_advanced": {
+        "question": "A buffer contains 0.3 mol CH3COOH and 0.3 mol CH3COONa in 1 L (pKa of CH3COOH = 4.74). What is the pH after adding 0.05 mol NaOH (assume no volume change)?",
+        "options": [
+          "4.74",
+          "4.92",
+          "4.56",
+          "5.10"
+        ],
+        "answer": 1,
+        "explanation": "NaOH converts 0.05 mol acid to salt: new acid = 0.25 mol, new salt = 0.35 mol. pH = pKa + log(salt/acid) = 4.74 + log(0.35/0.25) = 4.74 + log(1.4) = 4.74 + 0.146 = 4.89, closest to 4.92."
+      }
+    }
+  },
+  {
+    "note_id": 7,
+    "class_level": "Class 11",
+    "chapter": "Redox Reactions",
+    "questions": {
+      "easy": {
+        "question": "What is the oxidation number of Mn in KMnO4?",
+        "options": [
+          "+2",
+          "+4",
+          "+6",
+          "+7"
+        ],
+        "answer": 3,
+        "explanation": "K is +1, O is -2 (x4 = -8). For overall neutral KMnO4: +1 + Mn + (-8) = 0, so Mn = +7."
+      },
+      "medium": {
+        "question": "In the reaction Zn + CuSO4 -> ZnSO4 + Cu, which species is the reducing agent?",
+        "options": [
+          "Zn",
+          "Cu2+",
+          "SO4^2-",
+          "Cu"
+        ],
+        "answer": 0,
+        "explanation": "Zn loses electrons (0 -> +2), i.e. it is oxidised, so Zn is the reducing agent (it reduces Cu2+ to Cu)."
+      },
+      "hard": {
+        "question": "Which of the following reactions is a disproportionation reaction?",
+        "options": [
+          "2Na + Cl2 -> 2NaCl",
+          "Cl2 + 2NaOH -> NaCl + NaOCl + H2O",
+          "Zn + 2HCl -> ZnCl2 + H2",
+          "2Mg + O2 -> 2MgO"
+        ],
+        "answer": 1,
+        "explanation": "Cl2 (oxidation state 0) is simultaneously oxidised to +1 (in NaOCl) and reduced to -1 (in NaCl) - both from the same element, so it's disproportionation."
+      },
+      "jee_main": {
+        "question": "Balance: MnO4^- + Fe2+ + H+ -> Mn2+ + Fe3+ + H2O. What is the coefficient of Fe2+ in the balanced equation?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "Mn goes from +7 to +2 (gain of 5 electrons); each Fe2+ -> Fe3+ loses 1 electron, so 5 Fe2+ are needed to balance electrons with 1 MnO4^-."
+      },
+      "jee_advanced": {
+        "question": "How many moles of electrons are transferred when 1 mole of Cr2O7^2- is completely reduced to Cr3+ in acidic medium?",
+        "options": [
+          "2",
+          "3",
+          "6",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "Each Cr goes from +6 to +3 (gain of 3 electrons); with 2 Cr atoms in Cr2O7^2-, total electrons gained = 2 x 3 = 6."
+      }
+    }
+  },
+  {
+    "note_id": 8,
+    "class_level": "Class 11",
+    "chapter": "Hydrogen",
+    "questions": {
+      "easy": {
+        "question": "Which isotope of hydrogen is radioactive?",
+        "options": [
+          "Protium",
+          "Deuterium",
+          "Tritium",
+          "None"
+        ],
+        "answer": 2,
+        "explanation": "Tritium (3H) is the radioactive isotope of hydrogen, with one proton and two neutrons."
+      },
+      "medium": {
+        "question": "What type of hydride is formed when hydrogen reacts with sodium?",
+        "options": [
+          "Covalent hydride",
+          "Ionic hydride",
+          "Metallic hydride",
+          "Interstitial hydride"
+        ],
+        "answer": 1,
+        "explanation": "Sodium (a reactive alkali metal) transfers an electron to hydrogen, forming ionic NaH containing the hydride ion H-."
+      },
+      "hard": {
+        "question": "Why does hydrogen peroxide act as both an oxidising and a reducing agent?",
+        "options": [
+          "Because oxygen is in -1 oxidation state in H2O2, an intermediate value between 0 and -2",
+          "Because it contains only hydrogen bonds",
+          "Because it is unstable at room temperature only",
+          "Because it is acidic"
+        ],
+        "answer": 0,
+        "explanation": "Oxygen's oxidation state in H2O2 is -1, between 0 (O2) and -2 (H2O/oxide), so it can be oxidised (acting as reducing agent) or reduced (acting as oxidising agent) depending on the other reactant."
+      },
+      "jee_main": {
+        "question": "Permanent hardness of water (due to chlorides and sulphates of Ca/Mg) is best removed by:",
+        "options": [
+          "Boiling",
+          "Adding washing soda (Na2CO3) or using an ion-exchange resin",
+          "Filtration",
+          "Adding NaCl"
+        ],
+        "answer": 1,
+        "explanation": "Boiling only removes temporary (bicarbonate) hardness; permanent hardness needs a chemical method like washing soda or ion-exchange resins to precipitate/remove Ca2+ and Mg2+."
+      },
+      "jee_advanced": {
+        "question": "Which statement about heavy water (D2O) is correct?",
+        "options": [
+          "It has a lower boiling point than ordinary water",
+          "It is used as a moderator in nuclear reactors to slow down neutrons",
+          "It has the same density as ordinary water",
+          "It cannot form hydrogen bonds"
+        ],
+        "answer": 1,
+        "explanation": "D2O (deuterium oxide) is used as a neutron moderator in nuclear reactors because it slows fast neutrons via elastic collisions without absorbing them as readily as ordinary water."
+      }
+    }
+  },
+  {
+    "note_id": 9,
+    "class_level": "Class 11",
+    "chapter": "The s-Block Elements",
+    "questions": {
+      "easy": {
+        "question": "Which alkali metal gives a golden-yellow flame colour?",
+        "options": [
+          "Lithium",
+          "Sodium",
+          "Potassium",
+          "Rubidium"
+        ],
+        "answer": 1,
+        "explanation": "Sodium's characteristic flame test colour is golden yellow, used in sodium vapour street lamps."
+      },
+      "medium": {
+        "question": "Which of the following shows the greatest thermal stability of its carbonate?",
+        "options": [
+          "MgCO3",
+          "CaCO3",
+          "SrCO3",
+          "BaCO3"
+        ],
+        "answer": 3,
+        "explanation": "Thermal stability of Group 2 carbonates increases down the group as the cation's polarising power decreases; BaCO3 (largest cation here) is most stable."
+      },
+      "hard": {
+        "question": "Why does lithium show a diagonal relationship with magnesium rather than resembling other Group 1 elements?",
+        "options": [
+          "Li has a much larger atomic radius than other alkali metals",
+          "Li has a very small size and high charge density, similar to Mg's charge/size ratio",
+          "Li does not form ionic compounds",
+          "Li is not a metal"
+        ],
+        "answer": 1,
+        "explanation": "Li's small size gives it unusually high polarising power (charge density) close to that of Mg, causing similarities like covalent character in compounds and formation of a nitride directly with N2."
+      },
+      "jee_main": {
+        "question": "The Solvay process is used to manufacture which compound, and why can it not be extended to potassium?",
+        "options": [
+          "Na2CO3; KHCO3 is too soluble to precipitate out",
+          "K2CO3; NaHCO3 is too soluble",
+          "NaOH; KOH is unstable",
+          "CaCO3; K2CO3 is insoluble"
+        ],
+        "answer": 0,
+        "explanation": "The Solvay process produces Na2CO3 via precipitation of NaHCO3 (which is only sparingly soluble); the corresponding KHCO3 is too soluble in water to precipitate, so the process fails for potassium."
+      },
+      "jee_advanced": {
+        "question": "Which of the following correctly ranks the solubility trend of Group 2 hydroxides in water?",
+        "options": [
+          "Be(OH)2 < Mg(OH)2 < Ca(OH)2 < Ba(OH)2",
+          "Ba(OH)2 < Ca(OH)2 < Mg(OH)2 < Be(OH)2",
+          "All are equally soluble",
+          "Be(OH)2 is most soluble"
+        ],
+        "answer": 0,
+        "explanation": "Solubility of Group 2 hydroxides increases down the group (lattice energy falls faster than hydration energy as the cation grows), so Be(OH)2 is least soluble and Ba(OH)2 is most soluble - opposite to the sulphate solubility trend."
+      }
+    }
+  },
+  {
+    "note_id": 10,
+    "class_level": "Class 11",
+    "chapter": "The p-Block Elements (Groups 13 and 14)",
+    "questions": {
+      "easy": {
+        "question": "Which allotrope of carbon is a good conductor of electricity?",
+        "options": [
+          "Diamond",
+          "Graphite",
+          "Fullerene",
+          "Charcoal"
+        ],
+        "answer": 1,
+        "explanation": "Graphite has delocalised pi electrons free to move within its layered sp2 sheets, making it a good electrical conductor unlike diamond."
+      },
+      "medium": {
+        "question": "Which property is characteristic of boron due to its electron deficiency?",
+        "options": [
+          "It readily forms B3- ions",
+          "It acts as a Lewis acid, accepting electron pairs",
+          "It never forms compounds with hydrogen",
+          "It is the most electropositive element in its group"
+        ],
+        "answer": 1,
+        "explanation": "Boron has only 3 valence electrons and an incomplete octet, so its compounds (like BF3) readily accept an electron pair, making boron a Lewis acid."
+      },
+      "hard": {
+        "question": "Which of these best explains why Tl(I) compounds are more stable than Tl(III) compounds?",
+        "options": [
+          "Tl is radioactive",
+          "Inert pair effect: the 6s2 electrons resist participating in bonding as atomic size increases",
+          "Tl(III) does not exist",
+          "Tl has no d-electrons"
+        ],
+        "answer": 1,
+        "explanation": "Due to poor shielding by filled d and f orbitals and relativistic effects, the 6s2 pair in heavy Group 13 elements like Tl becomes increasingly inert, favouring the +1 oxidation state."
+      },
+      "jee_main": {
+        "question": "In diborane (B2H6), how many bridging hydrogen atoms are present and what type of bond do they form?",
+        "options": [
+          "2 bridging H atoms, 3-centre-2-electron bonds",
+          "4 bridging H atoms, normal covalent bonds",
+          "6 bridging H atoms, ionic bonds",
+          "0 bridging H atoms"
+        ],
+        "answer": 0,
+        "explanation": "Diborane has 2 bridging hydrogens connecting the two boron atoms via unique 3-centre-2-electron (banana) bonds, compensating for boron's electron deficiency."
+      },
+      "jee_advanced": {
+        "question": "Which of the following correctly ranks the thermal stability of Group 14 dihalides (MX2) with increasing atomic number of M?",
+        "options": [
+          "Stability decreases (CX2 most stable, PbX2 least)",
+          "Stability increases (CX2 least stable, PbX2 most stable) due to the inert pair effect",
+          "All are equally stable",
+          "Only SiX2 is stable"
+        ],
+        "answer": 1,
+        "explanation": "Because of the inert pair effect, the +2 oxidation state becomes increasingly favoured (more stable) going down Group 14, so PbX2 is markedly more stable than the +2 states of lighter members."
+      }
+    }
+  },
+  {
+    "note_id": 11,
+    "class_level": "Class 11",
+    "chapter": "Organic Chemistry - Some Basic Principles and Techniques",
+    "questions": {
+      "easy": {
+        "question": "What is the term for compounds having the same molecular formula but different structures?",
+        "options": [
+          "Allotropes",
+          "Isomers",
+          "Isotopes",
+          "Homologs"
+        ],
+        "answer": 1,
+        "explanation": "Isomers share the same molecular formula but differ in the arrangement of atoms (structural) or spatial orientation (stereoisomerism)."
+      },
+      "medium": {
+        "question": "Which reactive intermediate carries a positive charge on carbon?",
+        "options": [
+          "Carbanion",
+          "Free radical",
+          "Carbocation",
+          "Carbene"
+        ],
+        "answer": 2,
+        "explanation": "A carbocation is a carbon species with only 6 valence electrons and a positive charge, typically sp2 hybridised and planar."
+      },
+      "hard": {
+        "question": "Arrange the following carbocations in order of increasing stability: methyl, primary, secondary, tertiary.",
+        "options": [
+          "tertiary < secondary < primary < methyl",
+          "methyl < primary < secondary < tertiary",
+          "primary < methyl < tertiary < secondary",
+          "All equally stable"
+        ],
+        "answer": 1,
+        "explanation": "More alkyl groups attached to the positively charged carbon provide more hyperconjugation and +I effect, stabilising the carbocation, so stability increases methyl < 1 degree < 2 degree < 3 degree."
+      },
+      "jee_main": {
+        "question": "Which technique is most suitable for separating two liquids with very close boiling points?",
+        "options": [
+          "Simple distillation",
+          "Fractional distillation",
+          "Sublimation",
+          "Crystallisation"
+        ],
+        "answer": 1,
+        "explanation": "Fractional distillation uses a fractionating column to achieve multiple vapour-liquid equilibria, effectively separating liquids whose boiling points are close together."
+      },
+      "jee_advanced": {
+        "question": "Which of the following best explains why nitro groups are strongly electron-withdrawing via resonance?",
+        "options": [
+          "Nitrogen has a lone pair that is donated into the ring",
+          "The N=O bonds can accept electron density through delocalisation, pulling electron density away from the attached carbon skeleton",
+          "Nitro groups are always positively charged",
+          "Nitro groups have no effect on electron density"
+        ],
+        "answer": 1,
+        "explanation": "The -NO2 group's resonance structures show significant electron withdrawal from the attached carbon skeleton toward oxygen, making it strongly deactivating/electron-withdrawing (-M and -I effect), important in predicting reactivity of substituted aromatics."
+      }
+    }
+  },
+  {
+    "note_id": 12,
+    "class_level": "Class 11",
+    "chapter": "Hydrocarbons",
+    "questions": {
+      "easy": {
+        "question": "What is the general formula of alkenes?",
+        "options": [
+          "CnH2n+2",
+          "CnH2n",
+          "CnH2n-2",
+          "CnHn"
+        ],
+        "answer": 1,
+        "explanation": "Alkenes contain one C=C double bond, giving the general formula CnH2n (two fewer hydrogens than the corresponding alkane)."
+      },
+      "medium": {
+        "question": "According to Markovnikov's rule, what is the major product when HBr adds to propene (CH3-CH=CH2)?",
+        "options": [
+          "1-bromopropane",
+          "2-bromopropane",
+          "1,2-dibromopropane",
+          "Propane"
+        ],
+        "answer": 1,
+        "explanation": "H adds to the terminal carbon (which already has more H's), placing Br on the middle carbon, forming the more stable secondary carbocation intermediate - giving 2-bromopropane."
+      },
+      "hard": {
+        "question": "Why does benzene undergo electrophilic substitution rather than addition reactions, unlike alkenes?",
+        "options": [
+          "Benzene has no pi electrons",
+          "Addition would destroy the delocalised aromatic pi system, which is highly stabilised; substitution preserves aromaticity",
+          "Benzene is not reactive at all",
+          "Benzene only reacts with nucleophiles"
+        ],
+        "answer": 1,
+        "explanation": "Benzene's 6 delocalised pi electrons give it substantial resonance/aromatic stabilisation energy; addition reactions would break this aromatic system, so substitution (which restores aromaticity after the reaction) is strongly favoured."
+      },
+      "jee_main": {
+        "question": "Anti-Markovnikov addition of HBr to propene occurs in the presence of:",
+        "options": [
+          "Peroxides (free-radical mechanism)",
+          "H2SO4",
+          "NaOH",
+          "Water"
+        ],
+        "answer": 0,
+        "explanation": "Peroxides initiate a free-radical chain mechanism (the 'peroxide effect') that reverses the usual Markovnikov regiochemistry, giving 1-bromopropane as the major product with HBr specifically."
+      },
+      "jee_advanced": {
+        "question": "Ozonolysis of an alkene X (C5H10) gives only acetone (CH3-CO-CH3) and acetaldehyde (CH3-CHO) as products. What is the structure of X?",
+        "options": [
+          "(CH3)2C=CH-CH3",
+          "CH2=CH-CH2-CH2-CH3",
+          "CH3-CH=CH-CH2-CH3",
+          "(CH3)2CH-CH=CH2"
+        ],
+        "answer": 0,
+        "explanation": "Ozonolysis cleaves the C=C bond, replacing each side with C=O. To get acetone (CH3)2C=O and acetaldehyde CH3CH=O, the original alkene must be (CH3)2C=CH-CH3, i.e. 2-methyl-2-butene."
+      }
+    }
+  },
+  {
+    "note_id": 13,
+    "class_level": "Class 11",
+    "chapter": "Environmental Chemistry",
+    "questions": {
+      "easy": {
+        "question": "Which gas is primarily responsible for the depletion of the ozone layer?",
+        "options": [
+          "Carbon dioxide",
+          "Chlorofluorocarbons (CFCs)",
+          "Nitrogen",
+          "Oxygen"
+        ],
+        "answer": 1,
+        "explanation": "CFCs release chlorine free radicals under UV radiation in the stratosphere, which catalytically destroy ozone molecules."
+      },
+      "medium": {
+        "question": "What does a high BOD (Biochemical Oxygen Demand) value indicate about a water sample?",
+        "options": [
+          "The water is very pure",
+          "The water has high organic pollutant content",
+          "The water has high dissolved oxygen",
+          "The water is free of microbes"
+        ],
+        "answer": 1,
+        "explanation": "A high BOD means microorganisms need more oxygen to decompose the organic matter present, indicating heavy organic pollution."
+      },
+      "hard": {
+        "question": "Explain why chlorine radicals are described as 'catalytic' in ozone depletion.",
+        "options": [
+          "They are consumed permanently after destroying one ozone molecule",
+          "A single Cl radical is regenerated after reacting with ozone and atomic oxygen, so it can destroy thousands of O3 molecules repeatedly",
+          "Chlorine radicals do not react with ozone at all",
+          "They only react with oxygen, not ozone"
+        ],
+        "answer": 1,
+        "explanation": "Cl + O3 -> ClO + O2, then ClO + O -> Cl + O2 regenerates the chlorine radical, allowing one Cl atom to destroy many thousands of ozone molecules in a chain reaction."
+      },
+      "jee_main": {
+        "question": "Photochemical smog is characterised by the presence of which of the following?",
+        "options": [
+          "SO2 and soot",
+          "Ozone, PAN, and NOx under sunlight",
+          "CO2 only",
+          "Water vapour only"
+        ],
+        "answer": 1,
+        "explanation": "Photochemical smog forms when NOx and unburnt hydrocarbons react under sunlight to produce secondary pollutants including ozone and peroxyacetyl nitrate (PAN)."
+      },
+      "jee_advanced": {
+        "question": "Normal rainwater has a pH of about 5.6 due to dissolved CO2 forming carbonic acid. Rain is classified as 'acid rain' when its pH drops below approximately:",
+        "options": [
+          "7.0",
+          "6.5",
+          "5.6",
+          "5.0"
+        ],
+        "answer": 2,
+        "explanation": "Since natural, unpolluted rainwater already has a pH of about 5.6 from dissolved CO2, rain is termed 'acid rain' when SO2/NOx pollution drives its pH below this natural 5.6 baseline."
+      }
+    }
+  },
+  {
+    "note_id": 14,
+    "class_level": "Class 12",
+    "chapter": "Solid State",
+    "questions": {
+      "easy": {
+        "question": "Which of the following is an example of an amorphous solid?",
+        "options": [
+          "Diamond",
+          "Sodium chloride",
+          "Glass",
+          "Quartz"
+        ],
+        "answer": 2,
+        "explanation": "Glass lacks long-range order in its structure and softens gradually over a temperature range, making it amorphous rather than crystalline."
+      },
+      "medium": {
+        "question": "How many atoms are present per unit cell in a body-centred cubic (BCC) lattice?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "BCC has 8 corner atoms (each contributing 1/8) plus 1 body-centre atom (full contribution): 8x(1/8) + 1 = 2 atoms per unit cell."
+      },
+      "hard": {
+        "question": "Which point defect does NOT change the density of a crystal?",
+        "options": [
+          "Schottky defect",
+          "Frenkel defect",
+          "Vacancy defect",
+          "Metal excess defect due to missing anion"
+        ],
+        "answer": 1,
+        "explanation": "In a Frenkel defect, an ion is simply displaced from its lattice site to an interstitial site within the same crystal, so no mass leaves the crystal and density stays essentially unchanged."
+      },
+      "jee_main": {
+        "question": "A metal crystallises in an FCC lattice with edge length 'a'. What is the relationship between atomic radius r and a?",
+        "options": [
+          "r = a/2",
+          "r = a*sqrt(2)/4",
+          "r = a*sqrt(3)/4",
+          "r = a/4"
+        ],
+        "answer": 1,
+        "explanation": "In FCC, atoms touch along the face diagonal (length a*sqrt(2)), which equals 4r, so r = a*sqrt(2)/4."
+      },
+      "jee_advanced": {
+        "question": "A compound forms a CCP lattice of anions with cations occupying all octahedral voids. What is the simplest formula of the compound?",
+        "options": [
+          "AB2",
+          "AB",
+          "A2B",
+          "A2B3"
+        ],
+        "answer": 1,
+        "explanation": "In CCP, the number of octahedral voids equals the number of lattice points (anions). If all octahedral voids are filled by cations, cation:anion = 1:1, giving formula AB."
+      }
+    }
+  },
+  {
+    "note_id": 15,
+    "class_level": "Class 12",
+    "chapter": "Solutions",
+    "questions": {
+      "easy": {
+        "question": "Which colligative property is used to determine the molar mass of macromolecules like proteins?",
+        "options": [
+          "Boiling point elevation",
+          "Freezing point depression",
+          "Osmotic pressure",
+          "Relative lowering of vapour pressure"
+        ],
+        "answer": 2,
+        "explanation": "Osmotic pressure gives a measurable effect even at very low concentrations of large molecules, making it ideal for determining the molar mass of macromolecules like proteins."
+      },
+      "medium": {
+        "question": "A solution shows positive deviation from Raoult's law. What can be said about its solute-solvent interactions compared to solute-solute and solvent-solvent interactions?",
+        "options": [
+          "Solute-solvent interactions are stronger",
+          "Solute-solvent interactions are weaker",
+          "All interactions are equal",
+          "There are no intermolecular interactions"
+        ],
+        "answer": 1,
+        "explanation": "Positive deviation occurs when solute-solvent attractive forces are weaker than the original solute-solute/solvent-solvent forces, so molecules escape into vapour more easily, raising vapour pressure above the ideal value."
+      },
+      "hard": {
+        "question": "0.1 mol NaCl is dissolved in 1 kg water. Given Kf for water = 1.86 K kg/mol and assuming complete dissociation (i=2), what is the freezing point depression?",
+        "options": [
+          "0.186 K",
+          "0.372 K",
+          "1.86 K",
+          "0.093 K"
+        ],
+        "answer": 1,
+        "explanation": "Delta Tf = i x Kf x m = 2 x 1.86 x 0.1 = 0.372 K."
+      },
+      "jee_main": {
+        "question": "Which of the following pairs of liquids forms a maximum boiling point azeotrope?",
+        "options": [
+          "Ethanol-water",
+          "Acetone-carbon disulphide",
+          "Chloroform-acetone (with negative deviation)",
+          "n-hexane and n-heptane"
+        ],
+        "answer": 2,
+        "explanation": "Chloroform and acetone show strong H-bonding interaction (negative deviation from Raoult's law), lowering vapour pressure and raising boiling point, giving a maximum boiling azeotrope."
+      },
+      "jee_advanced": {
+        "question": "A 0.2 molal solution of a weak electrolyte AB shows a freezing point depression corresponding to a van't Hoff factor of 1.2. What is the approximate degree of dissociation (alpha) of AB?",
+        "options": [
+          "0.10",
+          "0.20",
+          "0.60",
+          "1.20"
+        ],
+        "answer": 1,
+        "explanation": "For AB dissociating into 2 ions, i = 1 + alpha (since n-1 = 1 for AB -> A+ + B-), so 1.2 = 1 + alpha, giving alpha = 0.2."
+      }
+    }
+  },
+  {
+    "note_id": 16,
+    "class_level": "Class 12",
+    "chapter": "Electrochemistry",
+    "questions": {
+      "easy": {
+        "question": "In a galvanic cell, oxidation occurs at the:",
+        "options": [
+          "Cathode",
+          "Anode",
+          "Salt bridge",
+          "External circuit"
+        ],
+        "answer": 1,
+        "explanation": "By convention, oxidation always occurs at the anode and reduction at the cathode, regardless of cell type (galvanic or electrolytic)."
+      },
+      "medium": {
+        "question": "For the cell Zn | Zn2+ || Cu2+ | Cu, given E-standard(Cu2+/Cu) = +0.34 V and E-standard(Zn2+/Zn) = -0.76 V, what is the standard cell EMF?",
+        "options": [
+          "0.42 V",
+          "1.10 V",
+          "-0.42 V",
+          "-1.10 V"
+        ],
+        "answer": 1,
+        "explanation": "Ecell = E(cathode) - E(anode) = E(Cu2+/Cu) - E(Zn2+/Zn) = 0.34 - (-0.76) = 1.10 V."
+      },
+      "hard": {
+        "question": "Using the Nernst equation, how does increasing the concentration of Zn2+ ions affect the EMF of the cell Zn | Zn2+ || Cu2+ | Cu (Zn is the anode)?",
+        "options": [
+          "EMF increases",
+          "EMF decreases",
+          "No effect on EMF",
+          "EMF becomes zero"
+        ],
+        "answer": 1,
+        "explanation": "Increasing [Zn2+] (a product of the anode's oxidation reaction, appearing in Q) increases Q, and since E = E-standard - (0.0591/n) log Q, a larger Q lowers the cell EMF."
+      },
+      "jee_main": {
+        "question": "How much charge (in Faradays) is required to deposit 1 mole of Al from Al2O3 by electrolysis (Al3+ + 3e- -> Al)?",
+        "options": [
+          "1 F",
+          "2 F",
+          "3 F",
+          "6 F"
+        ],
+        "answer": 2,
+        "explanation": "Each Al3+ ion requires 3 electrons to be reduced to Al, so depositing 1 mole of Al requires 3 Faradays of charge."
+      },
+      "jee_advanced": {
+        "question": "A current of 2 A is passed through molten CuSO4 for 1930 seconds. Calculate the mass of copper deposited (Cu = 63.5 g/mol, F = 96500 C/mol).",
+        "options": [
+          "0.635 g",
+          "1.27 g",
+          "0.318 g",
+          "2.54 g"
+        ],
+        "answer": 1,
+        "explanation": "Charge Q = It = 2 x 1930 = 3860 C. Moles of electrons = 3860/96500 = 0.04. Since Cu2+ needs 2 electrons per Cu, moles Cu = 0.02, mass = 0.02 x 63.5 = 1.27 g."
+      }
+    }
+  },
+  {
+    "note_id": 17,
+    "class_level": "Class 12",
+    "chapter": "Chemical Kinetics",
+    "questions": {
+      "easy": {
+        "question": "For a first-order reaction, what happens to the half-life as the reaction proceeds?",
+        "options": [
+          "It increases",
+          "It decreases",
+          "It remains constant",
+          "It becomes zero"
+        ],
+        "answer": 2,
+        "explanation": "A defining feature of first-order kinetics is that half-life t1/2 = 0.693/k is independent of the initial concentration and stays constant throughout the reaction."
+      },
+      "medium": {
+        "question": "For a reaction, doubling the concentration of reactant A doubles the rate, while doubling [B] has no effect. What is the order of reaction with respect to A and B respectively?",
+        "options": [
+          "1, 0",
+          "0, 1",
+          "1, 1",
+          "2, 0"
+        ],
+        "answer": 0,
+        "explanation": "Rate directly proportional to [A] means the reaction is first order in A; no change with [B] means zero order in B."
+      },
+      "hard": {
+        "question": "The rate constant of a reaction is 2 x 10^-3 s^-1 at 300K. Using the Arrhenius equation qualitatively, what happens to k if temperature is increased to 310K (typical Ea around 50 kJ/mol)?",
+        "options": [
+          "k roughly doubles",
+          "k decreases significantly",
+          "k stays exactly the same",
+          "k becomes zero"
+        ],
+        "answer": 0,
+        "explanation": "A common rule of thumb (consistent with the Arrhenius equation for typical activation energies) is that reaction rate roughly doubles for every 10K rise in temperature."
+      },
+      "jee_main": {
+        "question": "A first-order reaction has a rate constant of 0.0693 min^-1. What is its half-life?",
+        "options": [
+          "5 min",
+          "10 min",
+          "15 min",
+          "20 min"
+        ],
+        "answer": 1,
+        "explanation": "t1/2 = 0.693/k = 0.693/0.0693 = 10 minutes."
+      },
+      "jee_advanced": {
+        "question": "For a reaction A -> products, the rate constant doubles when temperature increases from 300K to 310K. Calculate the activation energy Ea (R = 8.314 J/K/mol, ln2 = 0.693).",
+        "options": [
+          "Approximately 53.6 kJ/mol",
+          "Approximately 26.8 kJ/mol",
+          "Approximately 8.314 kJ/mol",
+          "Approximately 100 kJ/mol"
+        ],
+        "answer": 0,
+        "explanation": "Using ln(k2/k1) = (Ea/R)(1/T1 - 1/T2): ln2 = (Ea/8.314)(1/300 - 1/310) = (Ea/8.314)(1.075x10^-4). Ea = 0.693 x 8.314 / 1.075x10^-4 approx = 53,600 J/mol = 53.6 kJ/mol."
+      }
+    }
+  },
+  {
+    "note_id": 18,
+    "class_level": "Class 12",
+    "chapter": "Surface Chemistry",
+    "questions": {
+      "easy": {
+        "question": "What is the size range of colloidal particles?",
+        "options": [
+          "Less than 1 nm",
+          "1 nm to 1000 nm",
+          "More than 1000 nm",
+          "Exactly 1 mm"
+        ],
+        "answer": 1,
+        "explanation": "Colloidal particles have diameters roughly between 1 nm and 1000 nm, intermediate between true solutions (<1nm) and coarse suspensions (>1000nm)."
+      },
+      "medium": {
+        "question": "Which type of adsorption is characterised by monolayer coverage and high specificity (like a chemical bond)?",
+        "options": [
+          "Physisorption",
+          "Chemisorption",
+          "Both equally",
+          "Neither"
+        ],
+        "answer": 1,
+        "explanation": "Chemisorption involves strong chemical bond formation between adsorbate and adsorbent, restricted to a single monolayer, and is highly specific."
+      },
+      "hard": {
+        "question": "According to the Hardy-Schulze rule, which ion would be most effective at coagulating a negatively charged As2S3 sol?",
+        "options": [
+          "Na+",
+          "Mg2+",
+          "Al3+",
+          "K+"
+        ],
+        "answer": 2,
+        "explanation": "For coagulating a negatively charged sol, cations are effective, and coagulating power increases sharply with charge; Al3+ (charge +3) is far more effective than Mg2+ (+2) or Na+/K+ (+1)."
+      },
+      "jee_main": {
+        "question": "In the Freundlich adsorption isotherm x/m = kP^(1/n), what does a value of n>1 typically indicate?",
+        "options": [
+          "Adsorption is unfavourable and does not occur",
+          "The relationship between adsorption and pressure is valid within a certain pressure range",
+          "Adsorption is independent of pressure",
+          "Chemisorption is occurring exclusively"
+        ],
+        "answer": 1,
+        "explanation": "The Freundlich isotherm is empirical and valid only over an intermediate pressure range; n>1 is the normal experimentally observed condition for physical adsorption of gases on solids."
+      },
+      "jee_advanced": {
+        "question": "Why does the addition of a small amount of FeCl3 to a large amount of water produce a colloidal sol of Fe(OH)3 rather than a precipitate?",
+        "options": [
+          "FeCl3 hydrolyses completely and the resulting Fe(OH)3 particles aggregate to colloidal size before precipitating, stabilised by adsorbed Fe3+ ions giving them a positive charge that prevents further aggregation",
+          "FeCl3 does not react with water at all",
+          "Fe(OH)3 is always a true solution",
+          "The reaction produces no Fe(OH)3"
+        ],
+        "answer": 0,
+        "explanation": "Controlled hydrolysis of FeCl3 in excess hot water produces Fe(OH)3 particles that aggregate only to colloidal dimensions; these particles preferentially adsorb Fe3+ ions from solution, acquiring a positive surface charge whose mutual repulsion prevents further growth into a bulk precipitate."
+      }
+    }
+  },
+  {
+    "note_id": 19,
+    "class_level": "Class 12",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "questions": {
+      "easy": {
+        "question": "What is the process of heating an ore strongly in the presence of excess air called?",
+        "options": [
+          "Calcination",
+          "Roasting",
+          "Smelting",
+          "Electrolysis"
+        ],
+        "answer": 1,
+        "explanation": "Roasting is heating a sulphide ore strongly in excess air/oxygen, converting it to the oxide and driving off SO2."
+      },
+      "medium": {
+        "question": "Which method of ore concentration is most suitable for sulphide ores?",
+        "options": [
+          "Froth flotation",
+          "Magnetic separation",
+          "Hydraulic washing",
+          "Leaching"
+        ],
+        "answer": 0,
+        "explanation": "Froth flotation exploits the preferential wetting of sulphide ore particles by oil/collector (making them float in froth) versus gangue, which is wetted by water and sinks."
+      },
+      "hard": {
+        "question": "According to the Ellingham diagram, why can carbon reduce most metal oxides at sufficiently high temperature?",
+        "options": [
+          "Carbon's oxide-formation line (for CO) has a negative slope, so it becomes more negative (more favourable) as temperature rises, eventually falling below most metal oxide lines",
+          "Carbon reacts violently at room temperature with all oxides",
+          "Carbon is a metal",
+          "Carbon's line is always above every metal's line"
+        ],
+        "answer": 0,
+        "explanation": "Since 2C + O2 -> 2CO increases the number of gas moles, its Delta S is large and positive, making its Delta G line slope downward with increasing temperature - it eventually crosses below most metal oxide lines, allowing carbon to become an effective high-temperature reducing agent."
+      },
+      "jee_main": {
+        "question": "Which of the following metals is typically extracted by electrolytic reduction rather than carbon reduction?",
+        "options": [
+          "Iron",
+          "Zinc",
+          "Aluminium",
+          "Lead"
+        ],
+        "answer": 2,
+        "explanation": "Aluminium is highly reactive (high in the reactivity series) and its oxide cannot be reduced by carbon economically, so it is extracted by electrolysis of molten alumina dissolved in cryolite (Hall-Heroult process)."
+      },
+      "jee_advanced": {
+        "question": "In the extraction of copper, why is the process sometimes called 'self-reduction' or 'auto-reduction'?",
+        "options": [
+          "Because Cu2O and Cu2S react with each other in the absence of an external reducing agent to liberate free copper",
+          "Because copper reduces itself using electricity only",
+          "Because no roasting is required at all",
+          "Because carbon is the only reducing agent used"
+        ],
+        "answer": 0,
+        "explanation": "During smelting of copper ore, partial roasting converts some Cu2S to Cu2O; these two then react together (Cu2S + 2Cu2O -> 6Cu + SO2) without needing an external chemical reducing agent - hence 'self-reduction'."
+      }
+    }
+  },
+  {
+    "note_id": 20,
+    "class_level": "Class 12",
+    "chapter": "The p-Block Elements (Groups 15-18)",
+    "questions": {
+      "easy": {
+        "question": "Which allotrope of phosphorus is more reactive and poisonous?",
+        "options": [
+          "Red phosphorus",
+          "White phosphorus",
+          "Black phosphorus",
+          "All are equally reactive"
+        ],
+        "answer": 1,
+        "explanation": "White phosphorus is a discrete P4 tetrahedral molecule under strain, making it highly reactive and toxic, unlike the more stable polymeric red and black forms."
+      },
+      "medium": {
+        "question": "Why does nitrogen (N2) exist as a highly stable, relatively unreactive gas compared to phosphorus?",
+        "options": [
+          "N2 has a weak single bond",
+          "N2 has a strong N-triple-bond-N due to effective pi overlap between small 2p orbitals",
+          "Nitrogen has no lone pairs",
+          "Nitrogen is a noble gas"
+        ],
+        "answer": 1,
+        "explanation": "Nitrogen's small atomic size allows effective sideways overlap of 2p orbitals, forming a very strong triple bond (one sigma, two pi), making N2 kinetically and thermodynamically very stable/inert."
+      },
+      "hard": {
+        "question": "Arrange the oxoacids of chlorine in increasing order of acid strength: HOCl, HOClO, HOClO2, HOClO3.",
+        "options": [
+          "HOClO3 < HOClO2 < HOClO < HOCl",
+          "HOCl < HOClO < HOClO2 < HOClO3",
+          "All are equally acidic",
+          "HOClO2 < HOCl < HOClO3 < HOClO"
+        ],
+        "answer": 1,
+        "explanation": "Acid strength increases with the number of oxygen atoms bonded to chlorine, since more O atoms withdraw electron density and stabilise the negative charge on the conjugate base: HOCl < HOClO < HOClO2 < HOClO3 (perchloric acid is strongest)."
+      },
+      "jee_main": {
+        "question": "Which noble gas compound has a square planar molecular geometry?",
+        "options": [
+          "XeF2",
+          "XeF4",
+          "XeF6",
+          "XeO3"
+        ],
+        "answer": 1,
+        "explanation": "XeF4 has 4 bond pairs and 2 lone pairs (sp3d2 hybridisation), giving a square planar molecular shape with the lone pairs occupying axial positions."
+      },
+      "jee_advanced": {
+        "question": "In the Contact process for manufacturing H2SO4, SO2 is catalytically oxidised to SO3 using V2O5 as catalyst. Why is this step carried out at a moderate temperature (around 720K) rather than a much higher temperature?",
+        "options": [
+          "The reaction is exothermic and reversible; high temperature favours the reverse reaction (Le Chatelier), lowering SO3 yield despite faster kinetics",
+          "V2O5 melts at high temperature",
+          "SO2 decomposes only at high temperature",
+          "There is no thermodynamic reason, only cost"
+        ],
+        "answer": 0,
+        "explanation": "2SO2 + O2 <-> 2SO3 is exothermic; by Le Chatelier's principle, high temperature shifts equilibrium backward (lowering SO3 yield). A moderate temperature with a catalyst balances a reasonably fast rate against a still-favourable equilibrium position."
+      }
+    }
+  },
+  {
+    "note_id": 21,
+    "class_level": "Class 12",
+    "chapter": "The d and f Block Elements",
+    "questions": {
+      "easy": {
+        "question": "Why are many transition metal compounds coloured?",
+        "options": [
+          "Because of s-s electronic transitions",
+          "Because of d-d electronic transitions absorbing visible light",
+          "Because they are always magnetic",
+          "Because they contain oxygen"
+        ],
+        "answer": 1,
+        "explanation": "Partially filled d-orbitals allow electrons to absorb specific wavelengths of visible light and jump between split d-orbital energy levels, and the complementary colour is what we observe."
+      },
+      "medium": {
+        "question": "Which of the following ions is expected to be colourless?",
+        "options": [
+          "Ti3+ (d1)",
+          "Mn2+ (d5)",
+          "Sc3+ (d0)",
+          "Fe3+ (d5)"
+        ],
+        "answer": 2,
+        "explanation": "Sc3+ has a d0 configuration (no d electrons at all), so no d-d electronic transition is possible, making it colourless (unlike ions with partially filled d subshells)."
+      },
+      "hard": {
+        "question": "What causes the lanthanoid contraction, and what is one major consequence?",
+        "options": [
+          "Poor shielding by 4f electrons causes steadily decreasing size across the lanthanoid series; a consequence is that second and third row transition elements of the same group have very similar atomic radii",
+          "Strong shielding by 4f electrons increases atomic size across the series; consequence is increasing reactivity",
+          "It only affects actinoids, not d-block elements",
+          "It has no effect on transition metal chemistry"
+        ],
+        "answer": 0,
+        "explanation": "4f orbitals shield the nuclear charge poorly, so effective nuclear charge rises steadily across the lanthanoid series, contracting atomic/ionic size; this makes elements like Zr (period 5) and Hf (period 6) nearly identical in size and chemically very similar, complicating their separation."
+      },
+      "jee_main": {
+        "question": "Calculate the magnetic moment of Mn2+ (d5, high spin, 5 unpaired electrons) using the spin-only formula.",
+        "options": [
+          "1.73 BM",
+          "3.87 BM",
+          "5.92 BM",
+          "4.90 BM"
+        ],
+        "answer": 2,
+        "explanation": "mu = sqrt(n(n+2)) BM = sqrt(5x7) = sqrt(35) = 5.92 BM, for n=5 unpaired electrons."
+      },
+      "jee_advanced": {
+        "question": "Which of the following best explains why Mn shows the maximum number of oxidation states among first-row transition metals (from +2 to +7)?",
+        "options": [
+          "Mn has a fully filled d-subshell",
+          "Mn (3d5 4s2) has exactly half-filled d and filled s subshells, and all its electrons (5 d + 2 s) can be progressively involved in bonding, giving the widest range of accessible oxidation states",
+          "Mn has the largest atomic radius in the series",
+          "Mn is not a transition metal"
+        ],
+        "answer": 1,
+        "explanation": "With electronic configuration 3d5 4s2, Mn can lose electrons progressively from both subshells (its half-filled d5 offers extra stability at +2, but all 7 valence electrons can in principle be involved in bonding), giving it the broadest oxidation state range (+2 to +7) of any first-series transition metal."
+      }
+    }
+  },
+  {
+    "note_id": 22,
+    "class_level": "Class 12",
+    "chapter": "Coordination Compounds",
+    "questions": {
+      "easy": {
+        "question": "In the complex [Co(NH3)6]Cl3, what is the coordination number of cobalt?",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "Six NH3 ligands are directly bonded to the central Co ion, giving a coordination number of 6."
+      },
+      "medium": {
+        "question": "Which of the following is a strong field ligand that typically causes pairing of electrons (low spin complex)?",
+        "options": [
+          "I-",
+          "H2O",
+          "CN-",
+          "Cl-"
+        ],
+        "answer": 2,
+        "explanation": "CN- lies near the strong end of the spectrochemical series, producing large crystal field splitting that favours electron pairing (low-spin complexes)."
+      },
+      "hard": {
+        "question": "[CoF6]3- is paramagnetic and high-spin while [Co(NH3)6]3+ is diamagnetic and low-spin, though both contain Co3+ (d6). Explain why.",
+        "options": [
+          "F- is a weak field ligand causing small splitting (electrons stay unpaired, high spin), while NH3 is a stronger field ligand causing large splitting (electrons pair up, low spin)",
+          "F- and NH3 cause identical splitting",
+          "Co3+ has different d-electron counts in each complex",
+          "Diamagnetism only depends on ligand charge, not field strength"
+        ],
+        "answer": 0,
+        "explanation": "Crystal field splitting energy depends on ligand field strength; F- (weak field) gives small Delta-o so electrons occupy all 5 d-orbitals singly before pairing (high spin, paramagnetic), while NH3 (stronger field) gives large Delta-o so electrons pair up in the lower t2g set first (low spin, diamagnetic for d6)."
+      },
+      "jee_main": {
+        "question": "What is the IUPAC name of [Cu(NH3)4]SO4?",
+        "options": [
+          "Tetraamminecopper(II) sulphate",
+          "Copper tetraammine sulphate(II)",
+          "Tetraamminecuprate(II) sulphate",
+          "Ammonium copper sulphate"
+        ],
+        "answer": 0,
+        "explanation": "Ligands (ammine) are named first alphabetically with multiplying prefix (tetra-), followed by the metal name with oxidation state in Roman numerals, then the anion: tetraamminecopper(II) sulphate."
+      },
+      "jee_advanced": {
+        "question": "Calculate the crystal field stabilisation energy (CFSE) for a low-spin d6 octahedral complex (in terms of Delta-o), ignoring pairing energy.",
+        "options": [
+          "-0.4 Delta-o",
+          "-2.4 Delta-o",
+          "-1.2 Delta-o",
+          "-0.6 Delta-o"
+        ],
+        "answer": 1,
+        "explanation": "For low-spin d6, all 6 electrons occupy the lower t2g set (each t2g electron contributes -0.4 Delta-o): 6 x (-0.4 Delta-o) = -2.4 Delta-o."
+      }
+    }
+  },
+  {
+    "note_id": 23,
+    "class_level": "Class 12",
+    "chapter": "Haloalkanes and Haloarenes",
+    "questions": {
+      "easy": {
+        "question": "Which mechanism typically proceeds via a carbocation intermediate?",
+        "options": [
+          "SN1",
+          "SN2",
+          "E2",
+          "Both SN1 and SN2 equally"
+        ],
+        "answer": 0,
+        "explanation": "SN1 (substitution nucleophilic unimolecular) proceeds in two steps, the first being ionisation to form a carbocation intermediate."
+      },
+      "medium": {
+        "question": "Why is chlorobenzene less reactive than chloroethane towards nucleophilic substitution?",
+        "options": [
+          "Chlorobenzene has a stronger C-Cl bond due to partial double bond character from resonance with the ring, and the ring's electron density repels nucleophiles",
+          "Chlorobenzene has no chlorine atom",
+          "Chloroethane is aromatic",
+          "There is no difference in reactivity"
+        ],
+        "answer": 0,
+        "explanation": "In chlorobenzene, a lone pair on Cl delocalises into the aromatic ring giving the C-Cl bond partial double bond character (shorter, stronger bond), and the electron-rich ring also repels incoming nucleophiles - both factors sharply reduce reactivity compared to sp3 C-Cl in chloroethane."
+      },
+      "hard": {
+        "question": "Which product predominates when tertiary butyl bromide reacts with a strong, bulky base like potassium tert-butoxide?",
+        "options": [
+          "SN1 substitution product predominates",
+          "E2 elimination product (alkene) predominates due to steric hindrance preventing substitution",
+          "SN2 substitution product predominates",
+          "No reaction occurs"
+        ],
+        "answer": 1,
+        "explanation": "A strong, bulky base cannot easily approach the crowded tertiary carbon for substitution, so it preferentially abstracts a beta-hydrogen, favouring E2 elimination to give the alkene as the major product."
+      },
+      "jee_main": {
+        "question": "An SN2 reaction on a chiral secondary haloalkane proceeds with:",
+        "options": [
+          "Retention of configuration",
+          "Inversion of configuration (Walden inversion)",
+          "Racemisation",
+          "No change in optical activity"
+        ],
+        "answer": 1,
+        "explanation": "SN2 is a concerted, one-step backside attack, which flips the stereochemistry at the reacting carbon - known as Walden inversion."
+      },
+      "jee_advanced": {
+        "question": "Which of the following haloalkanes would react fastest via the SN1 mechanism in aqueous ethanol?",
+        "options": [
+          "CH3Cl",
+          "CH3CH2Cl",
+          "(CH3)3CCl",
+          "CH3CH2CH2Cl"
+        ],
+        "answer": 2,
+        "explanation": "SN1 rate depends on carbocation stability; (CH3)3CCl forms a tertiary carbocation (most stable via hyperconjugation/inductive effect from 3 methyl groups), making it react fastest by SN1 among these options."
+      }
+    }
+  },
+  {
+    "note_id": 24,
+    "class_level": "Class 12",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "questions": {
+      "easy": {
+        "question": "Why is phenol more acidic than ethanol?",
+        "options": [
+          "Phenol has more carbon atoms",
+          "The phenoxide ion is stabilised by resonance delocalisation into the aromatic ring",
+          "Ethanol has a stronger O-H bond only due to size",
+          "Phenol is a gas at room temperature"
+        ],
+        "answer": 1,
+        "explanation": "When phenol loses H+, the resulting phenoxide ion's negative charge is delocalised into the aromatic ring via resonance, stabilising it far more than the localised charge on an ethoxide ion."
+      },
+      "medium": {
+        "question": "Which reagent test can distinguish primary, secondary, and tertiary alcohols based on the speed of turbidity formation?",
+        "options": [
+          "Tollens' test",
+          "Lucas test (conc. HCl + ZnCl2)",
+          "Fehling's test",
+          "Iodoform test only"
+        ],
+        "answer": 1,
+        "explanation": "The Lucas test relies on the rate of SN1 substitution (carbocation stability): tertiary alcohols react instantly (immediate turbidity), secondary within minutes, primary very slowly."
+      },
+      "hard": {
+        "question": "In Williamson's ether synthesis, why is a primary haloalkane preferred over a tertiary haloalkane when reacting with sodium alkoxide?",
+        "options": [
+          "Tertiary haloalkanes are too expensive",
+          "The reaction proceeds by SN2; a bulky tertiary substrate favours E2 elimination over substitution due to steric hindrance and the strongly basic alkoxide",
+          "Primary haloalkanes do not react at all",
+          "Tertiary haloalkanes cannot form ethers under any condition"
+        ],
+        "answer": 1,
+        "explanation": "Williamson synthesis is an SN2 reaction; with a bulky tertiary haloalkane, the strongly basic/nucleophilic alkoxide instead favours E2 elimination (forming an alkene) rather than backside attack, so primary haloalkanes give much better ether yields."
+      },
+      "jee_main": {
+        "question": "The Reimer-Tiemann reaction converts phenol into which major product?",
+        "options": [
+          "Salicylaldehyde (ortho-hydroxybenzaldehyde)",
+          "Salicylic acid directly",
+          "Benzaldehyde",
+          "Picric acid"
+        ],
+        "answer": 0,
+        "explanation": "The Reimer-Tiemann reaction treats phenol with CHCl3/NaOH, generating a dichlorocarbene electrophile that substitutes predominantly at the ortho position, and hydrolysis gives salicylaldehyde."
+      },
+      "jee_advanced": {
+        "question": "Anisole (methoxybenzene) reacts with excess HI to give which products?",
+        "options": [
+          "Phenol and methanol",
+          "Iodobenzene and methanol",
+          "Phenol and methyl iodide",
+          "No reaction occurs"
+        ],
+        "answer": 2,
+        "explanation": "Cleavage of the aryl-alkyl ether by HI proceeds via SN2 attack of iodide on the less hindered alkyl (methyl) carbon (aryl C-O bonds resist SN2/SN1 cleavage due to partial double bond character), giving phenol and methyl iodide."
+      }
+    }
+  },
+  {
+    "note_id": 25,
+    "class_level": "Class 12",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "questions": {
+      "easy": {
+        "question": "Which test gives a silver mirror with aldehydes but not ketones?",
+        "options": [
+          "Fehling's test",
+          "Tollens' test",
+          "Iodoform test",
+          "Lucas test"
+        ],
+        "answer": 1,
+        "explanation": "Tollens' reagent ([Ag(NH3)2]+) oxidises aldehydes to carboxylate while Ag+ is reduced to metallic silver, depositing as a mirror on the test tube; ketones do not reduce Tollens' reagent."
+      },
+      "medium": {
+        "question": "Why is trichloroacetic acid (Cl3C-COOH) a much stronger acid than acetic acid (CH3-COOH)?",
+        "options": [
+          "The three electronegative Cl atoms withdraw electron density (-I effect), stabilising the carboxylate conjugate base",
+          "Chlorine donates electrons to the carboxyl group",
+          "Trichloroacetic acid has no O-H bond",
+          "There is no difference in acid strength"
+        ],
+        "answer": 0,
+        "explanation": "The three strongly electronegative chlorine atoms exert a powerful -I (inductive electron-withdrawing) effect, stabilising the negative charge on the conjugate base and greatly increasing acid strength compared to acetic acid."
+      },
+      "hard": {
+        "question": "Formaldehyde (HCHO) reacts with concentrated NaOH to give methanol and sodium formate. What is this reaction called and why does it occur specifically for HCHO?",
+        "options": [
+          "Aldol condensation; occurs because HCHO has alpha hydrogens",
+          "Cannizzaro reaction; occurs because HCHO has no alpha hydrogen, so self-disproportionation (one molecule oxidised, one reduced) occurs instead of aldol condensation",
+          "Clemmensen reduction; occurs due to zinc amalgam",
+          "Wolff-Kishner reduction"
+        ],
+        "answer": 1,
+        "explanation": "Since HCHO has no alpha-hydrogen, it cannot undergo aldol condensation; instead, under concentrated base, one molecule is oxidised to formate while another is reduced to methanol - the Cannizzaro reaction."
+      },
+      "jee_main": {
+        "question": "Which of the following carboxylic acids is the strongest acid?",
+        "options": [
+          "CH3COOH",
+          "ClCH2COOH",
+          "Cl2CHCOOH",
+          "Cl3CCOOH"
+        ],
+        "answer": 3,
+        "explanation": "Acid strength increases with the number of electron-withdrawing chlorine atoms on the alpha carbon (cumulative -I effect); trichloroacetic acid (3 Cl atoms) is the strongest among these."
+      },
+      "jee_advanced": {
+        "question": "Which compound would give a positive iodoform test?",
+        "options": [
+          "CH3-CH2-OH (ethanol)",
+          "CH3-CH(OH)-CH3 (isopropanol)",
+          "CH3-CH2-CH2-OH (1-propanol)",
+          "C6H5-CH2-OH (benzyl alcohol)"
+        ],
+        "answer": 1,
+        "explanation": "Isopropanol (a secondary alcohol with a methyl group adjacent to the OH-bearing carbon) is oxidised to acetone (a methyl ketone), which gives a positive iodoform test; ethanol also gives a positive test (CH3CH2OH has the CH3-CH(OH)- pattern) but among these specific options isopropanol is the clear methyl-ketone-forming secondary alcohol."
+      }
+    }
+  },
+  {
+    "note_id": 26,
+    "class_level": "Class 12",
+    "chapter": "Amines",
+    "questions": {
+      "easy": {
+        "question": "Amines are classified as primary, secondary, or tertiary based on:",
+        "options": [
+          "Number of carbon atoms in the molecule",
+          "Number of alkyl/aryl groups attached to the nitrogen atom",
+          "Number of hydrogen atoms in the molecule",
+          "Molecular weight"
+        ],
+        "answer": 1,
+        "explanation": "Unlike alcohols (classified by the carbon bearing OH), amines are classified by how many carbon substituents (alkyl/aryl) are directly attached to the nitrogen atom."
+      },
+      "medium": {
+        "question": "Why is aniline a weaker base than methylamine?",
+        "options": [
+          "Aniline has more carbon atoms, increasing +I effect",
+          "The lone pair on nitrogen in aniline is delocalised into the benzene ring, making it less available to accept a proton",
+          "Aniline does not contain nitrogen",
+          "Methylamine is aromatic"
+        ],
+        "answer": 1,
+        "explanation": "In aniline, resonance delocalises the nitrogen lone pair into the aromatic ring, reducing its electron density/availability for protonation, making aniline a much weaker base than aliphatic amines like methylamine."
+      },
+      "hard": {
+        "question": "Explain the unusual basicity order in water: secondary > primary > tertiary amines (for simple alkyl amines).",
+        "options": [
+          "Tertiary amines have the least +I effect",
+          "It's a balance of +I effect (increases with more alkyl groups, favouring tertiary) versus steric hindrance and reduced solvation of the bulky tertiary ammonium cation (which disfavours tertiary), with secondary striking the best balance",
+          "Tertiary amines are always non-basic",
+          "This order applies only in the gas phase"
+        ],
+        "answer": 1,
+        "explanation": "While more alkyl groups increase electron density on N via +I effect, they also sterically hinder both protonation and the solvation (hydrogen bonding) of the resulting ammonium ion in water; secondary amines balance these two competing effects best, giving the order 2-degree > 1-degree > 3-degree in aqueous solution."
+      },
+      "jee_main": {
+        "question": "Benzene diazonium chloride on treatment with CuCN gives which major product (Sandmeyer reaction)?",
+        "options": [
+          "Benzonitrile (C6H5CN)",
+          "Aniline",
+          "Chlorobenzene",
+          "Phenol"
+        ],
+        "answer": 0,
+        "explanation": "The Sandmeyer reaction replaces the diazonium group with a nucleophile delivered by a copper(I) salt; CuCN delivers -CN, giving benzonitrile."
+      },
+      "jee_advanced": {
+        "question": "Why must diazonium salts be prepared and used at low temperature (0-5C)?",
+        "options": [
+          "They are unreactive at higher temperature",
+          "Above this temperature range, diazonium salts decompose readily (e.g. releasing N2 and forming phenol with water, or via radical pathways), making them unstable for isolation or further reactions",
+          "Diazonium salts only form at low temperature due to solubility",
+          "Cold temperature increases their basicity"
+        ],
+        "answer": 1,
+        "explanation": "Diazonium salts are thermodynamically unstable and decompose above about 5C, often losing N2 gas and undergoing hydrolysis (e.g. to phenol) or other side reactions, so reactions using them (Sandmeyer, coupling, etc.) must be carried out in ice-cold conditions."
+      }
+    }
+  },
+  {
+    "note_id": 27,
+    "class_level": "Class 12",
+    "chapter": "Biomolecules",
+    "questions": {
+      "easy": {
+        "question": "Which of the following is a disaccharide?",
+        "options": [
+          "Glucose",
+          "Fructose",
+          "Sucrose",
+          "Cellulose"
+        ],
+        "answer": 2,
+        "explanation": "Sucrose is a disaccharide made of one glucose unit and one fructose unit joined by a glycosidic bond."
+      },
+      "medium": {
+        "question": "What is denaturation of a protein?",
+        "options": [
+          "Breaking of the primary amino acid sequence",
+          "Loss of secondary and tertiary structure (e.g. by heat or pH change) without breaking peptide bonds, resulting in loss of biological activity",
+          "Addition of new amino acids to the chain",
+          "Formation of a new protein entirely"
+        ],
+        "answer": 1,
+        "explanation": "Denaturation disrupts the hydrogen bonds and other weak interactions maintaining a protein's secondary/tertiary structure (its 'fold'), destroying biological activity, while the primary sequence of peptide bonds remains intact."
+      },
+      "hard": {
+        "question": "Why does glucose show mutarotation?",
+        "options": [
+          "Because glucose is not optically active",
+          "Because in solution, the cyclic alpha and beta anomeric forms interconvert through the open-chain aldehyde form, changing the observed optical rotation over time until equilibrium",
+          "Because glucose reacts with water to form a completely new compound",
+          "Mutarotation only occurs in fructose, not glucose"
+        ],
+        "answer": 1,
+        "explanation": "Freshly prepared solutions of pure alpha- or beta-D-glucose show a changing specific rotation over time as the ring opens and recloses, interconverting between the two anomeric forms until a constant equilibrium mixture (about 36% alpha, 64% beta) and rotation value is reached."
+      },
+      "jee_main": {
+        "question": "Which nitrogenous base is found in RNA but not in DNA?",
+        "options": [
+          "Adenine",
+          "Guanine",
+          "Thymine",
+          "Uracil"
+        ],
+        "answer": 3,
+        "explanation": "RNA contains uracil in place of thymine (which is found in DNA); uracil pairs with adenine similarly to how thymine does in DNA."
+      },
+      "jee_advanced": {
+        "question": "Why do amino acids exist predominantly as zwitterions rather than neutral molecules at physiological pH?",
+        "options": [
+          "Because they have no functional groups capable of ionising",
+          "Because the carboxylic acid group (-COOH, acidic) donates a proton to the amino group (-NH2, basic) within the same molecule, forming an internal salt (-COO- and -NH3+) that is more stable in a polar/aqueous environment",
+          "Because amino acids are never soluble in water",
+          "Because zwitterions have no net charge distribution at all"
+        ],
+        "answer": 1,
+        "explanation": "Amino acids contain both an acidic -COOH and a basic -NH2 group; intramolecular proton transfer converts these into -COO- and -NH3+, forming a dipolar zwitterion that is energetically favoured (especially in polar solvents like water), explaining amino acids' high melting points and water solubility."
+      }
+    }
+  },
+  {
+    "note_id": 28,
+    "class_level": "Class 12",
+    "chapter": "Polymers",
+    "questions": {
+      "easy": {
+        "question": "Which of the following is an example of a condensation polymer?",
+        "options": [
+          "Polyethylene",
+          "PVC",
+          "Nylon-6,6",
+          "Polystyrene"
+        ],
+        "answer": 2,
+        "explanation": "Nylon-6,6 is formed by condensation of hexamethylenediamine and adipic acid with elimination of water molecules, making it a condensation polymer."
+      },
+      "medium": {
+        "question": "What is the purpose of vulcanisation of rubber?",
+        "options": [
+          "To make rubber softer and stickier",
+          "To introduce sulphur cross-links between polymer chains, improving strength, elasticity, and temperature resistance",
+          "To remove all polymer chains",
+          "To convert rubber into a monomer"
+        ],
+        "answer": 1,
+        "explanation": "Heating natural rubber with sulphur creates disulphide cross-links between adjacent polyisoprene chains, greatly improving mechanical strength, elasticity, and resistance to temperature extremes compared to raw rubber."
+      },
+      "hard": {
+        "question": "Why is Bakelite classified as a cross-linked/network polymer rather than a linear one?",
+        "options": [
+          "It is formed from a single type of monomer only",
+          "Phenol-formaldehyde condensation can occur at multiple reactive positions on the phenol ring, creating a rigid three-dimensional network of cross-links",
+          "Bakelite has no covalent bonds",
+          "It is a natural polymer, not synthetic"
+        ],
+        "answer": 1,
+        "explanation": "Phenol has multiple positions (ortho and para) that can react with formaldehyde, so condensation proceeds in three dimensions rather than in a single chain, producing a rigid, infusible, cross-linked network structure characteristic of thermosetting polymers like Bakelite."
+      },
+      "jee_main": {
+        "question": "Which pair correctly matches monomer(s) to the polymer they form?",
+        "options": [
+          "Ethene -> Polyethylene",
+          "Styrene -> Nylon-6,6",
+          "Vinyl chloride -> Teflon",
+          "Tetrafluoroethene -> PVC"
+        ],
+        "answer": 0,
+        "explanation": "Polyethylene is formed by addition polymerisation of ethene (CH2=CH2) monomer units; the other pairings listed are mismatched (Teflon comes from tetrafluoroethene, PVC from vinyl chloride, nylon-6,6 from a diamine+diacid)."
+      },
+      "jee_advanced": {
+        "question": "Nylon-6 (a single-monomer condensation polymer, distinct from nylon-6,6) is prepared by the ring-opening polymerisation of which monomer?",
+        "options": [
+          "Adipic acid",
+          "Caprolactam",
+          "Hexamethylenediamine",
+          "Terephthalic acid"
+        ],
+        "answer": 1,
+        "explanation": "Nylon-6 is made by heating caprolactam (a cyclic amide with 6 carbons) which undergoes ring-opening polymerisation to form a linear polyamide, distinct from nylon-6,6 which requires two different monomers (a diamine and a diacid)."
+      }
+    }
+  },
+  {
+    "note_id": 29,
+    "class_level": "Class 12",
+    "chapter": "Chemistry in Everyday Life",
+    "questions": {
+      "easy": {
+        "question": "What is the main functional difference between an agonist and an antagonist drug?",
+        "options": [
+          "Agonists activate the receptor, antagonists block it without activating it",
+          "Both do exactly the same thing",
+          "Antagonists always kill bacteria",
+          "Agonists are always antibiotics"
+        ],
+        "answer": 0,
+        "explanation": "Agonists bind a receptor and trigger the same response as the natural messenger, while antagonists bind the receptor but block it, preventing the natural messenger from acting."
+      },
+      "medium": {
+        "question": "Why do synthetic detergents work better than soap in hard water?",
+        "options": [
+          "Detergents are always cheaper",
+          "The calcium/magnesium salts of detergents (sulphonates) remain soluble, unlike soap's calcium/magnesium salts which precipitate as an insoluble scum",
+          "Detergents contain no sulphur",
+          "Soap works better in hard water than detergents"
+        ],
+        "answer": 1,
+        "explanation": "Hard water contains Ca2+/Mg2+ ions; soap's fatty acid salts form an insoluble precipitate (scum) with these ions, reducing cleaning ability, while detergents' sulphonate salts of Ca2+/Mg2+ remain water-soluble, so detergents keep working."
+      },
+      "hard": {
+        "question": "Why are broad-spectrum antibiotics used with caution despite their wide range of effectiveness?",
+        "options": [
+          "They are always more expensive with no other issues",
+          "They can kill a wide range of both harmful and beneficial bacteria, potentially disrupting the body's normal microbial flora and promoting antibiotic resistance",
+          "They only work against viruses",
+          "They have no side effects, so caution is unnecessary"
+        ],
+        "answer": 1,
+        "explanation": "Broad-spectrum antibiotics act against a wide variety of bacterial species, including beneficial gut/body flora, which can lead to secondary infections and also contributes more readily to the development of antibiotic-resistant bacterial strains."
+      },
+      "jee_main": {
+        "question": "Which type of chemical relieves allergic reactions by blocking histamine receptors?",
+        "options": [
+          "Antacids",
+          "Antihistamines",
+          "Antibiotics",
+          "Antiseptics"
+        ],
+        "answer": 1,
+        "explanation": "Antihistamines competitively block histamine receptors, preventing histamine (released during allergic reactions) from producing symptoms like inflammation and itching."
+      },
+      "jee_advanced": {
+        "question": "Aspirin (acetylsalicylic acid) is classified as which type of drug based on its major pharmacological actions?",
+        "options": [
+          "Purely an antibiotic",
+          "An analgesic (pain relief), antipyretic (fever reduction), and anti-inflammatory drug",
+          "Purely an antacid",
+          "Purely an antihistamine"
+        ],
+        "answer": 1,
+        "explanation": "Aspirin inhibits cyclooxygenase enzymes involved in prostaglandin synthesis, giving it combined analgesic, antipyretic, and anti-inflammatory properties, and at low doses it is also used for its antiplatelet/blood-thinning effect."
+      }
+    }
+  }
+]

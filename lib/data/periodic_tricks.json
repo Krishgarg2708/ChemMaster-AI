@@ -1,0 +1,114 @@
+[
+  {
+    "id": "group1",
+    "title": "Group 1 — Alkali Metals",
+    "elements": "Li, Na, K, Rb, Cs, Fr",
+    "mnemonic_en": "Little Napoleon Konquered Rome, Boldly Conquering Frontiers",
+    "mnemonic_hi": "Laila Na Kar Rabya Se Fight (Li Na K Rb Cs Fr)",
+    "explanation": "First letters map to Li, Na, K, Rb, Cs, Fr in order down the group. All have 1 valence electron, are soft, highly reactive metals, and reactivity increases down the group."
+  },
+  {
+    "id": "group2",
+    "title": "Group 2 — Alkaline Earth Metals",
+    "elements": "Be, Mg, Ca, Sr, Ba, Ra",
+    "mnemonic_en": "Be My Cat, Sir Barium Rat",
+    "mnemonic_hi": "Be Mera Cutta, Sir Bada Rakshas (Be Mg Ca Sr Ba Ra)",
+    "explanation": "2 valence electrons each, form +2 ions. Reactivity and basic character of hydroxides increase down the group, while lattice energy decreases."
+  },
+  {
+    "id": "group13",
+    "title": "Group 13 — Boron Family",
+    "elements": "B, Al, Ga, In, Tl",
+    "mnemonic_en": "Boys Are Generally In Trouble",
+    "mnemonic_hi": "Bina Aloo Gali Idhar Tha (B Al Ga In Tl)",
+    "explanation": "Boron is a non-metal (electron deficient, forms covalent compounds); the rest are metals. Inert pair effect makes Tl(I) more stable than Tl(III)."
+  },
+  {
+    "id": "group14",
+    "title": "Group 14 — Carbon Family",
+    "elements": "C, Si, Ge, Sn, Pb",
+    "mnemonic_en": "Careless Silly Germans Snore Peacefully",
+    "mnemonic_hi": "Chuha Sona Ghar Sunta Pila (C Si Ge Sn Pb)",
+    "explanation": "Carbon uniquely catenates (long C-C chains) and forms strong pi bonds. Inert pair effect makes Pb(II) more stable than Pb(IV), the reverse of carbon's typical +4 preference."
+  },
+  {
+    "id": "group15",
+    "title": "Group 15 — Nitrogen Family (Pnictogens)",
+    "elements": "N, P, As, Sb, Bi",
+    "mnemonic_en": "Nitrogen Punches Astronauts, Some Bite",
+    "mnemonic_hi": "Nitin Paisa Aur Sabzi Bina (N P As Sb Bi)",
+    "explanation": "N2 is highly stable (strong triple bond); metallic character and basicity of hydrides increase down the group while thermal stability of hydrides decreases."
+  },
+  {
+    "id": "group16",
+    "title": "Group 16 — Oxygen Family (Chalcogens)",
+    "elements": "O, S, Se, Te, Po",
+    "mnemonic_en": "Oscar Sells Season Tickets Politely",
+    "mnemonic_hi": "Oont Sasta, Se Tera Polo (O S Se Te Po)",
+    "explanation": "Oxygen forms strong pi bonds and is a gas (O2/O3); sulphur exists in ring allotropes (S8). Metallic character increases down the group (Po is a metal)."
+  },
+  {
+    "id": "group17",
+    "title": "Group 17 — Halogens",
+    "elements": "F, Cl, Br, I, At",
+    "mnemonic_en": "Frank Clearly Broke It Awfully",
+    "mnemonic_hi": "Fauji Chala Bhaage, Idhar Aata (F Cl Br I At)",
+    "explanation": "All exist as diatomic molecules, highly reactive non-metals forming -1 ions. Oxidising power and electronegativity decrease down the group (F is strongest oxidiser); acid strength of HX increases down the group (HI is the strongest acid)."
+  },
+  {
+    "id": "group18",
+    "title": "Group 18 — Noble Gases",
+    "elements": "He, Ne, Ar, Kr, Xe, Rn",
+    "mnemonic_en": "Henry Never Argues, Kids Xerox Randomly",
+    "mnemonic_hi": "Hemant Ne Argue Kiya, Xerox Rakh (He Ne Ar Kr Xe Rn)",
+    "explanation": "Complete octets make these largely inert; only the heavier members (Kr, Xe, Rn) form compounds, and only with the strongest electronegative elements F and O (e.g. XeF2, XeF4, XeF6, XeOF4)."
+  },
+  {
+    "id": "period2",
+    "title": "Period 2 elements",
+    "elements": "Li, Be, B, C, N, O, F, Ne",
+    "mnemonic_en": "Lazy Beavers Build Cozy Nests On Frozen Nights",
+    "mnemonic_hi": "Lil Beta Bola, Chai Nahi, Oats Fine Nahi (Li Be B C N O F Ne)",
+    "explanation": "Period 2 shows the sharpest left-to-right periodic trends (small atoms, big jumps in ionisation energy and electronegativity) of any period — a good period to memorise trend direction on."
+  },
+  {
+    "id": "period3",
+    "title": "Period 3 elements",
+    "elements": "Na, Mg, Al, Si, P, S, Cl, Ar",
+    "mnemonic_en": "Naughty Magpies Always Sing Perfect Silly Choruses, Argue!",
+    "mnemonic_hi": "Namak Mangta Aloo, Simple Papa Sun Chala, Aaram (Na Mg Al Si P S Cl Ar)",
+    "explanation": "Period 3 is the most commonly tested period for atomic radius/ionisation energy trend questions — practice ranking these 8 elements by size and IE1 using effective nuclear charge."
+  },
+  {
+    "id": "electronegativity",
+    "title": "Most electronegative elements (ranked)",
+    "elements": "F > O > N ~ Cl",
+    "mnemonic_en": "FONCl — 'Fon-Cul' ranks the top 4 electronegative elements",
+    "mnemonic_hi": "F O N Cl — याद रखें 'फॉनकल'",
+    "explanation": "After fluorine (most electronegative element, EN 3.98), oxygen and nitrogen/chlorine follow closely — useful for quickly predicting bond polarity and which atom pulls electron density in a bond."
+  },
+  {
+    "id": "activity_series",
+    "title": "Reactivity (Activity) Series of Metals",
+    "elements": "K, Na, Ca, Mg, Al, Zn, Fe, Pb, H, Cu, Ag, Au",
+    "mnemonic_en": "Please Stop Calling Me A Zebra, Instead Provide Him Cool Silver Gold (K Na Ca Mg Al Zn Fe Pb H Cu Ag Au)",
+    "mnemonic_hi": "Kabhi Na Cry, Mg Aur Zn Foren Padhe, Hum Cu Ag Sona (K Na Ca Mg Al Zn Fe Pb H Cu Ag Au)",
+    "explanation": "Metals higher in this series are more reactive, displace metals below them from solution, and react more readily with acids; H is included as a reference point — metals above H liberate H2 gas from dilute acids, metals below do not."
+  },
+  {
+    "id": "lanthanoid_note",
+    "title": "Lanthanoid Contraction",
+    "elements": "Ce to Lu (4f series)",
+    "mnemonic_en": "'The shrinking family photo' — each lanthanoid is a little smaller than the last",
+    "mnemonic_hi": "हर लैंथेनॉइड पिछले से थोड़ा छोटा — 4f electrons ki poor shielding ki wajah se",
+    "explanation": "Poor shielding by 4f electrons causes a steady size decrease across the lanthanoid series; this is why Zr (period 5) and Hf (period 6) end up almost the same size — a favourite JEE conceptual question."
+  },
+  {
+    "id": "diagonal_relationship",
+    "title": "Diagonal Relationship",
+    "elements": "Li~Mg, Be~Al, B~Si",
+    "mnemonic_en": "'Diagonal Neighbours Act Alike' — Li behaves like Mg, Be behaves like Al, B behaves like Si",
+    "mnemonic_hi": "Li-Mg, Be-Al, B-Si — pados wale jaise dikhte hai (similar charge/size ratio)",
+    "explanation": "The first element of a group often resembles the element diagonally below-right in the next group, because both have a similar charge-to-size ratio (polarising power) despite being in different groups/periods."
+  }
+]
