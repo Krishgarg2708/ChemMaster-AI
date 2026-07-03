@@ -8,9 +8,10 @@ import ElementDetailPanel from "@/components/ElementDetailPanel";
 import ComparisonMode from "@/components/ComparisonMode";
 import FlashcardMode from "@/components/FlashcardMode";
 import QuizMode from "@/components/QuizMode";
+import MnemonicsView from "@/components/MnemonicsView";
 import allElements from "@/lib/data/elements.json";
 
-const MODES = ["Browse", "Comparison", "Flashcards", "Quiz"];
+const MODES = ["Browse", "Comparison", "Flashcards", "Quiz", "Mnemonics"];
 const CATEGORIES = [...new Set(allElements.map((e) => e.category))].sort();
 
 export default function PeriodicTablePage() {
@@ -108,6 +109,7 @@ export default function PeriodicTablePage() {
       {mode === "Comparison" && <ComparisonMode elements={allElements} />}
       {mode === "Flashcards" && <FlashcardMode elements={elements.length ? elements : allElements} />}
       {mode === "Quiz" && <QuizMode elements={elements.length ? elements : allElements} />}
+      {mode === "Mnemonics" && <MnemonicsView />}
     </div>
   );
 }
