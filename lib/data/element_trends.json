@@ -1,0 +1,828 @@
+[
+  {
+    "atomic_number": 1,
+    "atomic_radius_pm": 25,
+    "electronegativity_pauling": 2.2,
+    "ionization_energy_kj_mol": 1312,
+    "electron_affinity_kj_mol": 72.769
+  },
+  {
+    "atomic_number": 2,
+    "atomic_radius_pm": 120,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": 2372.3,
+    "electron_affinity_kj_mol": -48
+  },
+  {
+    "atomic_number": 3,
+    "atomic_radius_pm": 145,
+    "electronegativity_pauling": 0.98,
+    "ionization_energy_kj_mol": 520.2,
+    "electron_affinity_kj_mol": 59.6326
+  },
+  {
+    "atomic_number": 4,
+    "atomic_radius_pm": 105,
+    "electronegativity_pauling": 1.57,
+    "ionization_energy_kj_mol": 899.5,
+    "electron_affinity_kj_mol": -48
+  },
+  {
+    "atomic_number": 5,
+    "atomic_radius_pm": 85,
+    "electronegativity_pauling": 2.04,
+    "ionization_energy_kj_mol": 800.6,
+    "electron_affinity_kj_mol": 26.989
+  },
+  {
+    "atomic_number": 6,
+    "atomic_radius_pm": 70,
+    "electronegativity_pauling": 2.55,
+    "ionization_energy_kj_mol": 1086.5,
+    "electron_affinity_kj_mol": 121.7763
+  },
+  {
+    "atomic_number": 7,
+    "atomic_radius_pm": 65,
+    "electronegativity_pauling": 3.04,
+    "ionization_energy_kj_mol": 1402.3,
+    "electron_affinity_kj_mol": -6.8
+  },
+  {
+    "atomic_number": 8,
+    "atomic_radius_pm": 60,
+    "electronegativity_pauling": 3.44,
+    "ionization_energy_kj_mol": 1313.9,
+    "electron_affinity_kj_mol": 140.976
+  },
+  {
+    "atomic_number": 9,
+    "atomic_radius_pm": 50,
+    "electronegativity_pauling": 3.98,
+    "ionization_energy_kj_mol": 1681,
+    "electron_affinity_kj_mol": 328.1649
+  },
+  {
+    "atomic_number": 10,
+    "atomic_radius_pm": 160,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": 2080.7,
+    "electron_affinity_kj_mol": -116
+  },
+  {
+    "atomic_number": 11,
+    "atomic_radius_pm": 180,
+    "electronegativity_pauling": 0.93,
+    "ionization_energy_kj_mol": 495.8,
+    "electron_affinity_kj_mol": 52.867
+  },
+  {
+    "atomic_number": 12,
+    "atomic_radius_pm": 150,
+    "electronegativity_pauling": 1.31,
+    "ionization_energy_kj_mol": 737.7,
+    "electron_affinity_kj_mol": -40
+  },
+  {
+    "atomic_number": 13,
+    "atomic_radius_pm": 125,
+    "electronegativity_pauling": 1.61,
+    "ionization_energy_kj_mol": 577.5,
+    "electron_affinity_kj_mol": 41.762
+  },
+  {
+    "atomic_number": 14,
+    "atomic_radius_pm": 110,
+    "electronegativity_pauling": 1.9,
+    "ionization_energy_kj_mol": 786.5,
+    "electron_affinity_kj_mol": 134.0684
+  },
+  {
+    "atomic_number": 15,
+    "atomic_radius_pm": 100,
+    "electronegativity_pauling": 2.19,
+    "ionization_energy_kj_mol": 1011.8,
+    "electron_affinity_kj_mol": 72.037
+  },
+  {
+    "atomic_number": 16,
+    "atomic_radius_pm": 100,
+    "electronegativity_pauling": 2.58,
+    "ionization_energy_kj_mol": 999.6,
+    "electron_affinity_kj_mol": 200.4101
+  },
+  {
+    "atomic_number": 17,
+    "atomic_radius_pm": 100,
+    "electronegativity_pauling": 3.16,
+    "ionization_energy_kj_mol": 1251.2,
+    "electron_affinity_kj_mol": 348.575
+  },
+  {
+    "atomic_number": 18,
+    "atomic_radius_pm": 71,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": 1520.6,
+    "electron_affinity_kj_mol": -96
+  },
+  {
+    "atomic_number": 19,
+    "atomic_radius_pm": 220,
+    "electronegativity_pauling": 0.82,
+    "ionization_energy_kj_mol": 418.8,
+    "electron_affinity_kj_mol": 48.383
+  },
+  {
+    "atomic_number": 20,
+    "atomic_radius_pm": 180,
+    "electronegativity_pauling": 1,
+    "ionization_energy_kj_mol": 589.8,
+    "electron_affinity_kj_mol": 2.37
+  },
+  {
+    "atomic_number": 21,
+    "atomic_radius_pm": 160,
+    "electronegativity_pauling": 1.36,
+    "ionization_energy_kj_mol": 633.1,
+    "electron_affinity_kj_mol": 18
+  },
+  {
+    "atomic_number": 22,
+    "atomic_radius_pm": 140,
+    "electronegativity_pauling": 1.54,
+    "ionization_energy_kj_mol": 658.8,
+    "electron_affinity_kj_mol": 7.289
+  },
+  {
+    "atomic_number": 23,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 1.63,
+    "ionization_energy_kj_mol": 650.9,
+    "electron_affinity_kj_mol": 50.911
+  },
+  {
+    "atomic_number": 24,
+    "atomic_radius_pm": 140,
+    "electronegativity_pauling": 1.66,
+    "ionization_energy_kj_mol": 652.9,
+    "electron_affinity_kj_mol": 65.21
+  },
+  {
+    "atomic_number": 25,
+    "atomic_radius_pm": 140,
+    "electronegativity_pauling": 1.55,
+    "ionization_energy_kj_mol": 717.3,
+    "electron_affinity_kj_mol": -50
+  },
+  {
+    "atomic_number": 26,
+    "atomic_radius_pm": 140,
+    "electronegativity_pauling": 1.83,
+    "ionization_energy_kj_mol": 762.5,
+    "electron_affinity_kj_mol": 14.785
+  },
+  {
+    "atomic_number": 27,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 1.88,
+    "ionization_energy_kj_mol": 760.4,
+    "electron_affinity_kj_mol": 63.898
+  },
+  {
+    "atomic_number": 28,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 1.91,
+    "ionization_energy_kj_mol": 737.1,
+    "electron_affinity_kj_mol": 111.65
+  },
+  {
+    "atomic_number": 29,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 1.9,
+    "ionization_energy_kj_mol": 745.5,
+    "electron_affinity_kj_mol": 119.235
+  },
+  {
+    "atomic_number": 30,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 1.65,
+    "ionization_energy_kj_mol": 906.4,
+    "electron_affinity_kj_mol": -58
+  },
+  {
+    "atomic_number": 31,
+    "atomic_radius_pm": 130,
+    "electronegativity_pauling": 1.81,
+    "ionization_energy_kj_mol": 578.8,
+    "electron_affinity_kj_mol": 41
+  },
+  {
+    "atomic_number": 32,
+    "atomic_radius_pm": 125,
+    "electronegativity_pauling": 2.01,
+    "ionization_energy_kj_mol": 762,
+    "electron_affinity_kj_mol": 118.9352
+  },
+  {
+    "atomic_number": 33,
+    "atomic_radius_pm": 115,
+    "electronegativity_pauling": 2.18,
+    "ionization_energy_kj_mol": 947,
+    "electron_affinity_kj_mol": 77.65
+  },
+  {
+    "atomic_number": 34,
+    "atomic_radius_pm": 115,
+    "electronegativity_pauling": 2.55,
+    "ionization_energy_kj_mol": 941,
+    "electron_affinity_kj_mol": 194.9587
+  },
+  {
+    "atomic_number": 35,
+    "atomic_radius_pm": 115,
+    "electronegativity_pauling": 2.96,
+    "ionization_energy_kj_mol": 1139.9,
+    "electron_affinity_kj_mol": 324.537
+  },
+  {
+    "atomic_number": 36,
+    "atomic_radius_pm": 88,
+    "electronegativity_pauling": 3,
+    "ionization_energy_kj_mol": 1350.8,
+    "electron_affinity_kj_mol": -96
+  },
+  {
+    "atomic_number": 37,
+    "atomic_radius_pm": 235,
+    "electronegativity_pauling": 0.82,
+    "ionization_energy_kj_mol": 403,
+    "electron_affinity_kj_mol": 46.884
+  },
+  {
+    "atomic_number": 38,
+    "atomic_radius_pm": 200,
+    "electronegativity_pauling": 0.95,
+    "ionization_energy_kj_mol": 549.5,
+    "electron_affinity_kj_mol": 5.023
+  },
+  {
+    "atomic_number": 39,
+    "atomic_radius_pm": 180,
+    "electronegativity_pauling": 1.22,
+    "ionization_energy_kj_mol": 600,
+    "electron_affinity_kj_mol": 29.6
+  },
+  {
+    "atomic_number": 40,
+    "atomic_radius_pm": 155,
+    "electronegativity_pauling": 1.33,
+    "ionization_energy_kj_mol": 640.1,
+    "electron_affinity_kj_mol": 41.806
+  },
+  {
+    "atomic_number": 41,
+    "atomic_radius_pm": 145,
+    "electronegativity_pauling": 1.6,
+    "ionization_energy_kj_mol": 652.1,
+    "electron_affinity_kj_mol": 88.516
+  },
+  {
+    "atomic_number": 42,
+    "atomic_radius_pm": 145,
+    "electronegativity_pauling": 2.16,
+    "ionization_energy_kj_mol": 684.3,
+    "electron_affinity_kj_mol": 72.1
+  },
+  {
+    "atomic_number": 43,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 1.9,
+    "ionization_energy_kj_mol": 702,
+    "electron_affinity_kj_mol": 53
+  },
+  {
+    "atomic_number": 44,
+    "atomic_radius_pm": 130,
+    "electronegativity_pauling": 2.2,
+    "ionization_energy_kj_mol": 710.2,
+    "electron_affinity_kj_mol": 100.96
+  },
+  {
+    "atomic_number": 45,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 2.28,
+    "ionization_energy_kj_mol": 719.7,
+    "electron_affinity_kj_mol": 110.27
+  },
+  {
+    "atomic_number": 46,
+    "atomic_radius_pm": 140,
+    "electronegativity_pauling": 2.2,
+    "ionization_energy_kj_mol": 804.4,
+    "electron_affinity_kj_mol": 54.24
+  },
+  {
+    "atomic_number": 47,
+    "atomic_radius_pm": 160,
+    "electronegativity_pauling": 1.93,
+    "ionization_energy_kj_mol": 731,
+    "electron_affinity_kj_mol": 125.862
+  },
+  {
+    "atomic_number": 48,
+    "atomic_radius_pm": 155,
+    "electronegativity_pauling": 1.69,
+    "ionization_energy_kj_mol": 867.8,
+    "electron_affinity_kj_mol": -68
+  },
+  {
+    "atomic_number": 49,
+    "atomic_radius_pm": 155,
+    "electronegativity_pauling": 1.78,
+    "ionization_energy_kj_mol": 558.3,
+    "electron_affinity_kj_mol": 37.043
+  },
+  {
+    "atomic_number": 50,
+    "atomic_radius_pm": 145,
+    "electronegativity_pauling": 1.96,
+    "ionization_energy_kj_mol": 708.6,
+    "electron_affinity_kj_mol": 107.2984
+  },
+  {
+    "atomic_number": 51,
+    "atomic_radius_pm": 145,
+    "electronegativity_pauling": 2.05,
+    "ionization_energy_kj_mol": 834,
+    "electron_affinity_kj_mol": 101.059
+  },
+  {
+    "atomic_number": 52,
+    "atomic_radius_pm": 140,
+    "electronegativity_pauling": 2.1,
+    "ionization_energy_kj_mol": 869.3,
+    "electron_affinity_kj_mol": 190.161
+  },
+  {
+    "atomic_number": 53,
+    "atomic_radius_pm": 140,
+    "electronegativity_pauling": 2.66,
+    "ionization_energy_kj_mol": 1008.4,
+    "electron_affinity_kj_mol": 295.1531
+  },
+  {
+    "atomic_number": 54,
+    "atomic_radius_pm": 108,
+    "electronegativity_pauling": 2.6,
+    "ionization_energy_kj_mol": 1170.4,
+    "electron_affinity_kj_mol": -77
+  },
+  {
+    "atomic_number": 55,
+    "atomic_radius_pm": 260,
+    "electronegativity_pauling": 0.79,
+    "ionization_energy_kj_mol": 375.7,
+    "electron_affinity_kj_mol": 45.505
+  },
+  {
+    "atomic_number": 56,
+    "atomic_radius_pm": 215,
+    "electronegativity_pauling": 0.89,
+    "ionization_energy_kj_mol": 502.9,
+    "electron_affinity_kj_mol": 13.954
+  },
+  {
+    "atomic_number": 57,
+    "atomic_radius_pm": 195,
+    "electronegativity_pauling": 1.1,
+    "ionization_energy_kj_mol": 538.1,
+    "electron_affinity_kj_mol": 53
+  },
+  {
+    "atomic_number": 58,
+    "atomic_radius_pm": 185,
+    "electronegativity_pauling": 1.12,
+    "ionization_energy_kj_mol": 534.4,
+    "electron_affinity_kj_mol": 55
+  },
+  {
+    "atomic_number": 59,
+    "atomic_radius_pm": 185,
+    "electronegativity_pauling": 1.13,
+    "ionization_energy_kj_mol": 527,
+    "electron_affinity_kj_mol": 93
+  },
+  {
+    "atomic_number": 60,
+    "atomic_radius_pm": 185,
+    "electronegativity_pauling": 1.14,
+    "ionization_energy_kj_mol": 533.1,
+    "electron_affinity_kj_mol": 184.87
+  },
+  {
+    "atomic_number": 61,
+    "atomic_radius_pm": 185,
+    "electronegativity_pauling": 1.13,
+    "ionization_energy_kj_mol": 540,
+    "electron_affinity_kj_mol": 12.45
+  },
+  {
+    "atomic_number": 62,
+    "atomic_radius_pm": 185,
+    "electronegativity_pauling": 1.17,
+    "ionization_energy_kj_mol": 544.5,
+    "electron_affinity_kj_mol": 15.63
+  },
+  {
+    "atomic_number": 63,
+    "atomic_radius_pm": 185,
+    "electronegativity_pauling": 1.2,
+    "ionization_energy_kj_mol": 547.1,
+    "electron_affinity_kj_mol": 11.2
+  },
+  {
+    "atomic_number": 64,
+    "atomic_radius_pm": 180,
+    "electronegativity_pauling": 1.2,
+    "ionization_energy_kj_mol": 593.4,
+    "electron_affinity_kj_mol": 13.22
+  },
+  {
+    "atomic_number": 65,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.1,
+    "ionization_energy_kj_mol": 565.8,
+    "electron_affinity_kj_mol": 112.4
+  },
+  {
+    "atomic_number": 66,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.22,
+    "ionization_energy_kj_mol": 573,
+    "electron_affinity_kj_mol": 33.96
+  },
+  {
+    "atomic_number": 67,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.23,
+    "ionization_energy_kj_mol": 581,
+    "electron_affinity_kj_mol": 32.61
+  },
+  {
+    "atomic_number": 68,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.24,
+    "ionization_energy_kj_mol": 589.3,
+    "electron_affinity_kj_mol": 30.1
+  },
+  {
+    "atomic_number": 69,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.25,
+    "ionization_energy_kj_mol": 596.7,
+    "electron_affinity_kj_mol": 99
+  },
+  {
+    "atomic_number": 70,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.1,
+    "ionization_energy_kj_mol": 603.4,
+    "electron_affinity_kj_mol": -1.93
+  },
+  {
+    "atomic_number": 71,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.27,
+    "ionization_energy_kj_mol": 523.5,
+    "electron_affinity_kj_mol": 33.4
+  },
+  {
+    "atomic_number": 72,
+    "atomic_radius_pm": 155,
+    "electronegativity_pauling": 1.3,
+    "ionization_energy_kj_mol": 658.5,
+    "electron_affinity_kj_mol": 17.18
+  },
+  {
+    "atomic_number": 73,
+    "atomic_radius_pm": 145,
+    "electronegativity_pauling": 1.5,
+    "ionization_energy_kj_mol": 761,
+    "electron_affinity_kj_mol": 31
+  },
+  {
+    "atomic_number": 74,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 2.36,
+    "ionization_energy_kj_mol": 770,
+    "electron_affinity_kj_mol": 78.76
+  },
+  {
+    "atomic_number": 75,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 1.9,
+    "ionization_energy_kj_mol": 760,
+    "electron_affinity_kj_mol": 5.8273
+  },
+  {
+    "atomic_number": 76,
+    "atomic_radius_pm": 130,
+    "electronegativity_pauling": 2.2,
+    "ionization_energy_kj_mol": 840,
+    "electron_affinity_kj_mol": 103.99
+  },
+  {
+    "atomic_number": 77,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 2.2,
+    "ionization_energy_kj_mol": 880,
+    "electron_affinity_kj_mol": 150.94
+  },
+  {
+    "atomic_number": 78,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 2.28,
+    "ionization_energy_kj_mol": 870,
+    "electron_affinity_kj_mol": 205.041
+  },
+  {
+    "atomic_number": 79,
+    "atomic_radius_pm": 135,
+    "electronegativity_pauling": 2.54,
+    "ionization_energy_kj_mol": 890.1,
+    "electron_affinity_kj_mol": 222.747
+  },
+  {
+    "atomic_number": 80,
+    "atomic_radius_pm": 150,
+    "electronegativity_pauling": 2,
+    "ionization_energy_kj_mol": 1007.1,
+    "electron_affinity_kj_mol": -48
+  },
+  {
+    "atomic_number": 81,
+    "atomic_radius_pm": 190,
+    "electronegativity_pauling": 1.62,
+    "ionization_energy_kj_mol": 589.4,
+    "electron_affinity_kj_mol": 36.4
+  },
+  {
+    "atomic_number": 82,
+    "atomic_radius_pm": 180,
+    "electronegativity_pauling": 1.87,
+    "ionization_energy_kj_mol": 715.6,
+    "electron_affinity_kj_mol": 34.4204
+  },
+  {
+    "atomic_number": 83,
+    "atomic_radius_pm": 160,
+    "electronegativity_pauling": 2.02,
+    "ionization_energy_kj_mol": 703,
+    "electron_affinity_kj_mol": 90.924
+  },
+  {
+    "atomic_number": 84,
+    "atomic_radius_pm": 190,
+    "electronegativity_pauling": 2,
+    "ionization_energy_kj_mol": 812.1,
+    "electron_affinity_kj_mol": 136
+  },
+  {
+    "atomic_number": 85,
+    "atomic_radius_pm": 145,
+    "electronegativity_pauling": 2.2,
+    "ionization_energy_kj_mol": 899.003,
+    "electron_affinity_kj_mol": 233
+  },
+  {
+    "atomic_number": 86,
+    "atomic_radius_pm": 145,
+    "electronegativity_pauling": 2.2,
+    "ionization_energy_kj_mol": 1037,
+    "electron_affinity_kj_mol": -68
+  },
+  {
+    "atomic_number": 87,
+    "atomic_radius_pm": 260,
+    "electronegativity_pauling": 0.79,
+    "ionization_energy_kj_mol": 380,
+    "electron_affinity_kj_mol": 46.89
+  },
+  {
+    "atomic_number": 88,
+    "atomic_radius_pm": 215,
+    "electronegativity_pauling": 0.9,
+    "ionization_energy_kj_mol": 509.3,
+    "electron_affinity_kj_mol": 9.6485
+  },
+  {
+    "atomic_number": 89,
+    "atomic_radius_pm": 195,
+    "electronegativity_pauling": 1.1,
+    "ionization_energy_kj_mol": 499,
+    "electron_affinity_kj_mol": 33.77
+  },
+  {
+    "atomic_number": 90,
+    "atomic_radius_pm": 180,
+    "electronegativity_pauling": 1.3,
+    "ionization_energy_kj_mol": 587,
+    "electron_affinity_kj_mol": 112.72
+  },
+  {
+    "atomic_number": 91,
+    "atomic_radius_pm": 180,
+    "electronegativity_pauling": 1.5,
+    "ionization_energy_kj_mol": 568,
+    "electron_affinity_kj_mol": 53.03
+  },
+  {
+    "atomic_number": 92,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.38,
+    "ionization_energy_kj_mol": 597.6,
+    "electron_affinity_kj_mol": 50.94
+  },
+  {
+    "atomic_number": 93,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.36,
+    "ionization_energy_kj_mol": 604.5,
+    "electron_affinity_kj_mol": 45.85
+  },
+  {
+    "atomic_number": 94,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.28,
+    "ionization_energy_kj_mol": 584.7,
+    "electron_affinity_kj_mol": -48.33
+  },
+  {
+    "atomic_number": 95,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.13,
+    "ionization_energy_kj_mol": 578,
+    "electron_affinity_kj_mol": 9.93
+  },
+  {
+    "atomic_number": 96,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.28,
+    "ionization_energy_kj_mol": 581,
+    "electron_affinity_kj_mol": 27.17
+  },
+  {
+    "atomic_number": 97,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.3,
+    "ionization_energy_kj_mol": 601,
+    "electron_affinity_kj_mol": -165.24
+  },
+  {
+    "atomic_number": 98,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.3,
+    "ionization_energy_kj_mol": 608,
+    "electron_affinity_kj_mol": -97.31
+  },
+  {
+    "atomic_number": 99,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.3,
+    "ionization_energy_kj_mol": 619,
+    "electron_affinity_kj_mol": -28.6
+  },
+  {
+    "atomic_number": 100,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.3,
+    "ionization_energy_kj_mol": 627,
+    "electron_affinity_kj_mol": 33.96
+  },
+  {
+    "atomic_number": 101,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.3,
+    "ionization_energy_kj_mol": 635,
+    "electron_affinity_kj_mol": 93.91
+  },
+  {
+    "atomic_number": 102,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.3,
+    "ionization_energy_kj_mol": 642,
+    "electron_affinity_kj_mol": -223.22
+  },
+  {
+    "atomic_number": 103,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": 1.3,
+    "ionization_energy_kj_mol": 470,
+    "electron_affinity_kj_mol": -30.04
+  },
+  {
+    "atomic_number": 104,
+    "atomic_radius_pm": 157,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": 580,
+    "electron_affinity_kj_mol": null
+  },
+  {
+    "atomic_number": 105,
+    "atomic_radius_pm": 149,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": null
+  },
+  {
+    "atomic_number": 106,
+    "atomic_radius_pm": 143,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": null
+  },
+  {
+    "atomic_number": 107,
+    "atomic_radius_pm": 141,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": null
+  },
+  {
+    "atomic_number": 108,
+    "atomic_radius_pm": 134,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": null
+  },
+  {
+    "atomic_number": 109,
+    "atomic_radius_pm": 129,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": null
+  },
+  {
+    "atomic_number": 110,
+    "atomic_radius_pm": 128,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": null
+  },
+  {
+    "atomic_number": 111,
+    "atomic_radius_pm": 121,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": 151
+  },
+  {
+    "atomic_number": 112,
+    "atomic_radius_pm": 122,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": null
+  },
+  {
+    "atomic_number": 113,
+    "atomic_radius_pm": 136,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": 66.6
+  },
+  {
+    "atomic_number": 114,
+    "atomic_radius_pm": 143,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": null
+  },
+  {
+    "atomic_number": 115,
+    "atomic_radius_pm": 162,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": 35.3
+  },
+  {
+    "atomic_number": 116,
+    "atomic_radius_pm": 175,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": 74.9
+  },
+  {
+    "atomic_number": 117,
+    "atomic_radius_pm": 165,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": 165.9
+  },
+  {
+    "atomic_number": 118,
+    "atomic_radius_pm": 157,
+    "electronegativity_pauling": null,
+    "ionization_energy_kj_mol": null,
+    "electron_affinity_kj_mol": 5.40318
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "name": "Aldol Condensation",
+    "category": "Addition-Condensation",
+    "chapter_ids": [
+      25
+    ],
+    "reagents_conditions": "Dilute NaOH/KOH, then heat (-H2O)",
+    "summary": "Two molecules of an aldehyde/ketone with alpha-H condense: enolate attacks a second carbonyl to give a beta-hydroxy carbonyl, which dehydrates on heating to an alpha,beta-unsaturated carbonyl.",
+    "example": "2 CH3CHO --NaOH--> CH3CH(OH)CH2CHO --heat(-H2O)--> CH3CH=CHCHO (crotonaldehyde)",
+    "memory_trick": "Needs alpha-hydrogen on at least one partner; 'Aldol' = ALDehyde + alcOHol (the intermediate)."
+  },
+  {
+    "id": 2,
+    "name": "Cannizzaro Reaction",
+    "category": "Redox / Disproportionation",
+    "chapter_ids": [
+      25
+    ],
+    "reagents_conditions": "Concentrated NaOH/KOH",
+    "summary": "Non-enolisable aldehydes (no alpha-H, e.g. HCHO, C6H5CHO) undergo self oxidation-reduction: one molecule is oxidised to carboxylate, the other reduced to alcohol.",
+    "example": "2 HCHO --conc. NaOH--> CH3OH + HCOONa",
+    "memory_trick": "No alpha-H = Cannizzaro. Crossed Cannizzaro with HCHO always sacrifices HCHO to give the other alcohol."
+  },
+  {
+    "id": 3,
+    "name": "Sandmeyer Reaction",
+    "category": "Substitution (diazonium)",
+    "chapter_ids": [
+      26
+    ],
+    "reagents_conditions": "ArN2+ + CuCl/CuBr/CuCN (Cu(I) halide)",
+    "summary": "Aryl diazonium salt is converted to aryl halide/nitrile via a Cu(I)-catalysed radical mechanism, replacing -N2+ with -Cl, -Br or -CN.",
+    "example": "C6H5N2+Cl- --CuCl/HCl--> C6H5Cl + N2",
+    "memory_trick": "Sandmeyer = Cu salts. Gattermann variant uses Cu powder + HX instead of cuprous halide."
+  },
+  {
+    "id": 4,
+    "name": "Gattermann Reaction",
+    "category": "Substitution (diazonium)",
+    "chapter_ids": [
+      26
+    ],
+    "reagents_conditions": "ArN2+ + Cu powder/HX",
+    "summary": "Similar outcome to Sandmeyer (ArN2+ -> ArX) but uses copper powder with the corresponding acid instead of a cuprous salt.",
+    "example": "C6H5N2+Cl- --Cu/HCl--> C6H5Cl + N2",
+    "memory_trick": "Think 'Gattermann = cu powder', cheaper alternative to Sandmeyer's cuprous salts."
+  },
+  {
+    "id": 5,
+    "name": "Reimer-Tiemann Reaction",
+    "category": "Electrophilic substitution",
+    "chapter_ids": [
+      24
+    ],
+    "reagents_conditions": "CHCl3 + NaOH (aq), then H3O+",
+    "summary": "Phenol reacts with chloroform under strongly basic conditions via a dichlorocarbene intermediate, introducing a -CHO group ortho to -OH (salicylaldehyde formation).",
+    "example": "C6H5OH --CHCl3/NaOH, H3O+--> o-HO-C6H4-CHO",
+    "memory_trick": "'Reimer-Tiemann' -> ring gets a -CHO ortho to OH; carbene (:CCl2) is the key electrophile."
+  },
+  {
+    "id": 6,
+    "name": "Kolbe's Reaction",
+    "category": "Carboxylation",
+    "chapter_ids": [
+      24
+    ],
+    "reagents_conditions": "NaOH then CO2 (high P, T), then H3O+",
+    "summary": "Sodium phenoxide reacts with CO2 to install -COOH ortho to the -OH group (electrophilic aromatic substitution by CO2), giving salicylic acid on acidification.",
+    "example": "C6H5ONa --CO2, 125C, 4-7atm--> then H3O+ -> o-HO-C6H4-COOH (salicylic acid)",
+    "memory_trick": "Kolbe gives -COOH (acid), Reimer-Tiemann gives -CHO (aldehyde) - both go ortho to OH."
+  },
+  {
+    "id": 7,
+    "name": "Williamson Ether Synthesis",
+    "category": "Nucleophilic substitution (SN2)",
+    "chapter_ids": [
+      24
+    ],
+    "reagents_conditions": "Sodium alkoxide/phenoxide + primary alkyl halide",
+    "summary": "An alkoxide ion displaces a halide from a (preferably primary) alkyl halide in an SN2 step to form an unsymmetrical or symmetrical ether.",
+    "example": "CH3ONa + CH3CH2Br -> CH3-O-CH2CH3 + NaBr",
+    "memory_trick": "Always use the bulkier group as the alkoxide and the LESS hindered halide as the electrophile (SN2 needs primary substrate)."
+  },
+  {
+    "id": 8,
+    "name": "HVZ Reaction (Hell-Volhard-Zelinsky)",
+    "category": "Alpha-halogenation",
+    "chapter_ids": [
+      25
+    ],
+    "reagents_conditions": "X2 (Cl2/Br2) + red phosphorus (catalytic PX3)",
+    "summary": "Carboxylic acids with an alpha-hydrogen are selectively halogenated at the alpha-carbon via the acid's enol-like bromide intermediate, giving alpha-halo acids.",
+    "example": "CH3COOH --Br2/red P--> CH2BrCOOH + HBr",
+    "memory_trick": "HVZ only works on acids (needs alpha-H); red P generates PX3 in situ which activates the -COOH."
+  },
+  {
+    "id": 9,
+    "name": "Etard Reaction",
+    "category": "Controlled oxidation",
+    "chapter_ids": [
+      25
+    ],
+    "reagents_conditions": "CrO2Cl2 (chromyl chloride) in CS2, then hydrolysis",
+    "summary": "Toluene (or a methylbenzene) is oxidised in a controlled way to benzaldehyde, stopping short of the carboxylic acid, via a chromium complex intermediate.",
+    "example": "C6H5CH3 --CrO2Cl2/CS2, then H3O+/hydrolysis--> C6H5CHO",
+    "memory_trick": "Etard = controlled oxidation that stops at -CHO (unlike KMnO4 which over-oxidises toluene to -COOH)."
+  },
+  {
+    "id": 10,
+    "name": "Rosenmund Reduction",
+    "category": "Selective reduction",
+    "chapter_ids": [
+      25
+    ],
+    "reagents_conditions": "H2 / Pd-BaSO4 (poisoned catalyst, + S or quinoline)",
+    "summary": "Acyl chlorides are selectively reduced to aldehydes; the catalyst is 'poisoned' with BaSO4/quinoline so reduction stops at the aldehyde stage instead of going to the alcohol.",
+    "example": "C6H5COCl --H2/Pd-BaSO4--> C6H5CHO",
+    "memory_trick": "Poisoned Pd = stop at aldehyde. Without poisoning, H2/Pd would over-reduce to the alcohol."
+  },
+  {
+    "id": 11,
+    "name": "Clemmensen Reduction",
+    "category": "Carbonyl reduction",
+    "chapter_ids": [
+      25
+    ],
+    "reagents_conditions": "Zn(Hg)/conc. HCl",
+    "summary": "Reduces the C=O of an aldehyde or ketone all the way to CH2 (deoxygenation) under strongly acidic conditions - useful when the substrate is acid-stable.",
+    "example": "C6H5COCH3 --Zn(Hg)/HCl--> C6H5CH2CH3",
+    "memory_trick": "Acidic deoxygenation = Clemmensen. Basic deoxygenation (for acid-sensitive substrates) = Wolff-Kishner."
+  },
+  {
+    "id": 12,
+    "name": "Wolff-Kishner Reduction",
+    "category": "Carbonyl reduction",
+    "chapter_ids": [
+      25
+    ],
+    "reagents_conditions": "NH2NH2 (hydrazine), then KOH/ethylene glycol, heat",
+    "summary": "Converts a carbonyl to CH2 via a hydrazone intermediate that loses N2 under strongly basic, high-temperature conditions - the base-tolerant counterpart to Clemmensen.",
+    "example": "C6H5COCH3 --NH2NH2, then KOH/glycol, heat--> C6H5CH2CH3",
+    "memory_trick": "Basic deoxygenation = Wolff-Kishner (use when substrate can't survive strong acid)."
+  },
+  {
+    "id": 13,
+    "name": "Friedel-Crafts Alkylation",
+    "category": "Electrophilic aromatic substitution",
+    "chapter_ids": [
+      12
+    ],
+    "reagents_conditions": "R-X + anhydrous AlCl3",
+    "summary": "A Lewis-acid-generated carbocation alkylates an aromatic ring; prone to carbocation rearrangement and polyalkylation, and fails on strongly deactivated rings (e.g. nitrobenzene).",
+    "example": "C6H6 + CH3Cl --AlCl3--> C6H5CH3 + HCl",
+    "memory_trick": "F-C alkylation fails on aniline/nitrobenzene (deactivated/complexed rings); watch for carbocation rearrangement with secondary/tertiary R-X."
+  },
+  {
+    "id": 14,
+    "name": "Friedel-Crafts Acylation",
+    "category": "Electrophilic aromatic substitution",
+    "chapter_ids": [
+      12
+    ],
+    "reagents_conditions": "RCOCl + anhydrous AlCl3",
+    "summary": "An acylium ion (no rearrangement risk) acylates the ring to give an aryl ketone; self-limiting because the product ketone deactivates the ring, avoiding polysubstitution.",
+    "example": "C6H6 + CH3COCl --AlCl3--> C6H5COCH3 + HCl",
+    "memory_trick": "Acylation > alkylation in synthesis because acylium ions don't rearrange and the reaction self-terminates (no polysubstitution)."
+  },
+  {
+    "id": 15,
+    "name": "Wurtz Reaction",
+    "category": "Coupling",
+    "chapter_ids": [
+      12
+    ],
+    "reagents_conditions": "2 R-X + Na (dry ether)",
+    "summary": "Two alkyl halide molecules couple via a free-radical/organosodium pathway to form a longer symmetrical alkane, releasing NaX.",
+    "example": "2 CH3Br --Na, dry ether--> CH3-CH3 + 2 NaBr",
+    "memory_trick": "Only makes symmetrical alkanes with an EVEN number of carbons total (adding two identical R groups)."
+  },
+  {
+    "id": 16,
+    "name": "Wurtz-Fittig Reaction",
+    "category": "Coupling",
+    "chapter_ids": [
+      12
+    ],
+    "reagents_conditions": "Aryl halide + alkyl halide + Na (dry ether)",
+    "summary": "A mixed coupling of an aryl halide with an alkyl halide using sodium, forming an alkylbenzene (aryl-alkyl C-C bond).",
+    "example": "C6H5Br + CH3Br --Na, dry ether--> C6H5CH3 + 2 NaBr",
+    "memory_trick": "Aryl + alkyl halide together = Wurtz-Fittig (vs plain Wurtz which is alkyl + alkyl only)."
+  },
+  {
+    "id": 17,
+    "name": "Markovnikov's Rule Addition",
+    "category": "Electrophilic addition",
+    "chapter_ids": [
+      12
+    ],
+    "reagents_conditions": "HX addition to unsymmetrical alkenes",
+    "summary": "H adds to the carbon of the double bond that already has more hydrogens, so X ends up on the more substituted carbon, via the more stable carbocation intermediate.",
+    "example": "CH3-CH=CH2 + HBr -> CH3-CHBr-CH3 (major)",
+    "memory_trick": "'The rich get richer' - H goes to the carbon with more H's already."
+  },
+  {
+    "id": 18,
+    "name": "Anti-Markovnikov / Kharasch (Peroxide) Effect",
+    "category": "Free-radical addition",
+    "chapter_ids": [
+      12
+    ],
+    "reagents_conditions": "HBr + peroxides (ROOR)",
+    "summary": "Only with HBr (not HCl/HI) and peroxides, a free-radical chain mechanism reverses the regiochemistry so Br ends up on the less substituted carbon.",
+    "example": "CH3-CH=CH2 + HBr --peroxide--> CH3-CH2-CH2Br (anti-Markovnikov)",
+    "memory_trick": "Peroxide effect works ONLY with HBr - HCl and HI bond energies don't support the radical chain."
+  },
+  {
+    "id": 19,
+    "name": "Diazotisation",
+    "category": "Diazonium chemistry",
+    "chapter_ids": [
+      26
+    ],
+    "reagents_conditions": "ArNH2 + NaNO2/HCl, 0-5 C",
+    "summary": "A primary aromatic amine reacts with nitrous acid (generated in situ) at low temperature to form a stable aryl diazonium salt - a versatile synthetic handle for many substitutions.",
+    "example": "C6H5NH2 --NaNO2/HCl, 0-5C--> C6H5N2+Cl-",
+    "memory_trick": "Must be kept below 5 C - diazonium salts decompose above ~10 C, releasing N2."
+  },
+  {
+    "id": 20,
+    "name": "Carbylamine (Isocyanide) Reaction",
+    "category": "Test for 1\u00b0 amines",
+    "chapter_ids": [
+      26
+    ],
+    "reagents_conditions": "RNH2 + CHCl3 + alc. KOH, heat",
+    "summary": "A classic qualitative test: primary amines (aliphatic or aromatic) form a foul-smelling isocyanide with chloroform and alcoholic KOH; secondary/tertiary amines don't react.",
+    "example": "C2H5NH2 + CHCl3 + 3KOH -> C2H5NC + 3KCl + 3H2O",
+    "memory_trick": "Positive carbylamine test = confirms a 1\u00b0 amine (distinguishes it from 2\u00b0/3\u00b0 amines)."
+  },
+  {
+    "id": 21,
+    "name": "Hofmann Bromamide Degradation",
+    "category": "Rearrangement",
+    "chapter_ids": [
+      26
+    ],
+    "reagents_conditions": "RCONH2 + Br2/NaOH",
+    "summary": "A primary amide is converted to a primary amine with one fewer carbon, via an isocyanate intermediate formed by a nitrene-like rearrangement.",
+    "example": "CH3CONH2 --Br2/NaOH--> CH3NH2 + Na2CO3 + NaBr",
+    "memory_trick": "Hofmann degradation: amide -> amine, losing one carbon (as CO2/carbonate) - useful for 'stepping down' a carbon chain."
+  },
+  {
+    "id": 22,
+    "name": "Gabriel Phthalimide Synthesis",
+    "category": "Amine synthesis",
+    "chapter_ids": [
+      26
+    ],
+    "reagents_conditions": "Phthalimide -K salt + RX, then hydrolysis (NaOH/hydrazinolysis)",
+    "summary": "Potassium phthalimide is alkylated by a primary alkyl halide, then hydrolysed to release a pure primary amine free of 2\u00b0/3\u00b0 amine contamination.",
+    "example": "Phthalimide-K+ + CH3Br -> N-methylphthalimide --hydrolysis--> CH3NH2",
+    "memory_trick": "Gabriel synthesis gives ONLY 1\u00b0 amines cleanly - can't be used for aromatic amines (ArX doesn't undergo SN2)."
+  },
+  {
+    "id": 23,
+    "name": "Aldol / Perkin Reaction (Perkin Condensation)",
+    "category": "Addition-Condensation",
+    "chapter_ids": [
+      25
+    ],
+    "reagents_conditions": "Aromatic aldehyde + acid anhydride + sodium salt of the acid (base)",
+    "summary": "An aromatic aldehyde condenses with an acid anhydride (acting as the enolisable partner) under basic catalysis to give an alpha,beta-unsaturated aromatic acid.",
+    "example": "C6H5CHO + (CH3CO)2O --CH3COONa, heat--> C6H5CH=CHCOOH (cinnamic acid)",
+    "memory_trick": "Perkin uses an anhydride (not just an aldehyde/ketone pair) as the active-methylene component."
+  },
+  {
+    "id": 24,
+    "name": "Schotten-Baumann Reaction",
+    "category": "Acylation",
+    "chapter_ids": [
+      26,
+      24
+    ],
+    "reagents_conditions": "Amine or alcohol + acid chloride, aqueous NaOH",
+    "summary": "An amine (or alcohol) is acylated by an acid chloride in the presence of aqueous base, which mops up the HCl byproduct and drives the reaction to the amide/ester.",
+    "example": "C6H5NH2 + CH3COCl --NaOH(aq)--> C6H5NHCOCH3",
+    "memory_trick": "The base's job is simply to neutralise HCl as it forms, pushing the acylation to completion."
+  },
+  {
+    "id": 25,
+    "name": "Fittig Reaction",
+    "category": "Coupling",
+    "chapter_ids": [
+      12
+    ],
+    "reagents_conditions": "2 aryl halides + Na (dry ether)",
+    "summary": "Two molecules of an aryl halide couple with sodium to form a biaryl (diphenyl-type) compound, the aromatic analogue of the Wurtz reaction.",
+    "example": "2 C6H5Br --Na, dry ether--> C6H5-C6H5 + 2NaBr",
+    "memory_trick": "Fittig = aryl + aryl coupling (biphenyl formation); Wurtz-Fittig = aryl + alkyl instead."
+  },
+  {
+    "id": 26,
+    "name": "Balz-Schiemann Reaction",
+    "category": "Diazonium substitution",
+    "chapter_ids": [
+      26
+    ],
+    "reagents_conditions": "ArN2+BF4- salt, heat",
+    "summary": "An aryl diazonium tetrafluoroborate salt decomposes on heating to give an aryl fluoride - the standard way to introduce fluorine onto a benzene ring (Sandmeyer doesn't work for F).",
+    "example": "C6H5N2+BF4- --heat--> C6H5F + N2 + BF3",
+    "memory_trick": "Use Balz-Schiemann specifically for Ar-F; Sandmeyer/Gattermann cover Cl, Br, CN but not F."
+  },
+  {
+    "id": 27,
+    "name": "Lucas Test",
+    "category": "Distinguishing alcohols",
+    "chapter_ids": [
+      24
+    ],
+    "reagents_conditions": "conc. HCl + anhydrous ZnCl2 (Lucas reagent)",
+    "summary": "A qualitative test that distinguishes 1\u00b0, 2\u00b0, 3\u00b0 alcohols by the rate at which they turn cloudy (form the alkyl chloride) - 3\u00b0 reacts instantly, 2\u00b0 in minutes, 1\u00b0 barely at room temperature.",
+    "example": "(CH3)3COH + HCl/ZnCl2 -> immediate turbidity (tert-butyl chloride)",
+    "memory_trick": "Instant cloudiness = 3\u00b0 alcohol; needs heating and stays clear a while = 1\u00b0 alcohol."
+  }
+]

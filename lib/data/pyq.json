@@ -1,0 +1,930 @@
+[
+  {
+    "id": 1,
+    "chapter_id": 1,
+    "class_level": "Class 11",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "style": "JEE Main",
+    "question": "The number of significant figures in 6.023 x 10^23 is:",
+    "options": [
+      "3",
+      "4",
+      "23",
+      "27"
+    ],
+    "answer": 1,
+    "explanation": "Only the digits in the coefficient count: 6, 0, 2, 3 -> 4 significant figures; the power of 10 is not counted."
+  },
+  {
+    "id": 2,
+    "chapter_id": 1,
+    "class_level": "Class 11",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "style": "JEE Advanced",
+    "question": "A sample of Na2CO3.10H2O weighing 2.86 g is dissolved in water to make 100 mL solution. The molarity of the solution is (Molar mass Na2CO3.10H2O = 286 g/mol):",
+    "options": [
+      "0.01 M",
+      "0.1 M",
+      "1.0 M",
+      "2.86 M"
+    ],
+    "answer": 1,
+    "explanation": "Moles = 2.86/286 = 0.01 mol; Molarity = 0.01 mol / 0.1 L = 0.1 M."
+  },
+  {
+    "id": 3,
+    "chapter_id": 2,
+    "class_level": "Class 11",
+    "chapter": "Structure of Atom",
+    "style": "JEE Main",
+    "question": "The maximum number of electrons that can be accommodated in the M shell (n = 3) is:",
+    "options": [
+      "8",
+      "18",
+      "32",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "Maximum electrons in a shell = 2n^2 = 2(3)^2 = 18."
+  },
+  {
+    "id": 4,
+    "chapter_id": 2,
+    "class_level": "Class 11",
+    "chapter": "Structure of Atom",
+    "style": "JEE Advanced",
+    "question": "For an electron in a hydrogen atom, the wavelength associated with the transition from n=4 to n=2 lies in which spectral series?",
+    "options": [
+      "Lyman",
+      "Balmer",
+      "Paschen",
+      "Brackett"
+    ],
+    "answer": 1,
+    "explanation": "Transitions ending at n=2 belong to the Balmer series (visible region)."
+  },
+  {
+    "id": 5,
+    "chapter_id": 3,
+    "class_level": "Class 11",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "style": "JEE Main",
+    "question": "Which of the following has the smallest atomic radius?",
+    "options": [
+      "Na",
+      "Mg",
+      "Al",
+      "Si"
+    ],
+    "answer": 3,
+    "explanation": "Across period 3, effective nuclear charge increases left to right, so atomic radius decreases; Si is furthest right among these."
+  },
+  {
+    "id": 6,
+    "chapter_id": 3,
+    "class_level": "Class 11",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "style": "JEE Advanced",
+    "question": "The correct order of first ionisation enthalpy is:",
+    "options": [
+      "Be < B < C < N",
+      "B < Be < C < N",
+      "N < C < B < Be",
+      "C < B < Be < N"
+    ],
+    "answer": 1,
+    "explanation": "Due to extra stability of the fully filled 2s2 in Be, its IE1 is anomalously higher than B, giving B < Be < C < N."
+  },
+  {
+    "id": 7,
+    "chapter_id": 4,
+    "class_level": "Class 11",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "style": "JEE Main",
+    "question": "The hybridisation of the central atom in SF6 is:",
+    "options": [
+      "sp3",
+      "sp3d",
+      "sp3d2",
+      "sp3d3"
+    ],
+    "answer": 2,
+    "explanation": "SF6 has 6 bond pairs and 0 lone pairs around S, giving octahedral geometry with sp3d2 hybridisation."
+  },
+  {
+    "id": 8,
+    "chapter_id": 4,
+    "class_level": "Class 11",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "style": "JEE Advanced",
+    "question": "Which of the following species is diamagnetic according to molecular orbital theory?",
+    "options": [
+      "O2",
+      "O2-",
+      "N2",
+      "NO"
+    ],
+    "answer": 2,
+    "explanation": "N2 has bond order 3 with all electrons paired in MOs, making it diamagnetic; O2, O2- and NO have unpaired electrons."
+  },
+  {
+    "id": 9,
+    "chapter_id": 5,
+    "class_level": "Class 11",
+    "chapter": "Thermodynamics (Chemical)",
+    "style": "JEE Main",
+    "question": "For an ideal gas undergoing reversible isothermal expansion, which relation correctly describes the process?",
+    "options": [
+      "dU = 0 and q = -w",
+      "dU = q and w = 0",
+      "dU = w and q = 0",
+      "dU, q and w are all zero"
+    ],
+    "answer": 0,
+    "explanation": "For an ideal gas, U depends only on T, so at constant T, dU = 0. By the first law, dU = q + w, so q = -w."
+  },
+  {
+    "id": 10,
+    "chapter_id": 5,
+    "class_level": "Class 11",
+    "chapter": "Thermodynamics (Chemical)",
+    "style": "JEE Advanced",
+    "question": "For a reaction, delta H = -92 kJ/mol and delta S = -198 J/K/mol at 298 K. The reaction is:",
+    "options": [
+      "Spontaneous at all temperatures",
+      "Non-spontaneous at all temperatures",
+      "Spontaneous only at low temperature",
+      "Spontaneous only at high temperature"
+    ],
+    "answer": 2,
+    "explanation": "delta G = delta H - T delta S. Since delta H is negative and delta S is negative, delta G becomes negative (spontaneous) only when T is small enough that |T delta S| < |delta H|, i.e. low temperature."
+  },
+  {
+    "id": 11,
+    "chapter_id": 6,
+    "class_level": "Class 11",
+    "chapter": "Equilibrium",
+    "style": "JEE Main",
+    "question": "For the reaction N2 + 3H2 <=> 2NH3, if the concentration of H2 is tripled at constant temperature, the equilibrium will shift:",
+    "options": [
+      "Towards reactants",
+      "Towards products",
+      "No shift",
+      "Cannot be predicted"
+    ],
+    "answer": 1,
+    "explanation": "Increasing reactant concentration shifts equilibrium towards products by Le Chatelier's principle."
+  },
+  {
+    "id": 12,
+    "chapter_id": 6,
+    "class_level": "Class 11",
+    "chapter": "Equilibrium",
+    "style": "JEE Advanced",
+    "question": "The pH of a 0.01 M CH3COOH solution (Ka = 1.8 x 10^-5) is approximately:",
+    "options": [
+      "2",
+      "3.4",
+      "7",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "[H+] = sqrt(Ka x C) = sqrt(1.8e-5 x 0.01) \u2248 4.2 x 10^-4; pH = -log(4.2e-4) \u2248 3.4."
+  },
+  {
+    "id": 13,
+    "chapter_id": 7,
+    "class_level": "Class 11",
+    "chapter": "Redox Reactions",
+    "style": "JEE Main",
+    "question": "The oxidation number of Mn in KMnO4 is:",
+    "options": [
+      "+2",
+      "+4",
+      "+6",
+      "+7"
+    ],
+    "answer": 3,
+    "explanation": "K is +1, O is -2 (x4=-8); for neutral compound, Mn + 1 - 8 = 0, so Mn = +7."
+  },
+  {
+    "id": 14,
+    "chapter_id": 7,
+    "class_level": "Class 11",
+    "chapter": "Redox Reactions",
+    "style": "JEE Advanced",
+    "question": "In the disproportionation of Cl2 in cold dilute NaOH, chlorine is simultaneously oxidised to ___ and reduced to ___:",
+    "options": [
+      "ClO-, Cl-",
+      "ClO3-, Cl-",
+      "ClO4-, Cl2",
+      "Cl2O, Cl-"
+    ],
+    "answer": 0,
+    "explanation": "Cl2 + 2NaOH(cold, dilute) -> NaCl + NaOCl + H2O: Cl goes from 0 to -1 (reduced, Cl-) and 0 to +1 (oxidised, ClO-)."
+  },
+  {
+    "id": 15,
+    "chapter_id": 8,
+    "class_level": "Class 11",
+    "chapter": "Hydrogen",
+    "style": "JEE Main",
+    "question": "Heavy water (D2O) is used mainly as a:",
+    "options": [
+      "Fuel",
+      "Moderator in nuclear reactors",
+      "Bleaching agent",
+      "Desiccant"
+    ],
+    "answer": 1,
+    "explanation": "D2O slows down (moderates) fast neutrons in nuclear reactors without absorbing them as readily as ordinary water."
+  },
+  {
+    "id": 16,
+    "chapter_id": 8,
+    "class_level": "Class 11",
+    "chapter": "Hydrogen",
+    "style": "JEE Advanced",
+    "question": "Which of the following statements about hydrogen is INCORRECT?",
+    "options": [
+      "It has three isotopes: protium, deuterium, tritium",
+      "It can act as both oxidising and reducing agent",
+      "It occupies a unique position, sometimes placed with alkali metals and sometimes with halogens",
+      "It always exhibits -1 oxidation state"
+    ],
+    "answer": 3,
+    "explanation": "Hydrogen commonly shows +1 (with nonmetals) and -1 (with active metals, forming hydrides), not exclusively -1."
+  },
+  {
+    "id": 17,
+    "chapter_id": 9,
+    "class_level": "Class 11",
+    "chapter": "The s-Block Elements",
+    "style": "JEE Main",
+    "question": "Which alkali metal shows the greatest tendency to form a covalent bond?",
+    "options": [
+      "Li",
+      "Na",
+      "K",
+      "Cs"
+    ],
+    "answer": 0,
+    "explanation": "Li has the smallest size and highest polarising power (Fajan's rules), giving it the most covalent character among alkali metal compounds."
+  },
+  {
+    "id": 18,
+    "chapter_id": 9,
+    "class_level": "Class 11",
+    "chapter": "The s-Block Elements",
+    "style": "JEE Advanced",
+    "question": "Plaster of Paris has the formula:",
+    "options": [
+      "CaSO4.2H2O",
+      "CaSO4.1/2H2O",
+      "CaSO4",
+      "CaCO3"
+    ],
+    "answer": 1,
+    "explanation": "Plaster of Paris is calcium sulphate hemihydrate, CaSO4.1/2H2O, obtained by heating gypsum (CaSO4.2H2O)."
+  },
+  {
+    "id": 19,
+    "chapter_id": 10,
+    "class_level": "Class 11",
+    "chapter": "The p-Block Elements (Groups 13 and 14)",
+    "style": "JEE Main",
+    "question": "Diborane (B2H6) has how many bridging hydrogen atoms?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "0"
+    ],
+    "answer": 0,
+    "explanation": "Diborane has a 3-centre-2-electron bonding scheme with 2 bridging H atoms and 4 terminal H atoms."
+  },
+  {
+    "id": 20,
+    "chapter_id": 10,
+    "class_level": "Class 11",
+    "chapter": "The p-Block Elements (Groups 13 and 14)",
+    "style": "JEE Advanced",
+    "question": "The inert pair effect is most pronounced in which group 14 element, favouring the +2 oxidation state?",
+    "options": [
+      "C",
+      "Si",
+      "Sn",
+      "Pb"
+    ],
+    "answer": 3,
+    "explanation": "The inert pair effect (poor shielding by filled d/f orbitals) increases down the group, being strongest for Pb, which readily shows +2."
+  },
+  {
+    "id": 21,
+    "chapter_id": 11,
+    "class_level": "Class 11",
+    "chapter": "Organic Chemistry - Some Basic Principles and Techniques",
+    "style": "JEE Main",
+    "question": "Which of the following is an electrophile?",
+    "options": [
+      "NH3",
+      "BF3",
+      "OH-",
+      "CN-"
+    ],
+    "answer": 1,
+    "explanation": "BF3 is electron-deficient (incomplete octet on B) and readily accepts an electron pair, making it an electrophile."
+  },
+  {
+    "id": 22,
+    "chapter_id": 11,
+    "class_level": "Class 11",
+    "chapter": "Organic Chemistry - Some Basic Principles and Techniques",
+    "style": "JEE Advanced",
+    "question": "The correct order of stability of carbocations is:",
+    "options": [
+      "1\u00b0 > 2\u00b0 > 3\u00b0",
+      "3\u00b0 > 2\u00b0 > 1\u00b0",
+      "2\u00b0 > 3\u00b0 > 1\u00b0",
+      "All equally stable"
+    ],
+    "answer": 1,
+    "explanation": "More alkyl substitution provides greater hyperconjugation and inductive electron donation, stabilising 3\u00b0 > 2\u00b0 > 1\u00b0 carbocations."
+  },
+  {
+    "id": 23,
+    "chapter_id": 12,
+    "class_level": "Class 11",
+    "chapter": "Hydrocarbons",
+    "style": "JEE Main",
+    "question": "Markovnikov addition of HBr to propene gives mainly:",
+    "options": [
+      "1-bromopropane",
+      "2-bromopropane",
+      "1,2-dibromopropane",
+      "Propyne"
+    ],
+    "answer": 1,
+    "explanation": "H adds to the carbon with more hydrogens (C1); Br goes to the more substituted C2, giving 2-bromopropane as the major product."
+  },
+  {
+    "id": 24,
+    "chapter_id": 12,
+    "class_level": "Class 11",
+    "chapter": "Hydrocarbons",
+    "style": "JEE Advanced",
+    "question": "Ozonolysis of 2-butene followed by reductive workup (Zn/H2O) gives:",
+    "options": [
+      "Acetaldehyde only",
+      "Formaldehyde only",
+      "Acetone only",
+      "A mixture of formaldehyde and acetaldehyde"
+    ],
+    "answer": 0,
+    "explanation": "2-butene (CH3-CH=CH-CH3) cleaves symmetrically at the double bond to give two molecules of acetaldehyde (CH3CHO)."
+  },
+  {
+    "id": 25,
+    "chapter_id": 13,
+    "class_level": "Class 11",
+    "chapter": "Environmental Chemistry",
+    "style": "JEE Main",
+    "question": "The primary cause of the greenhouse effect enhancement is increased atmospheric concentration of:",
+    "options": [
+      "N2",
+      "O2",
+      "CO2",
+      "Ar"
+    ],
+    "answer": 2,
+    "explanation": "CO2 (along with CH4, water vapour, etc.) traps outgoing infrared radiation, driving the enhanced greenhouse effect."
+  },
+  {
+    "id": 26,
+    "chapter_id": 13,
+    "class_level": "Class 11",
+    "chapter": "Environmental Chemistry",
+    "style": "JEE Advanced",
+    "question": "Chlorofluorocarbons (CFCs) deplete the ozone layer mainly because:",
+    "options": [
+      "They absorb all UV radiation",
+      "UV light releases Cl radicals that catalytically destroy O3",
+      "They react directly with O2",
+      "They increase atmospheric CO2"
+    ],
+    "answer": 1,
+    "explanation": "UV photolysis of C-Cl bonds in CFCs releases Cl radicals, which catalytically convert O3 to O2 in a chain reaction, depleting ozone."
+  },
+  {
+    "id": 27,
+    "chapter_id": 14,
+    "class_level": "Class 12",
+    "chapter": "Solid State",
+    "style": "JEE Main",
+    "question": "In a body-centred cubic (bcc) unit cell, the number of atoms per unit cell is:",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "bcc has 8 corner atoms (each contributing 1/8) plus 1 body-centre atom: 8x(1/8) + 1 = 2 atoms per unit cell."
+  },
+  {
+    "id": 28,
+    "chapter_id": 14,
+    "class_level": "Class 12",
+    "chapter": "Solid State",
+    "style": "JEE Advanced",
+    "question": "A solid has Schottky defects. This defect causes the density of the solid to:",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain unchanged",
+      "First increase then decrease"
+    ],
+    "answer": 1,
+    "explanation": "Schottky defects are equal numbers of missing cation-anion pairs, lowering the mass without changing the volume much, so density decreases."
+  },
+  {
+    "id": 29,
+    "chapter_id": 15,
+    "class_level": "Class 12",
+    "chapter": "Solutions",
+    "style": "JEE Main",
+    "question": "According to Raoult's law, the relative lowering of vapour pressure of a solution equals:",
+    "options": [
+      "Mole fraction of solvent",
+      "Mole fraction of solute",
+      "Molarity of solute",
+      "Molality of solute"
+    ],
+    "answer": 1,
+    "explanation": "Relative lowering of vapour pressure (p0-p)/p0 = mole fraction of the (non-volatile) solute, per Raoult's law."
+  },
+  {
+    "id": 30,
+    "chapter_id": 15,
+    "class_level": "Class 12",
+    "chapter": "Solutions",
+    "style": "JEE Advanced",
+    "question": "A 0.1 m aqueous solution of a weak electrolyte that dissociates into 2 ions shows a van't Hoff factor of 1.6. Its degree of dissociation is:",
+    "options": [
+      "0.4",
+      "0.6",
+      "0.8",
+      "1.0"
+    ],
+    "answer": 1,
+    "explanation": "i = 1 + alpha(n-1); with n=2, 1.6 = 1 + alpha(1), so alpha = 0.6."
+  },
+  {
+    "id": 31,
+    "chapter_id": 16,
+    "class_level": "Class 12",
+    "chapter": "Electrochemistry",
+    "style": "JEE Main",
+    "question": "For the cell Zn | Zn2+ || Cu2+ | Cu, the standard cell potential (E0cell) is positive when:",
+    "options": [
+      "E0(Zn2+/Zn) > E0(Cu2+/Cu)",
+      "E0(Cu2+/Cu) > E0(Zn2+/Zn)",
+      "Both are equal",
+      "Neither electrode has a defined potential"
+    ],
+    "answer": 1,
+    "explanation": "E0cell = E0cathode - E0anode = E0(Cu2+/Cu) - E0(Zn2+/Zn); this is positive (as observed) because Cu2+/Cu has the higher reduction potential."
+  },
+  {
+    "id": 32,
+    "chapter_id": 16,
+    "class_level": "Class 12",
+    "chapter": "Electrochemistry",
+    "style": "JEE Advanced",
+    "question": "In the electrolysis of aqueous CuSO4 using inert (Pt) electrodes, the product at the anode is:",
+    "options": [
+      "Cu metal",
+      "H2 gas",
+      "O2 gas",
+      "SO2 gas"
+    ],
+    "answer": 2,
+    "explanation": "At the anode, OH- (from water) is preferentially oxidised over SO4^2- (which is not easily discharged), releasing O2 gas."
+  },
+  {
+    "id": 33,
+    "chapter_id": 17,
+    "class_level": "Class 12",
+    "chapter": "Chemical Kinetics",
+    "style": "JEE Main",
+    "question": "For a first-order reaction, the half-life is:",
+    "options": [
+      "Directly proportional to initial concentration",
+      "Independent of initial concentration",
+      "Inversely proportional to initial concentration",
+      "Proportional to the square of initial concentration"
+    ],
+    "answer": 1,
+    "explanation": "For a first-order reaction, t1/2 = 0.693/k, which does not depend on initial concentration."
+  },
+  {
+    "id": 34,
+    "chapter_id": 17,
+    "class_level": "Class 12",
+    "chapter": "Chemical Kinetics",
+    "style": "JEE Advanced",
+    "question": "The rate constant of a reaction doubles when temperature is raised from 300 K to 310 K. The activation energy (approx, using Arrhenius equation) is closest to:",
+    "options": [
+      "5 kJ/mol",
+      "53 kJ/mol",
+      "150 kJ/mol",
+      "300 kJ/mol"
+    ],
+    "answer": 1,
+    "explanation": "Using ln(k2/k1) = Ea/R (1/T1 - 1/T2) with k2/k1=2, T1=300, T2=310 gives Ea \u2248 53 kJ/mol."
+  },
+  {
+    "id": 35,
+    "chapter_id": 18,
+    "class_level": "Class 12",
+    "chapter": "Surface Chemistry",
+    "style": "JEE Main",
+    "question": "Physisorption, unlike chemisorption, is characterised by:",
+    "options": [
+      "High enthalpy of adsorption and irreversibility",
+      "Low enthalpy of adsorption and reversibility",
+      "Formation of a monolayer only",
+      "Increasing with increase in temperature"
+    ],
+    "answer": 1,
+    "explanation": "Physisorption involves weak van der Waals forces, so it has low enthalpy of adsorption and is generally reversible; chemisorption is stronger and less reversible."
+  },
+  {
+    "id": 36,
+    "chapter_id": 18,
+    "class_level": "Class 12",
+    "chapter": "Surface Chemistry",
+    "style": "JEE Advanced",
+    "question": "In the Freundlich adsorption isotherm x/m = k P^(1/n), the value of 1/n usually lies between:",
+    "options": [
+      "0 and 1",
+      "1 and 2",
+      "-1 and 0",
+      "2 and 3"
+    ],
+    "answer": 0,
+    "explanation": "Empirically, 1/n lies between 0 and 1 for most systems, reflecting the intermediate behaviour of adsorption with pressure."
+  },
+  {
+    "id": 37,
+    "chapter_id": 19,
+    "class_level": "Class 12",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "style": "JEE Main",
+    "question": "In the extraction of iron in a blast furnace, the reducing agent is mainly:",
+    "options": [
+      "CO",
+      "H2",
+      "Al",
+      "C directly at all stages"
+    ],
+    "answer": 0,
+    "explanation": "Carbon monoxide, generated from coke and air/CO2 in the furnace, is the principal reducing agent that converts iron oxides to iron."
+  },
+  {
+    "id": 38,
+    "chapter_id": 19,
+    "class_level": "Class 12",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "style": "JEE Advanced",
+    "question": "Zone refining is used to purify semiconductors like silicon based on the principle that:",
+    "options": [
+      "Impurities are more soluble in the molten zone than in the solid",
+      "Impurities sublime away",
+      "Impurities react with a flux to form slag",
+      "Impurities are volatile and distil off"
+    ],
+    "answer": 0,
+    "explanation": "As a molten zone moves along the rod, impurities remain more soluble in the liquid than the solid and are swept to one end, purifying the rest."
+  },
+  {
+    "id": 39,
+    "chapter_id": 20,
+    "class_level": "Class 12",
+    "chapter": "The p-Block Elements (Groups 15-18)",
+    "style": "JEE Main",
+    "question": "The shape of XeF4 is:",
+    "options": [
+      "Tetrahedral",
+      "Square planar",
+      "See-saw",
+      "Octahedral"
+    ],
+    "answer": 1,
+    "explanation": "XeF4 has 4 bond pairs and 2 lone pairs on Xe (sp3d2 hybridisation), giving a square planar shape."
+  },
+  {
+    "id": 40,
+    "chapter_id": 20,
+    "class_level": "Class 12",
+    "chapter": "The p-Block Elements (Groups 15-18)",
+    "style": "JEE Advanced",
+    "question": "Which of the following oxoacids of phosphorus has a P-H bond (making it a good reducing agent)?",
+    "options": [
+      "H3PO4",
+      "H3PO3",
+      "H4P2O7",
+      "HPO3"
+    ],
+    "answer": 1,
+    "explanation": "H3PO3 (phosphorous acid) contains one P-H bond, contributing to its strong reducing character; the fully oxidised H3PO4 has no P-H bond."
+  },
+  {
+    "id": 41,
+    "chapter_id": 21,
+    "class_level": "Class 12",
+    "chapter": "The d and f Block Elements",
+    "style": "JEE Main",
+    "question": "The maximum oxidation state shown by Mn among its compounds is:",
+    "options": [
+      "+2",
+      "+4",
+      "+7",
+      "+6"
+    ],
+    "answer": 2,
+    "explanation": "Mn shows a maximum oxidation state of +7 as seen in KMnO4, corresponding to the use of all 3d and 4s electrons."
+  },
+  {
+    "id": 42,
+    "chapter_id": 21,
+    "class_level": "Class 12",
+    "chapter": "The d and f Block Elements",
+    "style": "JEE Advanced",
+    "question": "Lanthanide contraction is primarily responsible for which of the following observations?",
+    "options": [
+      "Zr and Hf having almost identical atomic radii",
+      "Ce being radioactive",
+      "Lanthanides being colourless",
+      "Actinides showing +2 oxidation state"
+    ],
+    "answer": 0,
+    "explanation": "The steady contraction in size across the lanthanides means the size increase expected on descending from period 5 to 6 in group 4 is offset, so Zr and Hf have nearly identical radii."
+  },
+  {
+    "id": 43,
+    "chapter_id": 22,
+    "class_level": "Class 12",
+    "chapter": "Coordination Compounds",
+    "style": "JEE Main",
+    "question": "The IUPAC name of [Co(NH3)5Cl]Cl2 is:",
+    "options": [
+      "Pentaamminecobalt(III) chloride",
+      "Pentaamminechloridocobalt(III) chloride",
+      "Pentaamminecobalt(II) chloride",
+      "Chloridopentaamminecobaltate(III) chloride"
+    ],
+    "answer": 1,
+    "explanation": "Ligands are named alphabetically (ammine before chlorido) inside the complex ion, with the oxidation state of Co being +3 (since 5NH3=0, 1Cl-in-sphere=-1, 2Cl-outside=-2, total charge balance gives Co=+3)."
+  },
+  {
+    "id": 44,
+    "chapter_id": 22,
+    "class_level": "Class 12",
+    "chapter": "Coordination Compounds",
+    "style": "JEE Advanced",
+    "question": "Which of the following complexes is expected to be diamagnetic (low spin, strong field, d6 octahedral)?",
+    "options": [
+      "[Fe(H2O)6]2+",
+      "[Fe(CN)6]4-",
+      "[FeF6]3-",
+      "[Fe(H2O)6]3+"
+    ],
+    "answer": 1,
+    "explanation": "CN- is a strong field ligand causing pairing of all 6 d-electrons of Fe2+ (d6, low spin, t2g6eg0), giving a diamagnetic complex."
+  },
+  {
+    "id": 45,
+    "chapter_id": 23,
+    "class_level": "Class 12",
+    "chapter": "Haloalkanes and Haloarenes",
+    "style": "JEE Main",
+    "question": "Which of the following undergoes SN1 substitution most readily?",
+    "options": [
+      "CH3Cl",
+      "CH3CH2Cl",
+      "(CH3)3CCl",
+      "CH2=CHCl"
+    ],
+    "answer": 2,
+    "explanation": "Tertiary halides form the most stable carbocation, favouring the SN1 pathway; vinyl halides essentially don't undergo SN1/SN2 at all."
+  },
+  {
+    "id": 46,
+    "chapter_id": 23,
+    "class_level": "Class 12",
+    "chapter": "Haloalkanes and Haloarenes",
+    "style": "JEE Advanced",
+    "question": "Chlorobenzene is much less reactive than chloroethane towards nucleophilic substitution mainly because:",
+    "options": [
+      "Chlorine is more electronegative in chlorobenzene",
+      "C-Cl bond in chlorobenzene has partial double bond character due to resonance",
+      "Benzene ring is electron-poor",
+      "Chlorobenzene is non-polar"
+    ],
+    "answer": 1,
+    "explanation": "Lone pair delocalisation from Cl into the ring gives the C-Cl bond partial double-bond character, shortening and strengthening it, and disfavouring nucleophilic substitution."
+  },
+  {
+    "id": 47,
+    "chapter_id": 24,
+    "class_level": "Class 12",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "style": "JEE Main",
+    "question": "Phenol is more acidic than ethanol because:",
+    "options": [
+      "Phenoxide ion is destabilised by resonance",
+      "Phenoxide ion is stabilised by resonance delocalisation into the ring",
+      "Ethanol has a smaller molecular mass",
+      "Phenol has a higher boiling point"
+    ],
+    "answer": 1,
+    "explanation": "The negative charge on the phenoxide oxygen is delocalised into the aromatic ring by resonance, stabilising the conjugate base and increasing acidity relative to ethanol."
+  },
+  {
+    "id": 48,
+    "chapter_id": 24,
+    "class_level": "Class 12",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "style": "JEE Advanced",
+    "question": "Which reagent distinguishes between a primary, secondary, and tertiary alcohol most reliably by rate of reaction?",
+    "options": [
+      "Lucas reagent (conc. HCl/ZnCl2)",
+      "Sodium metal",
+      "Ceric ammonium nitrate",
+      "Tollens' reagent"
+    ],
+    "answer": 0,
+    "explanation": "Lucas reagent reacts with 3\u00b0 alcohols instantly, 2\u00b0 alcohols within a few minutes, and 1\u00b0 alcohols very slowly at room temperature, giving a clear time-based distinction."
+  },
+  {
+    "id": 49,
+    "chapter_id": 25,
+    "class_level": "Class 12",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "style": "JEE Main",
+    "question": "Which of the following gives a positive iodoform test?",
+    "options": [
+      "CH3CH2OH",
+      "CH3COCH3",
+      "HCHO",
+      "C6H5CHO"
+    ],
+    "answer": 1,
+    "explanation": "The iodoform test requires a CH3-CO- group (or CH3CH(OH)- that oxidises to it); acetone (CH3COCH3) satisfies this directly."
+  },
+  {
+    "id": 50,
+    "chapter_id": 25,
+    "class_level": "Class 12",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "style": "JEE Advanced",
+    "question": "Arrange in increasing order of acidity: acetic acid, chloroacetic acid, phenol, ethanol.",
+    "options": [
+      "Ethanol < phenol < acetic acid < chloroacetic acid",
+      "Ethanol < acetic acid < phenol < chloroacetic acid",
+      "Phenol < ethanol < chloroacetic acid < acetic acid",
+      "Chloroacetic acid < acetic acid < phenol < ethanol"
+    ],
+    "answer": 0,
+    "explanation": "Carboxylic acids are more acidic than phenol (resonance in carboxylate is more effective than in phenoxide), and the electron-withdrawing Cl in chloroacetic acid further increases acidity beyond acetic acid; ethanol (no resonance stabilisation of its conjugate base) is the weakest acid."
+  },
+  {
+    "id": 51,
+    "chapter_id": 26,
+    "class_level": "Class 12",
+    "chapter": "Amines",
+    "style": "JEE Main",
+    "question": "Aniline is a weaker base than methylamine mainly because:",
+    "options": [
+      "The lone pair on N in aniline is delocalised into the benzene ring",
+      "Aniline has a higher molecular mass",
+      "Methylamine is aromatic",
+      "Aniline is less soluble in water"
+    ],
+    "answer": 0,
+    "explanation": "In aniline, the nitrogen lone pair is delocalised into the aromatic ring by resonance, making it less available to accept a proton, hence a weaker base than methylamine."
+  },
+  {
+    "id": 52,
+    "chapter_id": 26,
+    "class_level": "Class 12",
+    "chapter": "Amines",
+    "style": "JEE Advanced",
+    "question": "In the Hofmann bromamide degradation of CH3CH2CONH2, the final product is:",
+    "options": [
+      "CH3CH2CH2NH2",
+      "CH3CH2NH2",
+      "CH3NH2",
+      "CH3CH2COOH"
+    ],
+    "answer": 1,
+    "explanation": "Hofmann degradation removes the carbonyl carbon as CO2/carbonate, converting an amide RCONH2 to the amine RNH2 with one fewer carbon: CH3CH2CONH2 -> CH3CH2NH2."
+  },
+  {
+    "id": 53,
+    "chapter_id": 27,
+    "class_level": "Class 12",
+    "chapter": "Biomolecules",
+    "style": "JEE Main",
+    "question": "Glucose and fructose are examples of:",
+    "options": [
+      "Disaccharides",
+      "Monosaccharides",
+      "Polysaccharides",
+      "Amino acids"
+    ],
+    "answer": 1,
+    "explanation": "Glucose (an aldohexose) and fructose (a ketohexose) are both simple sugars that cannot be hydrolysed further, i.e. monosaccharides."
+  },
+  {
+    "id": 54,
+    "chapter_id": 27,
+    "class_level": "Class 12",
+    "chapter": "Biomolecules",
+    "style": "JEE Advanced",
+    "question": "The secondary structure of a protein refers to:",
+    "options": [
+      "The sequence of amino acids",
+      "Regular folding patterns like alpha-helix and beta-pleated sheet stabilised by H-bonding",
+      "The overall 3D shape from folding of the secondary structure",
+      "Association of multiple polypeptide subunits"
+    ],
+    "answer": 1,
+    "explanation": "Secondary structure describes local regular arrangements (alpha-helix, beta-sheet) held together by hydrogen bonds between backbone C=O and N-H groups."
+  },
+  {
+    "id": 55,
+    "chapter_id": 28,
+    "class_level": "Class 12",
+    "chapter": "Polymers",
+    "style": "JEE Main",
+    "question": "Nylon-6,6 is an example of a:",
+    "options": [
+      "Addition polymer",
+      "Condensation polymer (polyamide)",
+      "Natural polymer",
+      "Elastomer only"
+    ],
+    "answer": 1,
+    "explanation": "Nylon-6,6 is formed by condensation of hexamethylenediamine and adipic acid with loss of water, making it a condensation polyamide."
+  },
+  {
+    "id": 56,
+    "chapter_id": 28,
+    "class_level": "Class 12",
+    "chapter": "Polymers",
+    "style": "JEE Advanced",
+    "question": "Which of the following is a biodegradable polymer?",
+    "options": [
+      "PHBV (poly-beta-hydroxybutyrate-co-beta-hydroxyvalerate)",
+      "PVC",
+      "Bakelite",
+      "Nylon-6,6"
+    ],
+    "answer": 0,
+    "explanation": "PHBV is synthesised by microorganisms and is biodegradable, unlike the synthetic, largely non-biodegradable PVC, Bakelite, and Nylon-6,6."
+  },
+  {
+    "id": 57,
+    "chapter_id": 29,
+    "class_level": "Class 12",
+    "chapter": "Chemistry in Everyday Life",
+    "style": "JEE Main",
+    "question": "Which class of drugs is used to reduce fever and pain by inhibiting prostaglandin synthesis?",
+    "options": [
+      "Antibiotics",
+      "Analgesics-antipyretics (e.g. aspirin, paracetamol)",
+      "Antihistamines",
+      "Antacids"
+    ],
+    "answer": 1,
+    "explanation": "Analgesic-antipyretics like aspirin inhibit cyclooxygenase (COX) enzymes, reducing prostaglandin synthesis and thereby pain and fever."
+  },
+  {
+    "id": 58,
+    "chapter_id": 29,
+    "class_level": "Class 12",
+    "chapter": "Chemistry in Everyday Life",
+    "style": "JEE Advanced",
+    "question": "Sodium lauryl sulphate is an example of a:",
+    "options": [
+      "Cationic detergent",
+      "Anionic detergent",
+      "Non-ionic detergent",
+      "Soap"
+    ],
+    "answer": 1,
+    "explanation": "Sodium lauryl sulphate is a synthetic detergent whose hydrophilic head is a sulphate anion, making it an anionic detergent (not a soap, which is a carboxylate salt of a fatty acid)."
+  }
+]
