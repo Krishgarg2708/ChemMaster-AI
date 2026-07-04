@@ -13,18 +13,40 @@ const LEVELS = [
   { key: "jee_advanced", label: "JEE Advanced" },
 ];
 
-function PracticeQuestions({ noteId }) {
+function PracticeQuestions({ noteId, classLevel, chapter }) {
   const entry = allQuestions.find((q) => q.note_id === noteId);
   const [level, setLevel] = useState("easy");
   const [revealed, setRevealed] = useState(false);
+  const [choice, setChoice] = useState(null);
+  const { isBookmarked, toggleBookmark, logAttempt, addXp } = useAppState();
 
   if (!entry) return null;
   const q = entry.questions[level];
+  const qRef = `${noteId}:${level}`;
+  const qBookmarked = isBookmarked("question", qRef);
+
+  const selectChoice = (i) => {
+    if (revealed) return;
+    setChoice(i);
+    setRevealed(true);
+    const correct = i === q.answer;
+    logAttempt(classLevel, chapter, correct);
+    if (correct) addXp(2);
+  };
 
   return (
     <div className="mb-5">
-      <div className="text-[11px] uppercase tracking-wide text-slate-500 mb-2">
-        Practice questions
+      <div className="flex items-center justify-between mb-2">
+        <div className="text-[11px] uppercase tracking-wide text-slate-500">
+          Practice questions
+        </div>
+        <button
+          onClick={() => toggleBookmark("question", qRef)}
+          className="focus-ring text-xs text-flame-gold hover:opacity-80 transition-opacity"
+          title="Bookmark this question"
+        >
+          {qBookmarked ? "★ Saved" : "☆ Save question"}
+        </button>
       </div>
       <div className="flex flex-wrap gap-1.5 mb-3">
         {LEVELS.map((l) => (
@@ -33,6 +55,7 @@ function PracticeQuestions({ noteId }) {
             onClick={() => {
               setLevel(l.key);
               setRevealed(false);
+              setChoice(null);
             }}
             className={`focus-ring rounded-full px-3 py-1 text-[11px] font-mono transition-colors ${
               level === l.key
@@ -50,27 +73,33 @@ function PracticeQuestions({ noteId }) {
           <p className="text-sm mb-3">{q.question}</p>
           <div className="flex flex-col gap-1.5 mb-3">
             {q.options.map((opt, i) => (
-              <div
+              <button
                 key={i}
-                className={`text-sm rounded-md px-3 py-1.5 border ${
+                onClick={() => selectChoice(i)}
+                disabled={revealed}
+                className={`focus-ring w-full text-left text-sm rounded-md px-3 py-1.5 border transition-colors ${
                   revealed && i === q.answer
                     ? "border-flame-copper text-flame-copper bg-flame-copper/10"
-                    : "border-ink-border"
+                    : revealed && i === choice
+                    ? "border-flame-crimson text-flame-crimson bg-flame-crimson/10"
+                    : "border-ink-border hover:bg-ink-soft"
                 }`}
               >
                 <span className="font-mono text-xs text-slate-500 mr-2">
                   {String.fromCharCode(65 + i)}
                 </span>
                 {opt}
-              </div>
+              </button>
             ))}
           </div>
-          <button
-            onClick={() => setRevealed((r) => !r)}
-            className="focus-ring rounded-lg border border-ink-border px-3 py-1.5 text-xs hover:bg-ink-soft transition-colors mb-2"
-          >
-            {revealed ? "Hide answer" : "Show answer"}
-          </button>
+          {!revealed && (
+            <button
+              onClick={() => setRevealed(true)}
+              className="focus-ring rounded-lg border border-ink-border px-3 py-1.5 text-xs hover:bg-ink-soft transition-colors mb-2"
+            >
+              Show answer
+            </button>
+          )}
           {revealed && (
             <p className="text-xs text-slate-400 leading-relaxed border-l-2 border-flame-gold pl-3">
               {q.explanation}
@@ -166,7 +195,7 @@ export default function ChapterCard({ note }) {
             </div>
           )}
 
-          <PracticeQuestions noteId={note.id} />
+          <PracticeQuestions noteId={note.id} classLevel={note.class_level} chapter={note.chapter} />
 
           <div className="flex gap-3">
             <button

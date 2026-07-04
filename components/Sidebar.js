@@ -4,11 +4,44 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAppState } from "@/lib/store";
 
-const NAV = [
-  { href: "/", label: "Dashboard", mark: "00" },
-  { href: "/periodic-table", label: "Periodic Table", mark: "01" },
-  { href: "/notes/class-11", label: "Class 11 Notes", mark: "02" },
-  { href: "/notes/class-12", label: "Class 12 Notes", mark: "03" },
+const NAV_GROUPS = [
+  {
+    label: null,
+    items: [{ href: "/", label: "Dashboard", mark: "00" }],
+  },
+  {
+    label: "Reference",
+    items: [
+      { href: "/periodic-table", label: "Periodic Table", mark: "01" },
+      { href: "/periodic-trends", label: "Periodic Trends", mark: "02" },
+      { href: "/named-reactions", label: "Named Reactions", mark: "03" },
+    ],
+  },
+  {
+    label: "Study",
+    items: [
+      { href: "/notes/class-11", label: "Class 11 Notes", mark: "04" },
+      { href: "/notes/class-12", label: "Class 12 Notes", mark: "05" },
+      { href: "/formula-sheet", label: "Formula Sheet", mark: "06" },
+      { href: "/doubt-solver", label: "Doubt Solver", mark: "07" },
+      { href: "/calculators", label: "Calculators", mark: "08" },
+    ],
+  },
+  {
+    label: "Practice",
+    items: [
+      { href: "/mock-test", label: "Mock Test", mark: "09" },
+      { href: "/pyq-bank", label: "PYQ Bank", mark: "10" },
+      { href: "/analytics", label: "Analytics", mark: "11" },
+    ],
+  },
+  {
+    label: "You",
+    items: [
+      { href: "/bookmarks", label: "Bookmarks", mark: "12" },
+      { href: "/certificate", label: "Progress Card", mark: "13" },
+    ],
+  },
 ];
 
 export default function Sidebar() {
@@ -27,30 +60,39 @@ export default function Sidebar() {
           </span>
         </Link>
 
-        <nav className="flex flex-col gap-1 mb-8">
-          {NAV.map((item) => {
-            const active = pathname === item.href;
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={`group flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm transition-colors focus-ring ${
-                  active
-                    ? "bg-ink-softer text-paper"
-                    : "text-slate-400 hover:text-paper hover:bg-ink-soft"
-                }`}
-              >
-                <span
-                  className={`font-mono text-[11px] w-6 ${
-                    active ? "text-flame-gold" : "text-slate-600 group-hover:text-flame-gold"
-                  }`}
-                >
-                  {item.mark}
-                </span>
-                {item.label}
-              </Link>
-            );
-          })}
+        <nav className="flex flex-col gap-4 mb-8 overflow-y-auto lg:max-h-[calc(100vh-260px)] pr-1">
+          {NAV_GROUPS.map((group, gi) => (
+            <div key={gi} className="flex flex-col gap-1">
+              {group.label && (
+                <div className="text-[10px] uppercase tracking-widest text-slate-600 px-3 mb-0.5 mt-1">
+                  {group.label}
+                </div>
+              )}
+              {group.items.map((item) => {
+                const active = pathname === item.href;
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`group flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm transition-colors focus-ring ${
+                      active
+                        ? "bg-ink-softer text-paper"
+                        : "text-slate-400 hover:text-paper hover:bg-ink-soft"
+                    }`}
+                  >
+                    <span
+                      className={`font-mono text-[11px] w-6 ${
+                        active ? "text-flame-gold" : "text-slate-600 group-hover:text-flame-gold"
+                      }`}
+                    >
+                      {item.mark}
+                    </span>
+                    {item.label}
+                  </Link>
+                );
+              })}
+            </div>
+          ))}
         </nav>
 
         <div className="surface-2 p-4 mb-4">
