@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAppState } from "@/lib/store";
@@ -46,7 +47,24 @@ const NAV_GROUPS = [
 
 export default function Sidebar() {
   const pathname = usePathname();
-  const { state, hydrated, toggleTheme } = useAppState();
+  const { state, hydrated, toggleTheme, setName } = useAppState();
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState("");
+  const inputRef = useRef(null);
+
+  const startEditing = () => {
+    setDraft(state.name === "Student" ? "" : state.name);
+    setEditing(true);
+  };
+
+  useEffect(() => {
+    if (editing) inputRef.current?.focus();
+  }, [editing]);
+
+  const save = () => {
+    setName(draft);
+    setEditing(false);
+  };
 
   return (
     <aside className="lg:w-72 shrink-0 border-b lg:border-b-0 lg:border-r border-ink-border bg-ink lg:min-h-screen lg:sticky lg:top-0">
@@ -97,9 +115,50 @@ export default function Sidebar() {
 
         <div className="surface-2 p-4 mb-4">
           <div className="eyebrow mb-2">Student</div>
-          <div className="font-display text-paper text-base mb-3">
-            {hydrated ? state.name : "…"}
-          </div>
+          {editing ? (
+            <div className="flex items-center gap-1.5 mb-3">
+              <input
+                ref={inputRef}
+                value={draft}
+                onChange={(e) => setDraft(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") save();
+                  if (e.key === "Escape") setEditing(false);
+                }}
+                maxLength={40}
+                placeholder="Your name"
+                className="focus-ring bg-transparent border border-ink-border rounded-md px-2 py-1 text-sm text-paper flex-1 min-w-0"
+              />
+              <button
+                onClick={save}
+                className="focus-ring text-flame-gold text-sm px-1.5 py-1 shrink-0"
+                title="Save"
+              >
+                ✓
+              </button>
+              <button
+                onClick={() => setEditing(false)}
+                className="focus-ring text-slate-500 text-sm px-1.5 py-1 shrink-0"
+                title="Cancel"
+              >
+                ✕
+              </button>
+            </div>
+          ) : (
+            <button
+              onClick={startEditing}
+              disabled={!hydrated}
+              className="focus-ring group flex items-center gap-2 mb-3 text-left"
+              title="Edit your name"
+            >
+              <span className="font-display text-paper text-base">
+                {hydrated ? state.name : "…"}
+              </span>
+              <span className="text-[11px] text-slate-600 group-hover:text-flame-gold transition-colors">
+                ✎ edit
+              </span>
+            </button>
+          )}
           <div className="grid grid-cols-3 gap-2 text-center">
             <div>
               <div className="font-mono text-lg text-flame-gold">{hydrated ? state.streak : "–"}</div>

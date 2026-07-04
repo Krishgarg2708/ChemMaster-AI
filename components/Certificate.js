@@ -75,9 +75,14 @@ function draw(canvas, { name, streak, xp, completed, total, accuracy }) {
 }
 
 export default function Certificate() {
-  const { state, hydrated } = useAppState();
+  const { state, hydrated, setName } = useAppState();
   const canvasRef = useRef(null);
   const [ready, setReady] = useState(false);
+  const [nameDraft, setNameDraft] = useState("");
+
+  useEffect(() => {
+    if (hydrated) setNameDraft(state.name);
+  }, [hydrated, state.name]);
 
   const totalAttempts = Object.values(state.attempts || {}).reduce((a, v) => a + v.total, 0);
   const totalCorrect = Object.values(state.attempts || {}).reduce((a, v) => a + v.correct, 0);
@@ -113,6 +118,25 @@ export default function Certificate() {
         description="A shareable progress card generated from your local stats - great for a build-in-public LinkedIn post. Rendered entirely in your browser with no server upload."
       />
       <Card>
+        <div className="mb-4">
+          <div className="text-[11px] uppercase tracking-wide text-slate-500 mb-1.5">Name on card</div>
+          <div className="flex gap-2">
+            <input
+              value={nameDraft}
+              onChange={(e) => setNameDraft(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && setName(nameDraft)}
+              maxLength={40}
+              placeholder="Your name"
+              className="focus-ring surface-2 rounded-lg px-3 py-2 text-sm bg-transparent flex-1"
+            />
+            <button
+              onClick={() => setName(nameDraft)}
+              className="focus-ring rounded-lg border border-ink-border px-4 py-2 text-sm hover:bg-ink-soft transition-colors"
+            >
+              Update
+            </button>
+          </div>
+        </div>
         <canvas
           ref={canvasRef}
           width={900}
