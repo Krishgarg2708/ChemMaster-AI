@@ -45,6 +45,20 @@ export default function HomePage() {
     return notesData.filter((n) => !isComplete(n.class_level, n.chapter)).slice(0, 5);
   }, [hydrated, isComplete]);
 
+  const weakTopics = useMemo(() => {
+    if (!hydrated) return [];
+    return notesData
+      .map((n) => {
+        const key = `${n.class_level}::${n.chapter}`;
+        const a = state.attempts[key];
+        if (!a || a.total === 0) return null;
+        return { key, chapter: n.chapter, pct: Math.round((a.correct / a.total) * 100) };
+      })
+      .filter(Boolean)
+      .sort((a, b) => a.pct - b.pct)
+      .slice(0, 4);
+  }, [hydrated, state.attempts]);
+
   return (
     <div className="p-6 md:p-10 max-w-6xl mx-auto">
       <PageHeader
@@ -122,6 +136,35 @@ export default function HomePage() {
               </p>
             )}
           </Card>
+
+          <Card>
+            <div className="flex items-center justify-between mb-3">
+              <div className="eyebrow">Weak-topic heatmap</div>
+              <Link href="/analytics" className="text-xs text-flame-gold hover:opacity-80 transition-opacity">
+                Full analytics →
+              </Link>
+            </div>
+            {weakTopics.length > 0 ? (
+              <div className="space-y-2.5">
+                {weakTopics.map((w) => (
+                  <div key={w.key} className="flex items-center gap-3">
+                    <div className="w-40 shrink-0 text-xs truncate">{w.chapter}</div>
+                    <div className="flex-1 h-2 rounded-full bg-ink-soft overflow-hidden">
+                      <div
+                        className="h-full bg-gradient-to-r from-flame-crimson to-flame-gold"
+                        style={{ width: `${w.pct}%` }}
+                      />
+                    </div>
+                    <div className="w-12 text-right font-mono text-[11px] text-slate-500">{w.pct}%</div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm text-slate-500">
+                Answer some practice questions or a mock test to see your weakest chapters here.
+              </p>
+            )}
+          </Card>
         </div>
 
         <div className="flex flex-col gap-6">
@@ -166,6 +209,24 @@ export default function HomePage() {
                 className="focus-ring rounded-lg border border-ink-border px-3 py-2.5 text-sm hover:bg-ink-soft transition-colors"
               >
                 Class 12 Notes →
+              </Link>
+              <Link
+                href="/mock-test"
+                className="focus-ring rounded-lg border border-ink-border px-3 py-2.5 text-sm hover:bg-ink-soft transition-colors"
+              >
+                Start a Mock Test →
+              </Link>
+              <Link
+                href="/doubt-solver"
+                className="focus-ring rounded-lg border border-ink-border px-3 py-2.5 text-sm hover:bg-ink-soft transition-colors"
+              >
+                Ask the Doubt Solver →
+              </Link>
+              <Link
+                href="/certificate"
+                className="focus-ring rounded-lg border border-ink-border px-3 py-2.5 text-sm hover:bg-ink-soft transition-colors"
+              >
+                Export Progress Card →
               </Link>
             </div>
           </Card2>

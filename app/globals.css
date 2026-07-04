@@ -57,6 +57,13 @@ html.light .surface-2 {
   @apply bg-white border-paper-border;
 }
 
+.topbar {
+  @apply bg-ink/90;
+}
+html.light .topbar {
+  @apply bg-paper/90 border-paper-border;
+}
+
 .eyebrow {
   @apply font-mono text-[11px] uppercase tracking-[0.18em] text-flame-gold;
 }
@@ -71,5 +78,27 @@ html.light .surface-2 {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
+  }
+}
+
+@media print {
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  aside, .topbar, .print\:hidden {
+    display: none !important;
+  }
+  main {
+    width: 100% !important;
+  }
+  .sheet {
+    background: #fff !important;
+    color: #111 !important;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+  }
+  .print-page-break {
+    page-break-after: always;
   }
 }

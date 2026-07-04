@@ -1,6 +1,7 @@
 import "./globals.css";
 import { AppStateProvider } from "@/lib/store";
 import Sidebar from "@/components/Sidebar";
+import GlobalSearch from "@/components/GlobalSearch";
 
 // Fonts are loaded via standard <link> tags rather than next/font, so the
 // production build never depends on network access to Google Fonts at
@@ -28,7 +29,12 @@ export default function RootLayout({ children }) {
         <AppStateProvider>
           <div className="min-h-screen flex flex-col lg:flex-row">
             <Sidebar />
-            <main className="flex-1 min-w-0">{children}</main>
+            <main className="flex-1 min-w-0">
+              <div className="sticky top-0 z-20 border-b border-ink-border bg-ink/90 backdrop-blur px-6 md:px-10 py-3 topbar">
+                <GlobalSearch />
+              </div>
+              {children}
+            </main>
           </div>
         </AppStateProvider>
       </body>
