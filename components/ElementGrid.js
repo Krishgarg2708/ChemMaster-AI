@@ -17,10 +17,8 @@ function computeGrid(elements) {
   }
   return grid;
 }
-
 export default function ElementGrid({ elements, visibleSet, selected, onSelect }) {
   const grid = computeGrid(elements);
-
   return (
     <div className="overflow-x-auto pb-2">
       <div
