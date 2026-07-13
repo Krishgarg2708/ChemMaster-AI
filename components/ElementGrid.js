@@ -1,7 +1,6 @@
 "use client";
 
 import { categoryColor } from "@/lib/categoryColors";
-
 function computeGrid(elements) {
   const grid = {};
   let laCount = 0;
