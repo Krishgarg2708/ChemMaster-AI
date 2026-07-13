@@ -2,7 +2,6 @@
 
 import { categoryColor } from "@/lib/categoryColors";
 
-// Compute grid position for every element, including lanthanide/actinide rows
 function computeGrid(elements) {
   const grid = {};
   let laCount = 0;
