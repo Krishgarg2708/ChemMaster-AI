@@ -4,7 +4,6 @@ import { useMemo } from "react";
 import { PageHeader, Card, Metric } from "@/components/UI";
 import { useAppState } from "@/lib/store";
 import notesData from "@/lib/data/notes.json";
-
 function accuracyColor(pct) {
   if (pct == null) return "bg-ink-soft border-ink-border text-slate-600";
   if (pct >= 80) return "bg-flame-copper/20 border-flame-copper text-flame-copper";
