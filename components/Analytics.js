@@ -9,7 +9,6 @@ function accuracyColor(pct) {
   if (pct >= 50) return "bg-flame-gold/20 border-flame-gold text-flame-gold";
   return "bg-flame-crimson/20 border-flame-crimson text-flame-crimson";
 }
-
 export default function Analytics() {
   const { state, hydrated } = useAppState();
 
