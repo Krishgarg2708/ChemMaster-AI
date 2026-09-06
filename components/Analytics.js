@@ -11,7 +11,6 @@ function accuracyColor(pct) {
 }
 export default function Analytics() {
   const { state, hydrated } = useAppState();
-
   const rows = useMemo(() => {
     return notesData
       .map((n) => {
