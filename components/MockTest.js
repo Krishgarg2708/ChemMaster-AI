@@ -16,8 +16,9 @@ function buildTest(classLevel, count) {
   const flat = [];
   for (const entry of pool) {
     for (const lvl of LEVELS) {
-      const q = entry.questions[lvl];
-      if (q) {
+      const raw = entry.questions[lvl];
+      const items = Array.isArray(raw) ? raw : raw ? [raw] : [];
+      for (const q of items) {
         flat.push({
           note_id: entry.note_id,
           class_level: entry.class_level,
@@ -154,7 +155,7 @@ export default function MockTest() {
             <input
               type="range"
               min={5}
-              max={40}
+              max={60}
               step={5}
               value={count}
               onChange={(e) => setCount(Number(e.target.value))}

@@ -16,14 +16,27 @@ const LEVELS = [
 function PracticeQuestions({ noteId, classLevel, chapter }) {
   const entry = allQuestions.find((q) => q.note_id === noteId);
   const [level, setLevel] = useState("easy");
+  const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [choice, setChoice] = useState(null);
   const { isBookmarked, toggleBookmark, logAttempt, addXp } = useAppState();
 
   if (!entry) return null;
-  const q = entry.questions[level];
-  const qRef = `${noteId}:${level}`;
+  // each level holds an array of questions (older data held a single object)
+  const raw = entry.questions[level];
+  const list = Array.isArray(raw) ? raw : raw ? [raw] : [];
+  const total = Object.values(entry.questions).reduce(
+    (acc, v) => acc + (Array.isArray(v) ? v.length : v ? 1 : 0),
+    0
+  );
+  const q = list[index];
+  const qRef = `${noteId}:${level}:${index}`;
   const qBookmarked = isBookmarked("question", qRef);
+
+  const reset = () => {
+    setRevealed(false);
+    setChoice(null);
+  };
 
   const selectChoice = (i) => {
     if (revealed) return;
@@ -34,11 +47,16 @@ function PracticeQuestions({ noteId, classLevel, chapter }) {
     if (correct) addXp(2);
   };
 
+  const goTo = (i) => {
+    setIndex(i);
+    reset();
+  };
+
   return (
     <div className="mb-5">
       <div className="flex items-center justify-between mb-2">
         <div className="text-[11px] uppercase tracking-wide text-slate-500">
-          Practice questions
+          Practice questions · {total} in this chapter
         </div>
         <button
           onClick={() => toggleBookmark("question", qRef)}
@@ -49,24 +67,47 @@ function PracticeQuestions({ noteId, classLevel, chapter }) {
         </button>
       </div>
       <div className="flex flex-wrap gap-1.5 mb-3">
-        {LEVELS.map((l) => (
-          <button
-            key={l.key}
-            onClick={() => {
-              setLevel(l.key);
-              setRevealed(false);
-              setChoice(null);
-            }}
-            className={`focus-ring rounded-full px-3 py-1 text-[11px] font-mono transition-colors ${
-              level === l.key
-                ? "bg-flame-gold text-ink"
-                : "border border-ink-border text-slate-400 hover:text-paper hover:bg-ink-soft"
-            }`}
-          >
-            {l.label}
-          </button>
-        ))}
+        {LEVELS.map((l) => {
+          const r = entry.questions[l];
+          const count = Array.isArray(r) ? r.length : r ? 1 : 0;
+          return (
+            <button
+              key={l.key}
+              onClick={() => {
+                setLevel(l.key);
+                setIndex(0);
+                reset();
+              }}
+              className={`focus-ring rounded-full px-3 py-1 text-[11px] font-mono transition-colors ${
+                level === l.key
+                  ? "bg-flame-gold text-ink"
+                  : "border border-ink-border text-slate-400 hover:text-paper hover:bg-ink-soft"
+              }`}
+            >
+              {l.label} ({count})
+            </button>
+          );
+        })}
       </div>
+
+      {list.length > 1 && (
+        <div className="flex items-center gap-1.5 mb-3">
+          <span className="text-[11px] text-slate-500 mr-1">Question</span>
+          {list.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => goTo(i)}
+              className={`focus-ring h-6 w-6 rounded-md text-[11px] font-mono transition-colors ${
+                index === i
+                  ? "bg-flame-gold text-ink"
+                  : "border border-ink-border text-slate-400 hover:bg-ink-soft"
+              }`}
+            >
+              {i + 1}
+            </button>
+          ))}
+        </div>
+      )}
 
       {q && (
         <div className="surface-2 rounded-lg p-4">
@@ -101,9 +142,38 @@ function PracticeQuestions({ noteId, classLevel, chapter }) {
             </button>
           )}
           {revealed && (
-            <p className="text-xs text-slate-400 leading-relaxed border-l-2 border-flame-gold pl-3">
-              {q.explanation}
-            </p>
+            <>
+              <p className="text-xs text-slate-400 leading-relaxed border-l-2 border-flame-gold pl-3 mb-3">
+                {q.explanation}
+              </p>
+              {index < list.length - 1 ? (
+                <button
+                  onClick={() => goTo(index + 1)}
+                  className="focus-ring rounded-lg border border-ink-border px-3 py-1.5 text-xs hover:bg-ink-soft transition-colors"
+                >
+                  Next question →
+                </button>
+              ) : (
+                (() => {
+                  const li = LEVELS.findIndex((l) => l.key === level);
+                  const nextLevel = LEVELS[li + 1];
+                  return nextLevel ? (
+                    <button
+                      onClick={() => {
+                        setLevel(nextLevel.key);
+                        setIndex(0);
+                        reset();
+                      }}
+                      className="focus-ring rounded-lg border border-ink-border px-3 py-1.5 text-xs hover:bg-ink-soft transition-colors"
+                    >
+                      Next level: {nextLevel.label} →
+                    </button>
+                  ) : (
+                    <span className="text-xs text-flame-copper">You have finished every level in this chapter.</span>
+                  );
+                })()
+              )}
+            </>
           )}
         </div>
       )}
@@ -145,6 +215,22 @@ export default function ChapterCard({ note }) {
                 Detailed notes
               </div>
               <p className="text-sm leading-relaxed text-slate-300">{note.detailed_notes}</p>
+            </div>
+          )}
+
+          {note.extended_notes && note.extended_notes.length > 0 && (
+            <div className="mb-4">
+              <div className="text-[11px] uppercase tracking-wide text-slate-500 mb-2">
+                In-depth explanation
+              </div>
+              <div className="space-y-3">
+                {note.extended_notes.map((sec, i) => (
+                  <div key={i} className="border-l-2 border-flame-gold pl-3">
+                    <div className="text-sm font-medium mb-0.5">{sec.heading}</div>
+                    <p className="text-sm leading-relaxed text-slate-300">{sec.text}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           )}
 

@@ -24,10 +24,11 @@ export default function BookmarksView() {
         const e = elementsData.find((x) => String(x.atomic_number) === b.ref);
         if (e) g.element.push({ ref: b.ref, label: `${e.name} (${e.symbol})`, sub: `Z=${e.atomic_number}`, href: "/periodic-table" });
       } else if (b.type === "question") {
-        const [noteId, level] = b.ref.split(":");
+        const [noteId, level, idx = "0"] = b.ref.split(":");
         const entry = allQuestions.find((q) => String(q.note_id) === noteId);
-        const q = entry?.questions?.[level];
-        if (q) g.question.push({ ref: b.ref, label: q.question, sub: `${entry.chapter} · ${level.replace("_", " ")}`, href: entry.class_level === "Class 11" ? "/notes/class-11" : "/notes/class-12" });
+        const rawQ = entry?.questions?.[level];
+        const q = Array.isArray(rawQ) ? rawQ[Number(idx)] : rawQ;
+        if (q) g.question.push({ ref: b.ref, label: q.question, sub: `${entry.chapter} · ${level.replace("_", " ")} · Q${Number(idx) + 1}`, href: entry.class_level === "Class 11" ? "/notes/class-11" : "/notes/class-12" });
       } else if (b.type === "reaction") {
         const r = reactionsData.find((x) => String(x.id) === b.ref);
         if (r) g.reaction.push({ ref: b.ref, label: r.name, sub: r.category, href: "/named-reactions" });
