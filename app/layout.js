@@ -2,6 +2,7 @@ import "./globals.css";
 import { AppStateProvider } from "@/lib/store";
 import Sidebar from "@/components/Sidebar";
 import GlobalSearch from "@/components/GlobalSearch";
+import SplashScreen from "@/components/SplashScreen";
 
 // Fonts are loaded via standard <link> tags rather than next/font, so the
 // production build never depends on network access to Google Fonts at
@@ -9,7 +10,7 @@ import GlobalSearch from "@/components/GlobalSearch";
 // which fails in network-restricted CI/build environments). This keeps
 // builds reliable everywhere, including Vercel.
 export const metadata = {
-  title: "ChemMaster AI — Offline-first Chemistry Revision",
+  title: "ChemMaster AI — Intelligent Chemistry for a Brighter Tomorrow",
   description:
     "A JEE & board-focused chemistry learning platform: interactive periodic table, chapter notes, and progress tracking.",
 };
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="font-body">
+        <SplashScreen />
         <AppStateProvider>
           <div className="min-h-screen flex flex-col lg:flex-row">
             <Sidebar />

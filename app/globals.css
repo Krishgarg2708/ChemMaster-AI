@@ -102,3 +102,311 @@ html.light .topbar {
     page-break-after: always;
   }
 }
+
+/* ================================================================== */
+/* ChemMaster AI — animated splash / loading screen                   */
+/* ================================================================== */
+.cm-splash {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #01040f;
+  color: #cfe3ff;
+}
+
+.cm-splash-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(60% 55% at 50% 42%, rgba(37, 99, 235, 0.28) 0%, rgba(37, 99, 235, 0) 70%),
+    radial-gradient(40% 40% at 78% 70%, rgba(124, 77, 255, 0.16) 0%, rgba(124, 77, 255, 0) 70%),
+    radial-gradient(40% 40% at 18% 28%, rgba(34, 211, 238, 0.12) 0%, rgba(34, 211, 238, 0) 70%),
+    #01040f;
+  animation: cm-bg-breathe 6s ease-in-out infinite;
+}
+
+/* faint hexagon lattice, a nod to benzene rings */
+.cm-splash-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='97' viewBox='0 0 56 97'%3E%3Cg fill='none' stroke='%233b82f6' stroke-opacity='0.16' stroke-width='1'%3E%3Cpath d='M28 1 55 16.5v31L28 63 1 47.5v-31z'/%3E%3Cpath d='M28 63v33M1 47.5 -26 63M55 47.5 82 63'/%3E%3C/g%3E%3C/svg%3E");
+  -webkit-mask-image: radial-gradient(70% 60% at 50% 45%, #000 20%, transparent 85%);
+  mask-image: radial-gradient(70% 60% at 50% 45%, #000 20%, transparent 85%);
+  animation: cm-grid-drift 30s linear infinite;
+}
+
+.cm-splash-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: cm-fade-in 1.6s ease 0.2s forwards;
+}
+
+.cm-splash-center {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(8px, 2vh, 20px);
+  padding: 0 16px;
+}
+
+/* ---- logo ---- */
+.cm-logo-wrap {
+  position: relative;
+  width: min(94vw, 780px);
+  aspect-ratio: 1672 / 941;
+  animation: cm-float 6s ease-in-out 1.8s infinite;
+}
+
+.cm-logo {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  user-select: none;
+  opacity: 0;
+  animation: cm-logo-in 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+}
+
+.cm-logo-glow {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 40%;
+  width: 62%;
+  height: 62%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.55) 0%, rgba(99, 102, 241, 0.3) 45%, transparent 72%);
+  filter: blur(40px);
+  opacity: 0;
+  animation: cm-glow 3.2s ease-in-out 0.6s infinite;
+}
+
+/* light sweep that only touches the logo's own shapes */
+.cm-logo-shine {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  -webkit-mask-image: url("/logo.webp");
+  mask-image: url("/logo.webp");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  background: linear-gradient(
+    105deg,
+    transparent 38%,
+    rgba(255, 255, 255, 0.55) 48%,
+    rgba(180, 225, 255, 0.85) 50%,
+    rgba(255, 255, 255, 0.55) 52%,
+    transparent 62%
+  );
+  background-size: 300% 100%;
+  background-position: 160% 0;
+  mix-blend-mode: screen;
+  opacity: 0;
+  animation: cm-shine 2.6s ease-in-out 1.5s infinite;
+}
+
+/* ---- loader: a glass test-tube filling with liquid ---- */
+.cm-loader {
+  width: min(86vw, 540px);
+  opacity: 0;
+  animation: cm-rise 0.9s ease 0.9s forwards;
+}
+
+.cm-tube {
+  position: relative;
+  height: 16px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(8, 18, 44, 0.85);
+  border: 1px solid rgba(125, 170, 255, 0.4);
+  box-shadow:
+    inset 0 2px 5px rgba(0, 0, 0, 0.6),
+    0 0 24px rgba(59, 130, 246, 0.25);
+}
+
+.cm-tube::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: 2px;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+
+.cm-liquid {
+  position: relative;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #2563eb 0%, #38bdf8 55%, #a78bfa 100%);
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.9);
+  overflow: hidden;
+}
+
+.cm-wave {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0) 0 12px,
+    rgba(255, 255, 255, 0.28) 12px 22px
+  );
+  background-size: 44px 100%;
+  animation: cm-wave 1s linear infinite;
+}
+
+.cm-bubble {
+  position: absolute;
+  bottom: 2px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  opacity: 0;
+  animation: cm-bubble 1.6s ease-in infinite;
+}
+.cm-b1 { right: 10px; animation-delay: 0s; }
+.cm-b2 { right: 26px; width: 3px; height: 3px; animation-delay: 0.5s; }
+.cm-b3 { right: 44px; animation-delay: 0.9s; }
+.cm-b4 { right: 64px; width: 3px; height: 3px; animation-delay: 1.2s; }
+
+.cm-loader-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.cm-status {
+  color: #9fc2f5;
+  animation: cm-status-in 0.45s ease both;
+}
+
+.cm-pct {
+  min-width: 4ch;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  color: #67e8f9;
+  text-shadow: 0 0 12px rgba(34, 211, 238, 0.7);
+}
+
+.cm-skip {
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  z-index: 3;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: rgba(159, 194, 245, 0.7);
+  background: transparent;
+  border: 1px solid rgba(125, 170, 255, 0.2);
+  cursor: pointer;
+  opacity: 0;
+  animation: cm-fade-in 0.6s ease 1.6s forwards;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.cm-skip:hover,
+.cm-skip:focus-visible {
+  color: #fff;
+  border-color: rgba(125, 170, 255, 0.6);
+  outline: none;
+}
+
+/* ---- exit: logo swells, the whole screen dissolves ---- */
+.cm-splash-exit {
+  pointer-events: none;
+  animation: cm-exit 0.85s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+.cm-splash-exit .cm-logo-wrap {
+  animation: cm-logo-out 0.85s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+.cm-splash-exit .cm-loader,
+.cm-splash-exit .cm-skip {
+  animation: cm-fade-out 0.3s ease forwards;
+}
+
+/* ---- keyframes ---- */
+@keyframes cm-logo-in {
+  0%   { opacity: 0; transform: scale(0.88); filter: blur(22px) brightness(1.8); }
+  60%  { opacity: 1; filter: blur(2px) brightness(1.2); }
+  100% { opacity: 1; transform: scale(1); filter: blur(0) brightness(1); }
+}
+@keyframes cm-float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+@keyframes cm-glow {
+  0%, 100% { opacity: 0.45; transform: translate(-50%, -50%) scale(0.92); }
+  50%      { opacity: 1;    transform: translate(-50%, -50%) scale(1.08); }
+}
+@keyframes cm-shine {
+  0%   { opacity: 0; background-position: 160% 0; }
+  12%  { opacity: 1; }
+  60%  { opacity: 1; }
+  80%, 100% { opacity: 0; background-position: -60% 0; }
+}
+@keyframes cm-bg-breathe {
+  0%, 100% { opacity: 0.85; }
+  50%      { opacity: 1; }
+}
+@keyframes cm-grid-drift {
+  from { background-position: 0 0; }
+  to   { background-position: 56px 97px; }
+}
+@keyframes cm-wave {
+  from { background-position: 0 0; }
+  to   { background-position: 44px 0; }
+}
+@keyframes cm-bubble {
+  0%   { transform: translateY(2px) scale(0.6); opacity: 0; }
+  25%  { opacity: 0.9; }
+  100% { transform: translateY(-11px) scale(1); opacity: 0; }
+}
+@keyframes cm-rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes cm-status-in {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes cm-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes cm-fade-out {
+  to { opacity: 0; }
+}
+@keyframes cm-logo-out {
+  to { transform: scale(1.18); opacity: 0; filter: blur(8px) brightness(1.6); }
+}
+@keyframes cm-exit {
+  0%   { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.06); visibility: hidden; }
+}
+
+@media (max-width: 480px) {
+  .cm-loader-row { font-size: 12px; }
+}
