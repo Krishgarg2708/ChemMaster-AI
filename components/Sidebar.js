@@ -68,9 +68,8 @@ export default function Sidebar() {
     <aside className="lg:w-72 shrink-0 border-b lg:border-b-0 lg:border-r border-ink-border bg-ink lg:min-h-screen lg:sticky lg:top-0">
       <div className="p-6 flex flex-col h-full">
         <Link href="/" className="flex items-center gap-2.5 mb-8">
-          <span className="w-8 h-8 rounded-md bg-gradient-to-br from-flame-crimson via-flame-gold to-flame-copper flex items-center justify-center font-mono text-[13px] font-bold text-ink">
-            Cm
-          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo-mark.png" alt="" width={32} height={32} className="w-8 h-8 rounded-md" />
           <span className="font-display font-semibold text-lg tracking-tight text-paper">
             ChemMaster<span className="text-flame-gold">.</span>
           </span>
