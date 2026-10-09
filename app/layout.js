@@ -22,17 +22,18 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,500..800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
       </head>
       <body className="font-body">
+        <div className="ambient" aria-hidden="true" />
         <SplashScreen />
         <AppStateProvider>
           <div className="min-h-screen flex flex-col lg:flex-row">
             <Sidebar />
             <main className="flex-1 min-w-0">
-              <div className="sticky top-0 z-20 border-b border-ink-border bg-ink/90 backdrop-blur px-6 md:px-10 py-3 topbar">
+              <div className="sticky top-0 z-20 border-b border-ink-border/70 backdrop-blur px-6 md:px-10 py-3 topbar">
                 <GlobalSearch />
               </div>
               {children}

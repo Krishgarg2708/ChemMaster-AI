@@ -2,105 +2,94 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: dark;
-}
-
-html.light {
-  color-scheme: light;
-}
+:root { color-scheme: dark; }
+html.light { color-scheme: light; }
 
 body {
-  @apply bg-ink text-paper font-body antialiased;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  @apply bg-ink text-slate-200 font-body antialiased;
+  transition: background-color .25s ease, color .25s ease;
 }
+html.light body { @apply bg-paper text-slate-800; }
+html.light .text-paper { color: #0B1220; }
+html.light .text-slate-300, html.light .text-slate-400 { color: #475569; }
 
-html.light body {
-  @apply bg-paper text-ink;
-}
+h1, h2, h3, .font-display { font-variation-settings: "wdth" 90; letter-spacing: -0.02em; }
 
-::selection {
-  background: rgba(227, 167, 46, 0.35);
-}
+::selection { background: rgba(255,181,71,.35); }
+::-webkit-scrollbar { width: 9px; height: 9px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(148,163,184,.3); border-radius: 999px; }
 
-::-webkit-scrollbar {
-  width: 9px;
-  height: 9px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: rgba(148, 163, 184, 0.35);
-  border-radius: 999px;
-}
+.focus-ring { @apply outline-none ring-2 ring-flame-gold/80 ring-offset-2 ring-offset-ink; }
+html.light .focus-ring { @apply ring-offset-paper; }
+.focus-ring:focus:not(:focus-visible) { box-shadow: none; --tw-ring-shadow: 0 0 #0000; }
 
-.focus-ring {
-  @apply outline-none ring-2 ring-flame-gold ring-offset-2 ring-offset-ink;
+/* ---------- ambient lab-bench backdrop ---------- */
+.ambient {
+  position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(900px 500px at 85% -10%, rgba(90,174,255,.10), transparent 60%),
+    radial-gradient(700px 500px at -5% 40%, rgba(165,139,255,.08), transparent 60%),
+    radial-gradient(600px 400px at 60% 110%, rgba(255,181,71,.06), transparent 60%);
 }
-html.light .focus-ring {
-  @apply ring-offset-paper;
+.ambient::after {
+  content: ""; position: absolute; inset: 0; opacity: .5;
+  background-image: radial-gradient(rgba(148,163,184,.14) 1px, transparent 1px);
+  background-size: 28px 28px;
+  -webkit-mask-image: linear-gradient(180deg, #000, transparent 70%);
+  mask-image: linear-gradient(180deg, #000, transparent 70%);
 }
+html.light .ambient { background:
+  radial-gradient(900px 500px at 85% -10%, rgba(90,174,255,.18), transparent 60%),
+  radial-gradient(700px 500px at -5% 40%, rgba(165,139,255,.12), transparent 60%); }
+html.light .ambient::after { opacity: .35; }
 
-/* Card surface: dark by default, flips for light mode */
+/* ---------- surfaces ---------- */
 .surface {
-  @apply bg-ink-soft border border-ink-border rounded-xl2 shadow-card;
+  @apply rounded-xl2 shadow-card relative;
+  background: linear-gradient(180deg, rgba(19,27,45,.72), rgba(12,18,32,.72));
+  border: 1px solid rgba(60,80,125,.35);
+  backdrop-filter: blur(8px);
 }
-html.light .surface {
-  @apply bg-paper-soft border-paper-border shadow-card-light;
-}
+html.light .surface { background: rgba(255,255,255,.85); border-color: #D5DDEB; box-shadow: theme('boxShadow.card-light'); }
 
 .surface-2 {
-  @apply bg-ink-softer border border-ink-border rounded-xl2;
+  @apply rounded-xl;
+  background: rgba(19,27,45,.65);
+  border: 1px solid rgba(60,80,125,.3);
 }
-html.light .surface-2 {
-  @apply bg-white border-paper-border;
-}
+html.light .surface-2 { background: #fff; border-color: #D5DDEB; }
 
-.topbar {
-  @apply bg-ink/90;
-}
-html.light .topbar {
-  @apply bg-paper/90 border-paper-border;
-}
+.topbar { background: rgba(6,9,18,.7); backdrop-filter: blur(14px); }
+html.light .topbar { background: rgba(238,242,248,.75); border-color: #D5DDEB; }
 
-.eyebrow {
-  @apply font-mono text-[11px] uppercase tracking-[0.18em] text-flame-gold;
-}
+/* interactive lift only where an element is actually clickable */
+.pressable { transition: transform .18s ease, border-color .18s ease, background-color .18s ease; }
+.pressable:hover { transform: translateY(-2px); border-color: rgba(255,181,71,.5); }
 
-.chip {
-  @apply inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-mono;
-  border-color: rgba(148, 163, 184, 0.25);
-}
+.eyebrow { @apply text-[12px] font-medium text-flame-gold; letter-spacing: .02em; }
+.chip { @apply inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium; border-color: rgba(148,163,184,.25); background: rgba(148,163,184,.06); }
+.kbd { @apply font-mono text-[10px] rounded border px-1.5 py-0.5 text-slate-500; border-color: rgba(148,163,184,.3); }
+
+/* ---------- atom (Bohr) animation ---------- */
+.shell-spin { transform-origin: 50% 50%; animation: orbit var(--dur, 20s) linear infinite; }
+.shell-spin.rev { animation-direction: reverse; }
+.nucleus-glow { animation: pulseRing 3.2s ease-in-out infinite; }
+
+/* periodic-table tiles */
+.tile { transition: transform .15s ease, box-shadow .2s ease, background-color .2s ease; }
+.tile:hover { transform: translateY(-3px) scale(1.06); z-index: 10; }
 
 @media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.001ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.001ms !important;
-  }
+  * { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
 }
 
 @media print {
-  body {
-    background: #fff !important;
-    color: #111 !important;
-  }
-  aside, .topbar, .print\:hidden {
-    display: none !important;
-  }
-  main {
-    width: 100% !important;
-  }
-  .sheet {
-    background: #fff !important;
-    color: #111 !important;
-    border: 1px solid #ccc !important;
-    box-shadow: none !important;
-  }
-  .print-page-break {
-    page-break-after: always;
-  }
+  body { background: #fff !important; color: #111 !important; }
+  aside, .topbar, .ambient, .print\:hidden { display: none !important; }
+  main { width: 100% !important; }
+  .sheet { background: #fff !important; color: #111 !important; border: 1px solid #ccc !important; box-shadow: none !important; }
+  .print-page-break { page-break-after: always; }
 }
 
 /* ================================================================== */
