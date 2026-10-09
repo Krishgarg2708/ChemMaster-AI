@@ -11,11 +11,11 @@ export function Eyebrow({ children }) {
 }
 
 const ACCENTS = {
-  gold: { text: "text-flame-gold", hex: "#FFB547" },
-  crimson: { text: "text-flame-crimson", hex: "#FF5C6C" },
-  copper: { text: "text-flame-copper", hex: "#2DD4A7" },
-  violet: { text: "text-flame-violet", hex: "#A58BFF" },
-  azure: { text: "text-flame-azure", hex: "#5AAEFF" },
+  gold: { text: "text-flame-gold", hex: "#FFD84D" },
+  crimson: { text: "text-flame-crimson", hex: "#FF6B6B" },
+  copper: { text: "text-flame-copper", hex: "#5EE6B0" },
+  violet: { text: "text-flame-violet", hex: "#9BA9FF" },
+  azure: { text: "text-flame-azure", hex: "#6CC4FF" },
 };
 
 export function Metric({ label, value, accent = "gold" }) {

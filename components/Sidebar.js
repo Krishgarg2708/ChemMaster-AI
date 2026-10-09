@@ -105,7 +105,7 @@ export default function Sidebar() {
                     <span
                       aria-hidden="true"
                       className={`w-1.5 h-1.5 rounded-full transition-colors ${
-                        active ? "bg-flame-gold shadow-[0_0_8px_#FFB547]" : "bg-slate-600 group-hover:bg-flame-gold/70"
+                        active ? "bg-flame-gold shadow-[0_0_8px_#FFD84D]" : "bg-slate-600 group-hover:bg-flame-gold/70"
                       }`}
                     />
                     {item.label}

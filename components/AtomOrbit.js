@@ -23,7 +23,7 @@ export function shellsFromConfig(config = "") {
   return shells.map((x) => x || 0);
 }
 
-export default function AtomOrbit({ element, color = "#FFB547", size = 320, className = "" }) {
+export default function AtomOrbit({ element, color = "#FFD84D", size = 320, className = "" }) {
   if (!element) return null;
   const shells = shellsFromConfig(element.electronic_configuration);
   const c = size / 2;
