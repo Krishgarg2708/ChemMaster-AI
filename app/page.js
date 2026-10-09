@@ -64,7 +64,7 @@ export default function HomePage() {
   return (
     <div className="p-6 md:p-10 max-w-6xl mx-auto">
       <section className="relative overflow-hidden rounded-[1.6rem] border border-ink-border/80 mb-8 animate-rise"
-        style={{ background: "radial-gradient(120% 120% at 100% 0%, rgba(90,174,255,.14), transparent 55%), linear-gradient(180deg, rgba(19,27,45,.8), rgba(8,12,22,.9))" }}>
+        style={{ background: "radial-gradient(120% 120% at 100% 0%, rgba(255,216,77,.12), transparent 55%), radial-gradient(90% 90% at 0% 100%, rgba(94,230,176,.12), transparent 60%), linear-gradient(180deg, rgba(20,45,37,.85), rgba(8,22,17,.95))" }}>
         <div className="grid md:grid-cols-[1.1fr_1fr] items-center gap-4 p-6 md:p-10">
           <div>
             <p className="text-sm text-flame-gold font-medium mb-3">
