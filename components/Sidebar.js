@@ -65,13 +65,13 @@ export default function Sidebar() {
   };
 
   return (
-    <aside className="lg:w-72 shrink-0 border-b lg:border-b-0 lg:border-r border-ink-border bg-ink lg:min-h-screen lg:sticky lg:top-0">
+    <aside className="lg:w-72 shrink-0 border-b lg:border-b-0 lg:border-r border-ink-border bg-ink/80 backdrop-blur lg:min-h-screen lg:sticky lg:top-0">
       <div className="p-6 flex flex-col h-full">
         <Link href="/" className="flex items-center gap-2.5 mb-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/logo-mark.png" alt="" width={32} height={32} className="w-8 h-8 rounded-md" />
           <span className="font-display font-semibold text-lg tracking-tight text-paper">
-            ChemMaster<span className="text-flame-gold">.</span>
+            ChemMaster <span className="text-flame-gold font-medium">AI</span>
           </span>
         </Link>
 
@@ -79,7 +79,7 @@ export default function Sidebar() {
           {NAV_GROUPS.map((group, gi) => (
             <div key={gi} className="flex flex-col gap-1">
               {group.label && (
-                <div className="text-[10px] uppercase tracking-widest text-slate-600 px-3 mb-0.5 mt-1">
+                <div className="text-xs font-medium text-slate-500 px-3 mb-1 mt-1">
                   {group.label}
                 </div>
               )}
@@ -89,19 +89,25 @@ export default function Sidebar() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className={`group flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm transition-colors focus-ring ${
+                    aria-current={active ? "page" : undefined}
+                    className={`group relative flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors focus-ring ${
                       active
-                        ? "bg-ink-softer text-paper"
-                        : "text-slate-400 hover:text-paper hover:bg-ink-soft"
+                        ? "bg-flame-gold/10 text-paper"
+                        : "text-slate-400 hover:text-paper hover:bg-ink-softer/70"
                     }`}
                   >
                     <span
-                      className={`font-mono text-[11px] w-6 ${
-                        active ? "text-flame-gold" : "text-slate-600 group-hover:text-flame-gold"
+                      aria-hidden="true"
+                      className={`absolute left-0 top-1/2 -translate-y-1/2 w-[3px] rounded-r-full bg-flame-gold transition-all ${
+                        active ? "h-5 opacity-100" : "h-0 opacity-0"
                       }`}
-                    >
-                      {item.mark}
-                    </span>
+                    />
+                    <span
+                      aria-hidden="true"
+                      className={`w-1.5 h-1.5 rounded-full transition-colors ${
+                        active ? "bg-flame-gold shadow-[0_0_8px_#FFB547]" : "bg-slate-600 group-hover:bg-flame-gold/70"
+                      }`}
+                    />
                     {item.label}
                   </Link>
                 );
@@ -111,7 +117,7 @@ export default function Sidebar() {
         </nav>
 
         <div className="surface-2 p-4 mb-4">
-          <div className="eyebrow mb-2">Student</div>
+          <div className="text-xs text-slate-500 mb-1.5">Student</div>
           {editing ? (
             <div className="flex items-center gap-1.5 mb-3">
               <input
@@ -158,16 +164,16 @@ export default function Sidebar() {
           )}
           <div className="grid grid-cols-3 gap-2 text-center">
             <div>
-              <div className="font-mono text-lg text-flame-gold">{hydrated ? state.streak : "–"}</div>
-              <div className="text-[10px] uppercase tracking-wide text-slate-500">Streak</div>
+              <div className="font-display text-xl font-semibold text-flame-gold">{hydrated ? state.streak : "–"}</div>
+              <div className="text-[11px] text-slate-500">Streak</div>
             </div>
             <div>
-              <div className="font-mono text-lg text-flame-copper">{hydrated ? state.xp : "–"}</div>
-              <div className="text-[10px] uppercase tracking-wide text-slate-500">XP</div>
+              <div className="font-display text-xl font-semibold text-flame-copper">{hydrated ? state.xp : "–"}</div>
+              <div className="text-[11px] text-slate-500">XP</div>
             </div>
             <div>
-              <div className="font-mono text-lg text-flame-violet">{hydrated ? state.bookmarks.length : "–"}</div>
-              <div className="text-[10px] uppercase tracking-wide text-slate-500">Saved</div>
+              <div className="font-display text-xl font-semibold text-flame-violet">{hydrated ? state.bookmarks.length : "–"}</div>
+              <div className="text-[11px] text-slate-500">Saved</div>
             </div>
           </div>
         </div>
@@ -182,7 +188,7 @@ export default function Sidebar() {
           </span>
         </button>
         <p className="text-[11px] text-slate-600 mt-4 leading-relaxed">
-          Static data, local-first state. No API keys, no server database.
+          Your progress is saved in this browser.
         </p>
       </div>
     </aside>

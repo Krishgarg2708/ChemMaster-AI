@@ -63,6 +63,23 @@ export default function GlobalSearch() {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const boxRef = useRef(null);
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    function onKey(e) {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        inputRef.current?.focus();
+        setOpen(true);
+      }
+      if (e.key === "Escape") {
+        setOpen(false);
+        inputRef.current?.blur();
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
 
   useEffect(() => {
     function onClick(e) {
@@ -91,6 +108,7 @@ export default function GlobalSearch() {
   return (
     <div ref={boxRef} className="relative w-full max-w-lg">
       <input
+        ref={inputRef}
         value={query}
         onChange={(e) => {
           setQuery(e.target.value);
@@ -98,11 +116,12 @@ export default function GlobalSearch() {
         }}
         onFocus={() => setOpen(true)}
         placeholder="Search notes, elements, reactions, PYQs…"
-        className="focus-ring surface-2 rounded-lg pl-9 pr-3 py-2 text-sm bg-transparent w-full"
+        className="focus-ring surface-2 rounded-xl pl-9 pr-14 py-2.5 text-sm w-full placeholder:text-slate-500"
       />
       <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-sm pointer-events-none">
         ⌕
       </span>
+      <span className="kbd absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none hidden md:inline">Ctrl K</span>
 
       {open && query.trim().length >= 2 && (
         <div className="absolute z-30 mt-2 w-full max-h-96 overflow-y-auto surface rounded-xl2 p-2 shadow-card">
@@ -111,7 +130,7 @@ export default function GlobalSearch() {
           )}
           {Object.entries(grouped).map(([kind, items]) => (
             <div key={kind} className="mb-2 last:mb-0">
-              <div className="text-[10px] uppercase tracking-widest text-flame-gold px-3 py-1">
+              <div className="text-xs font-medium text-flame-gold px-3 py-1">
                 {kind}
               </div>
               {items.map((item, i) => (

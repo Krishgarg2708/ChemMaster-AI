@@ -3,6 +3,7 @@
 import { useAppState } from "@/lib/store";
 import { categoryColor } from "@/lib/categoryColors";
 import { Card, Chip } from "@/components/UI";
+import AtomOrbit from "@/components/AtomOrbit";
 
 const FIELDS = [
   ["Atomic number", "atomic_number"],
@@ -22,14 +23,10 @@ export default function ElementDetailPanel({ element }) {
 
   return (
     <Card className="sticky top-6">
-      <div className="flex items-start justify-between mb-1">
-        <div>
-          <div className="font-mono text-5xl font-bold" style={{ color }}>
-            {element.symbol}
-          </div>
-          <h2 className="font-display text-2xl font-semibold mt-1">{element.name}</h2>
-        </div>
+      <div className="-mx-2 -mt-2 mb-2">
+        <AtomOrbit key={element.atomic_number} element={element} color={color} size={300} className="w-full h-auto" />
       </div>
+      <h2 className="font-display text-3xl font-semibold mb-2">{element.name}</h2>
       <Chip tone="gold">{element.category}</Chip>
 
       <div className="mt-5 space-y-2 text-sm">
@@ -58,12 +55,12 @@ export default function ElementDetailPanel({ element }) {
       </div>
 
       <div className="mt-4">
-        <div className="text-slate-500 text-xs uppercase tracking-wide mb-1">Uses</div>
+        <div className="text-slate-500 text-xs mb-1">Uses</div>
         <p className="text-sm leading-relaxed">{element.uses}</p>
       </div>
 
       <div className="mt-4 surface-2 p-3 text-sm">
-        <span className="text-flame-gold font-mono text-xs">FACT — </span>
+        <span className="text-flame-gold font-medium text-xs">Did you know? </span>
         {element.fact}
       </div>
 
