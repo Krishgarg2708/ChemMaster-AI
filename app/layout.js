@@ -3,6 +3,7 @@ import { AppStateProvider } from "@/lib/store";
 import Sidebar from "@/components/Sidebar";
 import GlobalSearch from "@/components/GlobalSearch";
 import SplashScreen from "@/components/SplashScreen";
+import LiveBackground from "@/components/LiveBackground";
 
 // Fonts are loaded via standard <link> tags rather than next/font, so the
 // production build never depends on network access to Google Fonts at
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="font-body">
         <div className="ambient" aria-hidden="true" />
+        <LiveBackground />
         <SplashScreen />
         <AppStateProvider>
           <div className="min-h-screen flex flex-col lg:flex-row">

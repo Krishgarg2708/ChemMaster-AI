@@ -241,7 +241,7 @@ export default function HomePage() {
                 href="/certificate"
                 className="focus-ring rounded-lg border border-ink-border px-3 py-2.5 text-sm hover:bg-ink-softer/70 hover:border-flame-gold/40 transition-colors"
               >
-                Export Progress Card →
+                Get your certificate →
               </Link>
             </div>
           </Card2>
