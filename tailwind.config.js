@@ -5,25 +5,25 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // "Spectrometer" palette: deep instrument-blue surfaces,
-        // accents named after flame-test emission colours.
+        // "Study desk" palette: chalkboard-green surfaces with
+        // highlighter, red-pen, chalk and notebook-ink accents.
         ink: {
-          DEFAULT: "#060912",
-          soft: "#0C1220",
-          softer: "#131B2D",
-          border: "#1F2A44",
+          DEFAULT: "#07130F", // chalkboard
+          soft: "#0D1F19",
+          softer: "#142D25",
+          border: "#21473B",
         },
         paper: {
-          DEFAULT: "#EEF2F8",
+          DEFAULT: "#EDF5EE", // mint notebook paper
           soft: "#FFFFFF",
-          border: "#D5DDEB",
+          border: "#CBDECF",
         },
         flame: {
-          crimson: "#FF5C6C", // lithium
-          gold: "#FFB547",    // sodium
-          copper: "#2DD4A7",  // copper(II) green
-          violet: "#A58BFF",  // potassium
-          azure: "#5AAEFF",   // indium blue
+          crimson: "#FF6B6B", // red margin pen
+          gold: "#FFD84D",    // highlighter yellow
+          copper: "#5EE6B0",  // chalk mint
+          violet: "#9BA9FF",  // notebook ink
+          azure: "#6CC4FF",   // ruled-line blue
         },
       },
       fontFamily: {
