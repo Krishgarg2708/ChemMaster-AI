@@ -1,43 +1,55 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
-  content: [
-    "./app/**/*.{js,jsx}",
-    "./components/**/*.{js,jsx}",
-  ],
+  content: ["./app/**/*.{js,jsx}", "./components/**/*.{js,jsx}"],
   theme: {
     extend: {
       colors: {
+        // "Spectrometer" palette: deep instrument-blue surfaces,
+        // accents named after flame-test emission colours.
         ink: {
-          DEFAULT: "#0E1420",
-          soft: "#131A2A",
-          softer: "#1B2438",
-          border: "#26304A",
+          DEFAULT: "#060912",
+          soft: "#0C1220",
+          softer: "#131B2D",
+          border: "#1F2A44",
         },
         paper: {
-          DEFAULT: "#F6F3EC",
+          DEFAULT: "#EEF2F8",
           soft: "#FFFFFF",
-          border: "#E3DED0",
+          border: "#D5DDEB",
         },
         flame: {
-          crimson: "#C8402C",
-          gold: "#E3A72E",
-          copper: "#2F9E6E",
-          violet: "#7C4DAA",
-          azure: "#3E7CB1",
+          crimson: "#FF5C6C", // lithium
+          gold: "#FFB547",    // sodium
+          copper: "#2DD4A7",  // copper(II) green
+          violet: "#A58BFF",  // potassium
+          azure: "#5AAEFF",   // indium blue
         },
       },
       fontFamily: {
-        display: ["'Space Grotesk'", "sans-serif"],
-        body: ["'IBM Plex Sans'", "sans-serif"],
-        mono: ["'IBM Plex Mono'", "monospace"],
+        display: ["'Bricolage Grotesque'", "system-ui", "sans-serif"],
+        body: ["'Hanken Grotesk'", "system-ui", "sans-serif"],
+        mono: ["'JetBrains Mono'", "ui-monospace", "monospace"],
       },
       boxShadow: {
-        card: "0 8px 30px -8px rgba(14, 20, 32, 0.35)",
-        "card-light": "0 8px 24px -10px rgba(30, 41, 59, 0.18)",
+        card: "0 1px 0 0 rgba(255,255,255,0.04) inset, 0 18px 40px -22px rgba(0,0,0,0.7)",
+        "card-light": "0 1px 2px rgba(15,23,42,0.06), 0 16px 32px -22px rgba(15,23,42,0.25)",
       },
-      borderRadius: {
-        xl2: "1.1rem",
+      borderRadius: { xl2: "1.1rem" },
+      keyframes: {
+        orbit: { to: { transform: "rotate(360deg)" } },
+        pulseRing: {
+          "0%,100%": { opacity: "0.35" },
+          "50%": { opacity: "0.9" },
+        },
+        rise: {
+          from: { opacity: "0", transform: "translateY(10px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        rise: "rise .6s cubic-bezier(.16,1,.3,1) both",
+        pulseRing: "pulseRing 3.2s ease-in-out infinite",
       },
     },
   },
